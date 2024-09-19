@@ -11,7 +11,7 @@ import 'package:munich_data_quiz/view/widget/button/rounded_button.dart';
 import 'package:munich_data_quiz/view/widget/dialog/popup_dialog_widget.dart';
 import 'package:munich_data_quiz/widgets/image_widget.dart';
 import 'package:munich_data_quiz/widgets/title/titlebar.dart';
-import 'package:rounded_loading_button/rounded_loading_button.dart';
+import 'package:loading_btn/loading_btn.dart'; // Updated import
 
 class TopicPage extends StatefulWidget {
   const TopicPage(this.topic, {Key? key}) : super(key: key);
@@ -23,16 +23,13 @@ class TopicPage extends StatefulWidget {
 }
 
 class _TopicPageState extends State<TopicPage> {
-  final _btnController = RoundedLoadingButtonController();
-
   @override
   Widget build(BuildContext context) {
     return BaseScreenTitled(
-      titleBar: BasicTitleBar(title: widget.topic.title,),
+      titleBar: BasicTitleBar(title: widget.topic.title),
       child: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.symmetric(
-              horizontal: MQTheme.screenPaddingH),
+          padding: const EdgeInsets.symmetric(horizontal: MQTheme.screenPaddingH),
           child: Column(
             children: [
               ClipRRect(
@@ -43,7 +40,7 @@ class _TopicPageState extends State<TopicPage> {
                   id: "${widget.topic.id}",
                 ),
               ),
-              SizedBox(height: MQTheme.cardPaddingBigV,),
+              SizedBox(height: MQTheme.cardPaddingBigV),
               Text(
                 widget.topic.title,
                 style: const TextStyle(
@@ -63,35 +60,39 @@ class _TopicPageState extends State<TopicPage> {
                     textAlign: TextAlign.center,
                   ),
                 ),
-              SizedBox(height: MQTheme.cardPaddingBigV,),
-              RoundedLoadingButton(
-                controller: _btnController,
-                child: Text(AppLocalizations.of(context)!.startQuiz,
+              SizedBox(height: MQTheme.cardPaddingBigV),
+              LoadingBtn(
+                height: 50,
+                borderRadius: 8,
+                roundLoadingShape: false,
+                color: MQColor.primaryColor,
+                width: MediaQuery.of(context).size.width * 0.45,
+                minWidth: MediaQuery.of(context).size.width * 0.30,
+                loader: const Text("Loading..."),
+                child: Text(
+                  AppLocalizations.of(context)!.startQuiz,
                   style: const TextStyle(
                     color: MQColor.textColor,
                     fontWeight: FontWeight.bold,
-                ),),
-                color: MQColor.primaryColor,
-                onPressed: () async {
-                  try {
-                    var quiz = await QuizAPI().generateQuiz(
-                      widget.topic.id,
-                      DummyNumbers.getRandQuizSize,
-                    );
-
-                    await Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => QuizPage(widget.topic, quiz),
-                    ));
-
-                    // When the page is already swiped away, this no longer works.
+                  ),
+                ),
+                onTap: (startLoading, stopLoading, btnState) async {
+                  if (btnState == ButtonState.idle) {
+                    startLoading();
                     try {
-                      _btnController.success();
-                    } catch (_) {}
-                  } catch (err) {
-                    await showDialog(
-                      context: context,
-                      builder: (context) {
-                        return PopupDialogWidget(
+                      var quiz = await QuizAPI().generateQuiz(
+                        widget.topic.id,
+                        DummyNumbers.getRandQuizSize,
+                      );
+
+                      await Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => QuizPage(widget.topic, quiz),
+                      ));
+                    } catch (err) {
+                      await showDialog(
+                        context: context,
+                        builder: (context) {
+                          return PopupDialogWidget(
                             title: AppLocalizations.of(context)!.error,
                             child: Column(
                               children: [
@@ -118,19 +119,15 @@ class _TopicPageState extends State<TopicPage> {
                                       },
                                     ),
                                   ],
-                                )
+                                ),
                               ],
-                            )
-                        );
-                      },
-                    );
-                  } finally {
-                    try {
-                      await Future.delayed(
-                        const Duration(milliseconds: 400),
-                        _btnController.reset,
+                            ),
+                          );
+                        },
                       );
-                    } catch (_) {}
+                    } finally {
+                      stopLoading();
+                    }
                   }
                 },
               ),

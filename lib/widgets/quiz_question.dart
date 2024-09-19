@@ -9,7 +9,7 @@ class QuizQuestionWidget extends StatefulWidget {
 
   final QuizQuestion question;
 
-  // This map<int, bool> maps the answer id to the a boolean indicating a selection
+  // This map<int, bool> maps the answer id to a boolean indicating a selection
   final Map<int, bool> selectedAnswers;
 
   @override
@@ -22,8 +22,38 @@ class _QuizQuestionWidgetState extends State<QuizQuestionWidget> {
     fontWeight: FontWeight.bold,
   );
 
+  // To track the selected answer's ID for this particular question
+  int? selectedAnswerId;
+
+  @override
+  void initState() {
+    super.initState();
+    // Initialize selectedAnswerId based on any pre-existing selection in selectedAnswers map
+    selectedAnswerId = widget.selectedAnswers.entries
+        .firstWhere((entry) => entry.value, orElse: () => MapEntry(-1, false))
+        .key;
+    if (selectedAnswerId == -1) {
+      selectedAnswerId = null;
+    }
+  }
+
+  void _handleAnswerSelection(int answerId) {
+    setState(() {
+      // Update the selected answer ID
+      selectedAnswerId = answerId;
+
+      // Clear the selectedAnswers map and set the new selected answer to true
+      widget.selectedAnswers.clear();
+      widget.selectedAnswers[answerId] = true;
+    });
+  }
+
   Widget _answer(BuildContext context, QuizAnswer answer) {
-    return AnswerCheckbox(answer, widget.selectedAnswers);
+    return AnswerRadioButton(
+      answer: answer,
+      isSelected: selectedAnswerId == answer.id,
+      onSelected: () => _handleAnswerSelection(answer.id),
+    );
   }
 
   @override
@@ -58,7 +88,8 @@ class _QuizQuestionWidgetState extends State<QuizQuestionWidget> {
                   textAlign: TextAlign.center,
                 ),
               ),
-            ...widget.question.answers.map((a) => _answer(context, a))
+            // Build the list of answers
+            ...widget.question.answers.map((a) => _answer(context, a)),
           ],
         ),
       ),
@@ -66,35 +97,35 @@ class _QuizQuestionWidgetState extends State<QuizQuestionWidget> {
   }
 }
 
-class AnswerCheckbox extends StatefulWidget {
-  const AnswerCheckbox(this.answer, this.selectedAnswers, {Key? key})
-      : super(key: key);
+class AnswerRadioButton extends StatelessWidget {
+  const AnswerRadioButton({
+    Key? key,
+    required this.answer,
+    required this.isSelected,
+    required this.onSelected,
+  }) : super(key: key);
 
   final QuizAnswer answer;
-  final Map<int, bool> selectedAnswers;
+  final bool isSelected;
+  final VoidCallback onSelected;
 
-  @override
-  _AnswerCheckboxState createState() => _AnswerCheckboxState();
-}
-
-class _AnswerCheckboxState extends State<AnswerCheckbox> {
   @override
   Widget build(BuildContext context) {
-    return CheckboxListTile(
+    return RadioListTile<int>(
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(MQTheme.radiusCard),
       ),
       dense: true,
       title: Text(
-        widget.answer.text ?? "",
+        answer.text ?? "",
         style: MQTheme.defaultTextStyle,
       ),
-      onChanged: (newValue) async {
-        setState(() {
-          widget.selectedAnswers[widget.answer.id] = newValue ?? false;
-        });
+      groupValue: isSelected ? answer.id : null,
+      value: answer.id,
+      onChanged: (int? newValue) {
+        // Call the provided callback to handle selection
+        onSelected();
       },
-      value: widget.selectedAnswers[widget.answer.id] ?? false,
     );
   }
 }

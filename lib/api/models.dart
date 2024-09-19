@@ -1,7 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:munich_data_quiz/model/dummy/dummy_assets.dart';
-import 'package:munich_data_quiz/widgets/image_widget.dart';
 
 class Topic {
   Topic({
@@ -9,18 +8,14 @@ class Topic {
     required this.description,
     required this.imageUrl,
     required this.id,
+    required this.questions,
   });
-  Topic.random(BuildContext ctx) {
-    title = AppLocalizations.of(ctx)!.randomTopic;
-    description = AppLocalizations.of(ctx)!.randomTopicDescr;
-    imageUrl = localImgReplacer + DummyAssets.randMunichImage;
-    id = -1;
-  }
 
   late final String title;
   late final String? description;
   late final String? imageUrl;
   late final int id;
+  late final List<QuizQuestion> questions;
 
   factory Topic.fromJson(Map<String, dynamic> json) {
     return Topic(
@@ -28,10 +23,72 @@ class Topic {
       description: json["description"],
       imageUrl: json["img_url"],
       id: json["id"],
+      questions: List<QuizQuestion>.from(
+        json["questions"].map((x) => QuizQuestion.fromJson(x)),
+      ),
+    );
+  }
+
+  // Add this static method to generate a random topic
+  static Topic random(BuildContext ctx) {
+    return Topic(
+      title: AppLocalizations.of(ctx)!.randomTopic,
+      description: AppLocalizations.of(ctx)!.randomTopicDescr,
+      imageUrl: DummyAssets.randMunichImage, // Replace with your random image
+      id: -1, // Use -1 or some identifier to indicate a random topic
+      questions: [], // Or provide a few random questions if you like
     );
   }
 }
 
+class QuizQuestion {
+  QuizQuestion({
+    required this.id,
+    required this.text,
+    this.description,
+    this.imgUrl,
+    required this.answers,
+  });
+
+  final int id;
+  final String text;
+  final String? description; // Add description
+  final String? imgUrl;      // Add imgUrl
+  final List<QuizAnswer> answers;
+
+  factory QuizQuestion.fromJson(Map<String, dynamic> json) {
+    return QuizQuestion(
+      id: json["id"],
+      text: json["text"],
+      description: json["description"], // Parse description
+      imgUrl: json["img_url"],          // Parse imgUrl
+      answers: List<QuizAnswer>.from(
+        json["answers"].map((x) => QuizAnswer.fromJson(x)),
+      ),
+    );
+  }
+}
+
+
+class QuizAnswer {
+  QuizAnswer({
+    required this.id,
+    required this.text,
+    required this.isCorrect,
+  });
+
+  final int id;
+  final String text;
+  final bool isCorrect;
+
+  factory QuizAnswer.fromJson(Map<String, dynamic> json) {
+    return QuizAnswer(
+      id: json["id"],
+      text: json["text"],
+      isCorrect: json["is_correct"],
+    );
+  }
+}
 class GeneratedQuiz {
   GeneratedQuiz({
     required this.topic,
@@ -51,53 +108,6 @@ class GeneratedQuiz {
     );
   }
 }
-
-class QuizQuestion {
-  QuizQuestion({
-    required this.id,
-    required this.text,
-    required this.description,
-    required this.imgUrl,
-    required this.answers,
-  });
-
-  final int id;
-  final String text;
-  final String? description;
-  final String? imgUrl;
-  final List<QuizAnswer> answers;
-
-  factory QuizQuestion.fromJson(Map<String, dynamic> json) {
-    return QuizQuestion(
-      id: json["id"],
-      text: json["text"],
-      description: json["description"],
-      imgUrl: json["img_url"],
-      answers: json["answers"] == null
-          ? []
-          : List<QuizAnswer>.from(
-              json["answers"].map((x) => QuizAnswer.fromJson(x))),
-    );
-  }
-}
-
-class QuizAnswer {
-  QuizAnswer({
-    required this.id,
-    required this.text,
-  });
-
-  final int id;
-  final String? text;
-
-  factory QuizAnswer.fromJson(Map<String, dynamic> json) {
-    return QuizAnswer(
-      id: json["id"],
-      text: json["text"],
-    );
-  }
-}
-
 class QuizSubmission {
   QuizSubmission({
     required this.questionId,
@@ -112,7 +122,51 @@ class QuizSubmission {
         "chosen_answer_ids": List<dynamic>.from(chosenAnswerIds.map((x) => x)),
       };
 }
+class EvaluatedQuestion {
+  EvaluatedQuestion({
+    required this.questionId,
+    required this.answerCorrect,
+    required this.incorrectAnswers,
+    required this.answerDetail,
+  });
 
+  final int questionId;
+  final bool? answerCorrect;
+  final List<IncorrectAnswer>? incorrectAnswers;
+  final String? answerDetail;
+
+  factory EvaluatedQuestion.fromJson(Map<String, dynamic> json) {
+    return EvaluatedQuestion(
+      questionId: json["question_id"],
+      answerCorrect: json["answer_correct"],
+      incorrectAnswers: json["incorrect_answers"] == null
+          ? null
+          : List<IncorrectAnswer>.from(
+              json["incorrect_answers"].map((x) => IncorrectAnswer.fromJson(x))),
+      answerDetail: json["answer_detail"],
+    );
+  }
+}
+
+class IncorrectAnswer {
+  IncorrectAnswer({
+    required this.id,
+    required this.text,
+    required this.correct,
+  });
+
+  final int id;
+  final String? text;
+  final bool? correct;
+
+  factory IncorrectAnswer.fromJson(Map<String, dynamic> json) {
+    return IncorrectAnswer(
+      id: json["id"],
+      text: json["text"],
+      correct: json["correct"],
+    );
+  }
+}
 class QuizSubmissionResponse {
   QuizSubmissionResponse({
     required this.code,
@@ -135,52 +189,6 @@ class QuizSubmissionResponse {
           ? null
           : List<EvaluatedQuestion>.from(
               json["data"].map((x) => EvaluatedQuestion.fromJson(x))),
-    );
-  }
-}
-
-class EvaluatedQuestion {
-  EvaluatedQuestion({
-    required this.questionId,
-    required this.answerCorrect,
-    required this.incorrectAnswers,
-    required this.answerDetail,
-  });
-
-  final int questionId;
-  final bool? answerCorrect;
-  final List<IncorrectAnswer>? incorrectAnswers;
-  final String? answerDetail;
-
-  factory EvaluatedQuestion.fromJson(Map<String, dynamic> json) {
-    return EvaluatedQuestion(
-      questionId: json["question_id"],
-      answerCorrect: json["answer_correct"],
-      incorrectAnswers: json["incorrect_answers"] == null
-          ? null
-          : List<IncorrectAnswer>.from(json["incorrect_answers"]
-              .map((x) => IncorrectAnswer.fromJson(x))),
-      answerDetail: json["answer_detail"],
-    );
-  }
-}
-
-class IncorrectAnswer {
-  IncorrectAnswer({
-    required this.id,
-    required this.text,
-    required this.correct,
-  });
-
-  final int id;
-  final String? text;
-  final bool? correct;
-
-  factory IncorrectAnswer.fromJson(Map<String, dynamic> json) {
-    return IncorrectAnswer(
-      id: json["id"],
-      text: json["text"],
-      correct: json["correct"],
     );
   }
 }

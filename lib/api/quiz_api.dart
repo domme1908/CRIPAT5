@@ -1,10 +1,8 @@
 import 'dart:convert';
-import 'dart:io';
-
-import 'package:munich_data_quiz/api/api_client.dart';
+import 'package:flutter/services.dart'; // Required to load local assets
 import 'package:munich_data_quiz/api/models.dart';
 
-class QuizAPI extends APIClient {
+class QuizAPI {
   // Singleton: the QuizAPI "constructor" always returns the same object
   static final instance = QuizAPI._internal();
   factory QuizAPI() {
@@ -13,71 +11,61 @@ class QuizAPI extends APIClient {
 
   // Actual, private constructor
   QuizAPI._internal();
-
-  Uri _endpoint(String path, Map<String, dynamic> query) {
-    return Uri.http('hackatum.robinh.xyz:6942', "api/v1" + path, query);
-  }
-
-  Future<dynamic> _fetchJSON(Uri uri) async {
-    var withCode = await fetchJSON(uri) as Map<String, dynamic>;
-    if (withCode.containsKey("code") && withCode["code"] != 0) {
-      throw Exception(
-          withCode["message"] ?? "error code ${withCode['code']} is non-zero");
-    }
-
-    return withCode["data"];
-  }
-
+  
   Future<List<Topic>> topics() async {
-    var uri = _endpoint("/topic/list", {
-      // TODO: Make sure this is always more than we have quizzes
-      "page_size": "100"
-    });
+    // Load the JSON file from assets
+    final String jsonString = await rootBundle.loadString('assets/questions.json');
+    final List<dynamic> jsonData = jsonDecode(jsonString);
 
-    var list = await _fetchJSON(uri) as List<dynamic>;
-
-    return list.map((e) => Topic.fromJson(e)).toList();
+    // Convert the JSON data into a list of Topic objects
+    return jsonData.map((topicData) => Topic.fromJson(topicData)).toList();
   }
 
+  // Load JSON from assets and parse it into a list of topics
+  Future<List<Topic>> loadTopicsFromAssets() async {
+    // Replace with the actual path to your local questions JSON
+    final String jsonString = await rootBundle.loadString('assets/questions.json');
+    final List<dynamic> jsonData = jsonDecode(jsonString);
+
+    return jsonData.map((topicData) => Topic.fromJson(topicData)).toList();
+  }
+  Future<QuizSubmissionResponse> evaluateQuizTotal(List<QuizSubmission> submissions) async {
+    List<EvaluatedQuestion> evaluatedQuestions = [];
+
+    for (var submission in submissions) {
+      // Mock evaluation logic: evaluate the submission
+      var question = 0;// get the question by its ID from local data
+      bool answerCorrect = true; // replace this with actual evaluation logic
+
+      evaluatedQuestions.add(EvaluatedQuestion(
+        questionId: submission.questionId,
+        answerCorrect: answerCorrect,
+        incorrectAnswers: [], // Add incorrect answers based on evaluation
+        answerDetail: answerCorrect ? "Correct" : "Incorrect",
+      ));
+    }
+
+    return QuizSubmissionResponse(
+      code: 0,
+      title: "Quiz Result",
+      message: "Evaluation complete",
+      data: evaluatedQuestions,
+    );
+  }
+
+  // Method to generate a quiz for a specific topic
   Future<GeneratedQuiz> generateQuiz(int topicId, [int size = 10]) async {
-    var uri = _endpoint("/quiz/generate/", {
-      "topic_id": "$topicId",
-      "size": "$size",
-    });
+    // Load topics and find the one matching the given topicId
+    List<Topic> topics = await loadTopicsFromAssets();
+    Topic topic = topics.firstWhere((t) => t.id == topicId);
 
-    var quiz = await _fetchJSON(uri);
+    // Limit the number of questions to the 'size' parameter
+    List<QuizQuestion> selectedQuestions = topic.questions.take(size).toList();
 
-    return GeneratedQuiz.fromJson(quiz);
-  }
-
-  Future<QuizSubmissionResponse> evaluateQuizTotal(
-    List<QuizSubmission> submissions,
-  ) async {
-    var uri = _endpoint("/quiz/evaluate/total/", {});
-
-    var reqBody = jsonEncode(submissions);
-
-    var response = await httpClient.post(
-      uri,
-      body: reqBody,
-      headers: {
-        "Accept": "application/json",
-        "User-Agent": "munich_data_quiz",
-      },
-    ).timeout(const Duration(seconds: 10));
-
-    if (response.statusCode < 200 || response.statusCode >= 300) {
-      throw HttpException("Unexpected status code ${response.statusCode}");
-    }
-
-    var obj =
-        jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
-
-    if (obj.containsKey("code") && obj["code"] != 0) {
-      throw Exception(
-          obj["message"] ?? "error code ${obj['code']} is non-zero");
-    }
-
-    return QuizSubmissionResponse.fromJson(obj);
+    // Return the GeneratedQuiz with the topic and the selected questions
+    return GeneratedQuiz(
+      topic: topic,
+      questions: selectedQuestions,
+    );
   }
 }
