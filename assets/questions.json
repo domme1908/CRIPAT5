@@ -16,7 +16,6 @@
         },{
           "id": 2,
           "text": "Is the sky blue question 2?",
-          "img_url": "assets/img/dummy/munich_1.jpg",
           "answers": [
             { "id": 1, "text": "True", "is_correct": true },
             { "id": 2, "text": "False", "is_correct": false }
@@ -24,6 +23,271 @@
         }
       ]
     },
+    {
+      "id":3,
+      "title": "Scheda 1",
+      "description": "30 domande relative alla patente CRI.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "La distanza di sicurezza di un veicolo rispetto al veicolo che precede deve essere tale da evitare collisioni.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "La distanza di sicurezza deve essere in relazione al numero di corsie sulla strada.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "La distanza di sicurezza deve essere di almeno 100 mt. nelle forti discese.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "In caso di pioggia occorre evitare l'appannamento dei vetri.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "In caso di pioggia è necessario manovrare lo sterzo con prudenza.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "Il segnale n. 40 ha valore quando il semaforo funziona a luce lampeggiante.",
+          "img_url": "assets/img/figure/40.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Il segnale n. 40 può essere preceduto dal preavviso DARE PRECEDENZA.",
+          "img_url": "assets/img/figure/40.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "Il segnale n. 26 presegnala la possibilità di trovare sulle strade animali vaganti.",
+          "img_url": "assets/img/figure/26.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Il segnale n. 109 indica la fine di un'area riservata ai pedoni.",
+          "img_url": "assets/img/figure/109.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "È consentito attraversare l'incrocio in figura n. 618 secondo l'ordine: primo il veicolo H, poi il veicolo C, per ultimo il veicolo L.",
+          "img_url": "assets/img/figure/618.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "Il simbolo rappresentato nella figura n. 718 contraddistingue il comando delle luci posteriori per nebbia.",
+          "img_url": "assets/img/figure/718.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "I catadiottri sono dispositivi a luce riflessa.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Quante persone si possono trasportare su un'ambulanza?",
+          "answers": [
+            { "id": 1, "text": "Il numero di persone indicate sulla carta di circolazione.", "is_correct": true },
+            { "id": 2, "text": "In base al numero di sedili presenti sul mezzo.", "is_correct": false }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "La sosta del mezzo sulla strada durante l'espletamento di un servizio urgente d'istituto deve essere atta a garantire una rapida ripartenza verso l'ospedale.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "Il segnale n. 84 consente la sosta nel tratto precedente.",
+          "img_url": "assets/img/figure/84.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "Il segnale n. 302 deve essere posto alle due estremità del carico se sporge per tutta la larghezza del veicolo.",
+          "img_url": "assets/img/figure/302.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "Il segnale n. 123 indica l'intervallo di lunghezza dei veicoli per i quali è vietato transitare.",
+          "img_url": "assets/img/figure/123.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "Il segnale n. 17 richiede di mantenere una maggior distanza di sicurezza dal veicolo che ci precede.",
+          "img_url": "assets/img/figure/17.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "Durante l'espletamento di un servizio urgente si accende la spia della pressione dell'olio. Si prosegue portando a termine il servizio in corso.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "Il veicolo D può passare prima del veicolo R nell'incrocio rappresentato nella figura n. 604.",
+          "img_url": "assets/img/figure/604.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 21,
+          "text": "Il proiettore acceso così come lo si vede nella figura n. 690 è a luce abbagliante.",
+          "img_url": "assets/img/figure/690.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 22,
+          "text": "Durante la marcia, l'uso delle luci di posizione è sufficiente nelle gallerie extraurbane non sufficientemente illuminate.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 23,
+          "text": "Il segnale n. 55 vieta di entrare in una strada accessibile invece dall'altra parte.",
+          "img_url": "assets/img/figure/55.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 24,
+          "text": "Su tutte le strade è vietato danneggiare le opere e gli impianti che ad esse appartengono.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 25,
+          "text": "Il veicolo T passa per primo nell'incrocio rappresentato nella figura n. 607.",
+          "img_url": "assets/img/figure/607.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 26,
+          "text": "Il segnale n. 123 consente la circolazione a veicoli di lunghezza superiore ai limiti stabiliti.",
+          "img_url": "assets/img/figure/123.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 27,
+          "text": "In caso di nebbia fitta è obbligatorio accendere le luci di posizione.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 28,
+          "text": "Il segnale n. 302 indica la presenza di un passaggio a livello.",
+          "img_url": "assets/img/figure/302.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": false },
+            { "id": 2, "text": "False", "is_correct": true }
+          ]
+        },
+        {
+          "id": 29,
+          "text": "Il simbolo rappresentato nella figura n. 109 indica la fine di una pista ciclabile.",
+          "img_url": "assets/img/figure/109.jpg",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        },
+        {
+          "id": 30,
+          "text": "La distanza di sicurezza deve essere tale da garantire l'arresto tempestivo del veicolo senza collisioni.",
+          "answers": [
+            { "id": 1, "text": "True", "is_correct": true },
+            { "id": 2, "text": "False", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    
     {
       "id": 2,
       "title": "Scheda 2",

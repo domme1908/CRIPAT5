@@ -3,6 +3,6 @@
 
 class MQTexts {
 
-  static const String appName = "MucQuiz";
+  static const String appName = "CRI Patente 5";
 
 }

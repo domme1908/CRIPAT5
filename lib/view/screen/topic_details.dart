@@ -1,4 +1,8 @@
+import 'dart:convert';
+import 'dart:math';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:munich_data_quiz/api/models.dart';
 import 'package:munich_data_quiz/api/quiz_api.dart';
@@ -29,7 +33,8 @@ class _TopicPageState extends State<TopicPage> {
       titleBar: BasicTitleBar(title: widget.topic.title),
       child: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: MQTheme.screenPaddingH),
+          padding:
+              const EdgeInsets.symmetric(horizontal: MQTheme.screenPaddingH),
           child: Column(
             children: [
               ClipRRect(
@@ -51,7 +56,8 @@ class _TopicPageState extends State<TopicPage> {
               if (widget.topic.description != null)
                 Container(
                   padding: const EdgeInsets.only(top: 4),
-                  margin: const EdgeInsets.symmetric(vertical: 4, horizontal: 16),
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 4, horizontal: 16),
                   child: Text(
                     widget.topic.description!,
                     style: const TextStyle(
@@ -80,11 +86,27 @@ class _TopicPageState extends State<TopicPage> {
                   if (btnState == ButtonState.idle) {
                     startLoading();
                     try {
+                      // If the topic ID is -1, load a random topic
+                      int topicId = widget.topic.id;
+                      if (topicId == -1) {
+                        final String jsonString = await rootBundle
+                            .loadString('assets/questions.json');
+                        final List<dynamic> jsonData = jsonDecode(jsonString);
+
+                        // Convert the JSON data into a list of Topic objects
+                        List<Topic> topics = jsonData
+                            .map((topicData) => Topic.fromJson(topicData))
+                            .toList();
+                        topicId = Random().nextInt(topics.length) + 1;
+
+                      }
+                      // Generate the quiz with the valid or random topic ID
                       var quiz = await QuizAPI().generateQuiz(
-                        widget.topic.id,
+                        topicId, // Use the fetched random topic ID or the original topic ID
                         DummyNumbers.getRandQuizSize,
                       );
 
+                      // Navigate to the quiz page
                       await Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => QuizPage(widget.topic, quiz),
                       ));
@@ -113,7 +135,8 @@ class _TopicPageState extends State<TopicPage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     RoundedButton(
-                                      text: AppLocalizations.of(context)!.okayGotIt,
+                                      text: AppLocalizations.of(context)!
+                                          .okayGotIt,
                                       onClick: () {
                                         Navigator.pop(context);
                                       },

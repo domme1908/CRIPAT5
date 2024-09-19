@@ -25,13 +25,30 @@ class _QuizResultPageState extends State<QuizResultPage> {
     fontSize: 24,
     fontWeight: FontWeight.bold,
   );
+
+  // Calculate the number of correct answers
+  int _calculateCorrectAnswers(List<EvaluatedQuestion> evaluatedQuestions) {
+    return evaluatedQuestions
+        .where((question) => question.answerCorrect == true)
+        .length;
+  }
+
+  // Calculate the number of mistakes
+  int _calculateMistakes(List<EvaluatedQuestion> evaluatedQuestions) {
+    return evaluatedQuestions.length -
+        _calculateCorrectAnswers(evaluatedQuestions);
+  }
+
+  // Determine if the user passed or failed
+  String _getResultMessage(int mistakes) {
+    return mistakes <= 8 ? 'Passato' : 'Bocciato';
+  }
+
   Widget _answer(
       BuildContext context, QuizAnswer answer, EvaluatedQuestion result) {
-    // Find the submitted question
     QuizSubmission submitted = widget.submission
         .firstWhere((question) => question.questionId == result.questionId);
 
-    // Is this answer contained in the incorrect answers?
     bool answerIncorrect = result.incorrectAnswers
             ?.any((incorrect) => answer.id == incorrect.id) ??
         false;
@@ -122,7 +139,8 @@ class _QuizResultPageState extends State<QuizResultPage> {
     );
   }
 
-  Widget _quizResultList(BuildContext ctx, QuizSubmissionResponse response) {
+  Widget _quizResultList(
+      BuildContext ctx, QuizSubmissionResponse response) {
     return ListView.builder(
       itemCount: widget.quiz.questions.length,
       itemBuilder: (BuildContext context, int index) {
@@ -142,7 +160,7 @@ class _QuizResultPageState extends State<QuizResultPage> {
   Widget build(BuildContext context) {
     return BaseScreenTitled(
       titleBar: BasicTitleBar(
-        title: ((widget.quiz.topic != null) ? (widget.quiz.topic!.title) : ""),
+        title: (widget.quiz.topic != null) ? widget.quiz.topic!.title : "",
       ),
       child: Container(
         alignment: Alignment.center,
@@ -153,7 +171,48 @@ class _QuizResultPageState extends State<QuizResultPage> {
               return ErrorWidget(snapshot.error!);
             }
             if (snapshot.hasData) {
-              return _quizResultList(context, snapshot.data!);
+              // Get evaluated questions
+              List<EvaluatedQuestion> evaluatedQuestions = snapshot.data!.data!;
+
+              // Calculate correct answers and mistakes
+              int correctAnswers = _calculateCorrectAnswers(evaluatedQuestions);
+              int totalQuestions = widget.quiz.questions.length;
+              int mistakes = _calculateMistakes(evaluatedQuestions);
+
+              // Determine result message
+              String resultMessage = _getResultMessage(mistakes);
+
+              return Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Text(
+                      '$correctAnswers / $totalQuestions risposte esatte',
+                      style: TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                        color: MQColor.textColor,
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      resultMessage,
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: mistakes <= 8
+                            ? Colors.green
+                            : Colors.redAccent, // Green if passed, red if failed
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: _quizResultList(context, snapshot.data!),
+                  ),
+                ],
+              );
             }
 
             return const CircularProgressIndicator();

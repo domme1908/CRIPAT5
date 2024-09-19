@@ -1,5 +1,6 @@
 
 import 'package:flutter/widgets.dart';
+import 'package:munich_data_quiz/constants/color.dart';
 import 'package:munich_data_quiz/constants/theme.dart';
 
 class TitleH1Widget extends StatelessWidget {
@@ -65,6 +66,7 @@ class SubTitleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(title, style: MQTheme.subtitle2.copyWith(
+        color: Color.fromARGB(9, 169, 159, 159),
         fontSize: (MQTheme.subtitle2.fontSize ?? 22) * scale
     ));
   }

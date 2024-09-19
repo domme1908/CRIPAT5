@@ -1,17 +1,17 @@
 {
-    "appTitle": "München Daten Quiz",
-    "startQuiz": "Quiz starten",
-    "unknown": "Unbekannt",
-    "cancelQuiz": "Quiz abbrechen?",
-    "cancelQuizDescription": "Das Quiz wird abgebrochen, es werden keine Ergebnisse gespeichert.",
-    "no": "Nein",
-    "yes": "Ja",
-    "endQuiz": "Quiz beenden",
-    "endQuizDialogTitle": "Quiz beenden?",
-    "endQuizDialogContent": "Möchtest du weiter zur Auswertung?",
-    "endQuizOneQuestionMissing": "Eine Frage ist noch unbeantwortet. Möchtest du trotzdem die Auswertung sehen?",
-    "endQuizQuestionsMissing": "{count} Fragen sind noch unbeantwortet. Möchtest du trotzdem die Auswertung sehen?",
-    "error": "Fehler",
+    "appTitle": "Quiz Patente 5 CRI",
+    "startQuiz": "Inizia scheda",
+    "unknown": "Non disponibile",
+    "cancelQuiz": "Interrompi quiz?",
+    "cancelQuizDescription": "Il quiz viene terminato e le risposte date vengono perse",
+    "no": "No",
+    "yes": "Si",
+    "endQuiz": "Termina quiz",
+    "endQuizDialogTitle": "Termina quiz?",
+    "endQuizDialogContent": "Vuoi procedere al risultato?",
+    "endQuizOneQuestionMissing": "Una domanda senza risposta. Vuoi comunque procedere al risultato?",
+    "endQuizQuestionsMissing": "{count} domande senza risposta. Vuoi comunque procedere al risultato?",
+    "error": "Errore",
     "@endQuizQuestionsMissing": {
         "placeholders": {
             "count": {
@@ -20,13 +20,13 @@
             }
         }
     },
-    "resultPageTitle": "Ergebnis",
+    "resultPageTitle": "Risultato",
 
-    "continue_": "Weiter",
-    "cancel": "Abbrechen",
-    "okayGotIt": "Okay, verstanden",
+    "continue_": "Avanti",
+    "cancel": "Indietro",
+    "okayGotIt": "Ok, capito",
 
-    "noTopicsFound": "Keine Themen gefunden.",
-    "randomTopic": "Zufälliges Thema",
-    "randomTopicDescr": "Hier wird ein zufälliges Thema von uns ausgewählt."
+    "noTopicsFound": "Nessuna scheda trovata.",
+    "randomTopic": "Scheda casuale",
+    "randomTopicDescr": "Compila una scheda scelta in modo casuale."
 }

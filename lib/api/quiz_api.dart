@@ -29,29 +29,70 @@ class QuizAPI {
 
     return jsonData.map((topicData) => Topic.fromJson(topicData)).toList();
   }
-  Future<QuizSubmissionResponse> evaluateQuizTotal(List<QuizSubmission> submissions) async {
-    List<EvaluatedQuestion> evaluatedQuestions = [];
+Future<QuizSubmissionResponse> evaluateQuizTotal(
+    List<QuizSubmission> submissions) async {
+  // Load the questions from the JSON file
+  final String jsonString = await rootBundle.loadString('assets/questions.json');
+  final List<dynamic> jsonData = jsonDecode(jsonString);
+  final List<Topic> topics = jsonData.map((topicData) => Topic.fromJson(topicData)).toList();
 
-    for (var submission in submissions) {
-      // Mock evaluation logic: evaluate the submission
-      var question = 0;// get the question by its ID from local data
-      bool answerCorrect = true; // replace this with actual evaluation logic
+  List<EvaluatedQuestion> evaluatedQuestions = [];
 
+  // Loop through each submission to evaluate the answer
+  for (var submission in submissions) {
+    // Find the question by its ID
+    QuizQuestion? question;
+    for (var topic in topics) {
+      for (var q in topic.questions) {
+        if (q.id == submission.questionId) {
+          question = q;
+          break;
+        }
+      }
+      if (question != null) break;
+    }
+
+    // If question is found, evaluate it
+    if (question != null) {
+      // Get the user's chosen answer IDs
+      List<int> chosenAnswers = submission.chosenAnswerIds;
+
+      // Determine if the answer is correct
+      bool answerCorrect = false;
+      List<IncorrectAnswer> incorrectAnswers = [];
+
+      for (var answer in question.answers) {
+        if (chosenAnswers.contains(answer.id)) {
+          if (answer.isCorrect) {
+            answerCorrect = true; // Correct answer selected
+          } else {
+            incorrectAnswers.add(IncorrectAnswer(
+              id: answer.id,
+              text: answer.text,
+              correct: answer.isCorrect,
+            ));
+          }
+        }
+      }
+
+      // Add the evaluated question to the results
       evaluatedQuestions.add(EvaluatedQuestion(
-        questionId: submission.questionId,
+        questionId: question.id,
         answerCorrect: answerCorrect,
-        incorrectAnswers: [], // Add incorrect answers based on evaluation
+        incorrectAnswers: incorrectAnswers,
         answerDetail: answerCorrect ? "Correct" : "Incorrect",
       ));
     }
-
-    return QuizSubmissionResponse(
-      code: 0,
-      title: "Quiz Result",
-      message: "Evaluation complete",
-      data: evaluatedQuestions,
-    );
   }
+
+  // Return the evaluation results
+  return QuizSubmissionResponse(
+    code: 0,
+    title: "Quiz Result",
+    message: "Evaluation complete",
+    data: evaluatedQuestions,
+  );
+}
 
   // Method to generate a quiz for a specific topic
   Future<GeneratedQuiz> generateQuiz(int topicId, [int size = 10]) async {

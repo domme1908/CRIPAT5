@@ -4,10 +4,10 @@ import 'package:munich_data_quiz/api/quiz_api.dart';
 import 'package:munich_data_quiz/constants/color.dart';
 import 'package:munich_data_quiz/constants/theme.dart';
 import 'package:munich_data_quiz/view/screen/topic_details.dart';
-import 'package:munich_data_quiz/view/widget/card/notification_single_line_card.dart';
-import 'package:munich_data_quiz/widgets/topic.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import '../widget/card/notification_single_line_card.dart';
 
 class TopicListPage extends StatefulWidget {
   const TopicListPage({Key? key}) : super(key: key);
@@ -16,7 +16,6 @@ class TopicListPage extends StatefulWidget {
   _TopicListPageState createState() => _TopicListPageState();
 }
 
-// TODO check if pull up to load new works
 class _TopicListPageState extends State<TopicListPage> {
   bool loading = true, firstBuild = true;
   List<Topic> topics = [];
@@ -29,8 +28,10 @@ class _TopicListPageState extends State<TopicListPage> {
     setLoading();
     topics.clear();
 
+    // Add random topic first with image
     topics.add(Topic.random(context));
 
+    // Fetch all topics from API (this assumes your QuizAPI returns topics)
     var topicsRaw = await QuizAPI().topics().onError((error, stackTrace) {
       _error = error.toString();
       return [];
@@ -39,7 +40,6 @@ class _TopicListPageState extends State<TopicListPage> {
     for (Topic newTopicsRaw in topicsRaw) {
       var find = topics.where((element) => element.id == newTopicsRaw.id);
       if (find.isEmpty) {
-        // topic not yet present
         topics.add(newTopicsRaw);
       }
     }
@@ -103,15 +103,16 @@ class _TopicListPageState extends State<TopicListPage> {
         );
       } else {
         comList = ListView.builder(
-          itemBuilder: (c, i) => TopicWidget(
-            topic: topics[i],
-            onTap: () async {
-              await Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => TopicPage(topics[i]),
-              ));
-            },
-          ),
           itemCount: topics.length,
+          itemBuilder: (context, index) {
+            // Keep the first element (random topic) with an image
+            if (index == 0) {
+              return _buildRandomTopic(topics[index]);
+            } else {
+              // Compact list without image for other topics
+              return _buildCompactTopic(topics[index]);
+            }
+          },
           physics: const BouncingScrollPhysics(),
           cacheExtent: MediaQuery.of(context).size.height * 2,
         );
@@ -124,7 +125,7 @@ class _TopicListPageState extends State<TopicListPage> {
           child: SmartRefresher(
             enablePullDown: true,
             enablePullUp: true,
-            header: const MaterialClassicHeader(), // WaterDropHeader
+            header: const MaterialClassicHeader(),
             footer: const ClassicFooter(),
             controller: _refreshController,
             onRefresh: _onRefresh,
@@ -133,6 +134,72 @@ class _TopicListPageState extends State<TopicListPage> {
           ),
         ),
       ],
+    );
+  }
+
+  // Method to build the random topic item with an image
+  Widget _buildRandomTopic(Topic topic) {
+    return GestureDetector(
+      onTap: () async {
+        await Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => TopicPage(topic),
+        ));
+      },
+      child: Card(
+        elevation: 2.0,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Row(
+            children: [
+              // Image for the random topic
+              ClipRRect(
+                borderRadius: BorderRadius.circular(8.0),
+                child: Image.asset(
+                  topic.imageUrl ?? "assets/default_topic_image.png",
+                  width: 60,
+                  height: 60,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      topic.title,
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      topic.description ?? "",
+                      style: const TextStyle(fontSize: 14),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  // Method to build compact topic items without images
+  Widget _buildCompactTopic(Topic topic) {
+    return ListTile(
+      title: Text(
+        topic.title,
+        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+      ),
+      onTap: () async {
+        await Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => TopicPage(topic),
+        ));
+      },
     );
   }
 }

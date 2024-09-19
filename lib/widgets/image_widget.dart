@@ -32,22 +32,18 @@ class _ImageWidgetState extends State<ImageWidget>
   Widget _image(BuildContext context, String? _imageURL) {
     String localUrl = DummyAssets.randMunichImage;
     if ((_imageURL ?? "").startsWith(localImgReplacer)) {
-      localUrl = (_imageURL??"").replaceAll(localImgReplacer, "");
+      localUrl = (_imageURL ?? "").replaceAll(localImgReplacer, "");
       _imageURL = null;
     }
 
-
     if ((_imageURL ?? "").isNotEmpty) {
-      return CachedNetworkImage(
-        imageUrl: _imageURL!,
-        cacheManager: _cacheManager,
-        fadeInDuration: const Duration(milliseconds: 125),
-        fadeOutDuration: const Duration(milliseconds: 250),
-        fit: BoxFit.cover,
-        progressIndicatorBuilder: (context, url, downloadProgress) => Center(
-          child: CircularProgressIndicator(value: downloadProgress.progress),
-        ),
-        errorWidget: (context, url, error) => _defaultImage(localUrl),
+      return Image.asset(
+        _imageURL!, // The path to the local image
+        fit: BoxFit.cover, // To ensure the image fits the available space
+        errorBuilder: (context, error, stackTrace) {
+          return _defaultImage(
+              localUrl); // Fallback to the default image if there's an issue
+        },
       );
     }
 

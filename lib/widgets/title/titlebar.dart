@@ -44,7 +44,7 @@ class TitleBarWidget extends StatelessWidget {
       button = const Positioned(
         right: 0,
         child: CircleAvatar(
-          backgroundColor: Colors.redAccent,
+          backgroundColor: Color.fromARGB(255, 235, 150, 150),
           radius: 10,
           child: Text("12", style:
           TextStyle(fontSize: 9, fontWeight: FontWeight.bold,
@@ -130,23 +130,12 @@ class TitleBarWidget extends StatelessWidget {
 class DefaultTitleBar extends StatelessWidget {
   const DefaultTitleBar({Key? key}) : super(key: key);
 
-  void launchBrowser() async {
-    const url = "https://github.com/nerotyc/mucquiz_app";
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      Fluttertoast.showToast(msg: "Could not launch $url");
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
     return TitleBarWidget(
-      enableButton: true,
-      buttonIcon: MdiIcons.share,
-      buttonOnClick: launchBrowser,
-      subtitle: "Excellence",
-      subtitleIcon: MdiIcons.trophyAward,
+      
+      subtitle: "CRI Tradate",
     );
   }
 }
