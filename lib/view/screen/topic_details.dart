@@ -67,7 +67,7 @@ class _TopicPageState extends State<TopicPage> {
               RoundedLoadingButton(
                 controller: _btnController,
                 child: Text(AppLocalizations.of(context)!.startQuiz,
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: MQColor.textColor,
                     fontWeight: FontWeight.bold,
                 ),),

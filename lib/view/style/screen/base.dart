@@ -1,5 +1,4 @@
 
-import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:munich_data_quiz/constants/color.dart';
 import 'package:munich_data_quiz/controller/screen_size.dart';

@@ -77,10 +77,10 @@ class _TopicListPageState extends State<TopicListPage> {
     Widget comList;
 
     if (loading) {
-      comList = Row(
+      comList = const Row(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
+        children: [
           Padding(
             padding: EdgeInsets.all(18.0),
             child: CircularProgressIndicator(),
@@ -90,7 +90,7 @@ class _TopicListPageState extends State<TopicListPage> {
     } else {
       if (topics.isEmpty) {
         comList = Padding(
-          padding: EdgeInsets.symmetric(
+          padding: const EdgeInsets.symmetric(
               vertical: 34, horizontal: MQTheme.screenPaddingH),
           child: Column(
             children: [
@@ -112,7 +112,7 @@ class _TopicListPageState extends State<TopicListPage> {
             },
           ),
           itemCount: topics.length,
-          physics: BouncingScrollPhysics(),
+          physics: const BouncingScrollPhysics(),
           cacheExtent: MediaQuery.of(context).size.height * 2,
         );
       }
@@ -124,8 +124,8 @@ class _TopicListPageState extends State<TopicListPage> {
           child: SmartRefresher(
             enablePullDown: true,
             enablePullUp: true,
-            header: MaterialClassicHeader(), // WaterDropHeader
-            footer: ClassicFooter(),
+            header: const MaterialClassicHeader(), // WaterDropHeader
+            footer: const ClassicFooter(),
             controller: _refreshController,
             onRefresh: _onRefresh,
             onLoading: _onLoading,

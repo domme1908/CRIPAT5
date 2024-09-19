@@ -43,7 +43,7 @@ class _QuizResultPageState extends State<QuizResultPage> {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6.0),
       child: CheckboxListTile(
-        shape: RoundedRectangleBorder(
+        shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(MQTheme.radiusCard),
         ),
         dense: true,

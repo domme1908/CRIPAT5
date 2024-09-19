@@ -14,11 +14,11 @@ class ConfirmPopup {
   }) async {
     bool _dialogShowing = false;
 
-    VoidCallback dialogCloser = () {
+    dialogCloser() {
       if (Navigator.of(context).canPop() && _dialogShowing) {
         Navigator.of(context).pop();
       }
-    };
+    }
 
     dismissText ??= AppLocalizations.of(context)!.cancel;
     acceptText ??= AppLocalizations.of(context)!.continue_;
@@ -27,9 +27,9 @@ class ConfirmPopup {
     Widget child = Column(
       children: [
         (description ?? "").isNotEmpty ? Padding(
-          padding: EdgeInsets.only(bottom: 20, left: 30, right: 30),
+          padding: const EdgeInsets.only(bottom: 20, left: 30, right: 30),
           child: Text(description ?? ""),
-        ) : SizedBox(),
+        ) : const SizedBox(),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.max,
@@ -40,22 +40,22 @@ class ConfirmPopup {
                 dialogCloser();
               },
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(dismissColor),
+                backgroundColor: WidgetStateProperty.all(dismissColor),
               ),
               child: Text(dismissText ?? "",
-                style: TextStyle(color: Colors.white),),
+                style: const TextStyle(color: Colors.white),),
             ),
-            SizedBox(width: 30,),
+            const SizedBox(width: 30,),
             TextButton(
               onPressed: () async {
                 if (onAccept != null) await onAccept();
                 dialogCloser();
               },
               style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(acceptColor),
+                backgroundColor: WidgetStateProperty.all(acceptColor),
               ),
               child: Text(acceptText ?? "",
-                style: TextStyle(color: Colors.white),),
+                style: const TextStyle(color: Colors.white),),
             ),
           ],
         )

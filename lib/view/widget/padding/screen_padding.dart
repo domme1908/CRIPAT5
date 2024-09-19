@@ -7,7 +7,7 @@ class ScreenPadding extends StatelessWidget {
     Widget child = const SizedBox(), this.children,
     Key? key
   }) : super(key: key) {
-    if (children == null) children = [child];
+    children ??= [child];
   }
 
   List<Widget>? children = const [];
@@ -15,7 +15,7 @@ class ScreenPadding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(
+      padding: const EdgeInsets.symmetric(
           horizontal: MQTheme.screenPaddingH),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +32,7 @@ class ScreenPaddingButton extends StatelessWidget {
     Widget child = const SizedBox(), this.children,
     Key? key
   }) : super(key: key) {
-    if (children == null) children = [child];
+    children ??= [child];
   }
 
   List<Widget>? children = const [];

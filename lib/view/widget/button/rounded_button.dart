@@ -30,9 +30,9 @@ class RoundedButton extends StatelessWidget {
         ),
       ),
       style: ButtonStyle(
-          foregroundColor: MaterialStateProperty.all<Color>(MQColor.textColor),
-          backgroundColor: MaterialStateProperty.all<Color>(MQColor.secondaryColor),
-          shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+          foregroundColor: WidgetStateProperty.all<Color>(MQColor.textColor),
+          backgroundColor: WidgetStateProperty.all<Color>(MQColor.secondaryColor),
+          shape: WidgetStateProperty.all<RoundedRectangleBorder>(
               const RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(MQTheme.radiusElement),
                   side: BorderSide.none

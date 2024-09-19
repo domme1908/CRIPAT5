@@ -66,7 +66,7 @@ class _TopicWidgetState extends State<TopicWidget> {
                     width: double.infinity,
                     height: max(MediaQuery.of(context).size.height / 4, 200),
                     child: ClipRRect(
-                      borderRadius: BorderRadius.all(MQTheme.radiusCard),
+                      borderRadius: const BorderRadius.all(MQTheme.radiusCard),
                       child: ImageWidget(
                         widget.topic.imageUrl,
                         heroTag: "topic-image",

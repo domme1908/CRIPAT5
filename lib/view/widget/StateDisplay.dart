@@ -27,10 +27,10 @@ class StateDisplay extends StatelessWidget {
     Color iconColor = Colors.blueAccent,
     String? title,
     String? description}) {
-    Widget info = SizedBox();
+    Widget info = const SizedBox();
     if (title != null || description != null) {
-      if (title == null) title = "";
-      if (description == null) description = "";
+      title ??= "";
+      description ??= "";
       info = Padding(
         padding: const EdgeInsets.symmetric(horizontal: 64),
         child: Column(

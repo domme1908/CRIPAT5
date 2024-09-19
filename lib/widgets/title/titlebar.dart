@@ -39,9 +39,9 @@ class TitleBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget button = SizedBox(width: 0);
+    Widget button = const SizedBox(width: 0);
     if (buttonCounter != 0) {
-      button = Positioned(
+      button = const Positioned(
         right: 0,
         child: CircleAvatar(
           backgroundColor: Colors.redAccent,
@@ -53,7 +53,7 @@ class TitleBarWidget extends StatelessWidget {
       );
     }
 
-    Widget backButton = SizedBox(width: 0,);
+    Widget backButton = const SizedBox(width: 0,);
     if (Navigator.of(context).canPop()) {
       backButton = Padding(
         padding: const EdgeInsets.only(right: 4, top: 2),
@@ -61,9 +61,9 @@ class TitleBarWidget extends StatelessWidget {
           radius: 22,
           backgroundColor: Colors.transparent,
           child: IconButton(
-            padding: EdgeInsets.all(0),
+            padding: const EdgeInsets.all(0),
             splashRadius: 20,
-            icon: Icon(
+            icon: const Icon(
               Icons.keyboard_backspace,
               color: MQColor.textColor,
             ),
@@ -93,7 +93,7 @@ class TitleBarWidget extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: 2.0, left: 12),
                     child: SubTitleWidget(title: subtitle, scale: 0.8),
                   ),
-                  SizedBox(width: 6,),
+                  const SizedBox(width: 6,),
                   Padding(
                     padding: const EdgeInsets.only(bottom: 4.0),
                     child: Icon(
@@ -106,7 +106,7 @@ class TitleBarWidget extends StatelessWidget {
               ),
             ],
           ),
-          Container(
+          SizedBox(
             height: 46,
             child: enableButton ? Stack(
               children: [
@@ -119,7 +119,7 @@ class TitleBarWidget extends StatelessWidget {
                 ),
                 button,
               ],
-            ) : SizedBox(width: 0,),
+            ) : const SizedBox(width: 0,),
           ),
         ],
       ),
@@ -132,8 +132,9 @@ class DefaultTitleBar extends StatelessWidget {
 
   void launchBrowser() async {
     const url = "https://github.com/nerotyc/mucquiz_app";
-    if (await canLaunch(url)) await launch(url);
-    else {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
       Fluttertoast.showToast(msg: "Could not launch $url");
     }
   }

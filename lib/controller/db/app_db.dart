@@ -12,7 +12,7 @@ class MQDb {
 
   // ===========================================================================
   // basic db prefs ============================================================
-  static final String DATABASE_FILE = "mucquiz_db.db";
+  static const String DATABASE_FILE = "mucquiz_db.db";
   Database? _db;
 
   // ===========================================================================

@@ -4,7 +4,7 @@ import 'package:munich_data_quiz/constants/color.dart';
 import 'package:munich_data_quiz/setup.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     systemNavigationBarColor: MQColor.bgColorLight,
     systemNavigationBarIconBrightness: MQColor.systemNavBarBrightness,
     statusBarColor: MQColor.bgColorLight,

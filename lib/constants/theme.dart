@@ -124,7 +124,7 @@ class MQTheme {
   );
 
   static ButtonStyle textActionButtonStyle = ButtonStyle(
-    backgroundColor: MaterialStateProperty.all(MQColor.primaryColor),
+    backgroundColor: WidgetStateProperty.all(MQColor.primaryColor),
   );
 
   static TextStyle textActionButtonTextTransparentStyle = const TextStyle(
@@ -183,7 +183,7 @@ class MQTheme {
   static BoxShadow cardShadow = BoxShadow(
     blurRadius: 18 * uiScale,
     color: Colors.black.withAlpha(60),
-    offset: Offset(8, 8),
+    offset: const Offset(8, 8),
   );
 
   static BoxDecoration cardDecoration = BoxDecoration(
@@ -236,13 +236,13 @@ class MQTheme {
     fontFamily: fontFamily,
 
     textTheme: const TextTheme(
-      headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-      headline2: TextStyle(fontSize: 64.0, fontWeight: FontWeight.bold),
-      headline3: TextStyle(fontSize: 56.0, fontWeight: FontWeight.bold),
-      headline4: TextStyle(fontSize: 48.0, fontWeight: FontWeight.bold),
-      headline5: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
-      headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
-      bodyText2: TextStyle(fontSize: 14.0),
+      displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+      displayMedium: TextStyle(fontSize: 64.0, fontWeight: FontWeight.bold),
+      displaySmall: TextStyle(fontSize: 56.0, fontWeight: FontWeight.bold),
+      headlineMedium: TextStyle(fontSize: 48.0, fontWeight: FontWeight.bold),
+      headlineSmall: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
+      titleLarge: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+      bodyMedium: TextStyle(fontSize: 14.0),
     ),
   );
 
@@ -252,11 +252,11 @@ class MQTheme {
   static ThemeData darkTheme = _baseTheme
     .copyWith(
       cardColor: MQColor.bgColorDark,
-      cardTheme: CardTheme(
+      cardTheme: const CardTheme(
         color: MQColor.bgColorDark,
       ),
       textTheme: Typography.whiteHelsinki.copyWith(
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: Colors.grey[200],
           fontSize: 14,
         ),

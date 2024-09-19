@@ -33,8 +33,9 @@ class ColoredIconButton extends StatelessWidget {
       ),
     );
 
-    if (tooltip == null) return avatar;
-    else {
+    if (tooltip == null) {
+      return avatar;
+    } else {
       return Tooltip(
         message: tooltip!,
         child: avatar,

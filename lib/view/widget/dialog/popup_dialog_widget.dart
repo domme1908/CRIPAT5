@@ -47,7 +47,7 @@ class _PopupDialogWidgetState extends State<PopupDialogWidget> {
 
   Widget contentBox(BuildContext context){
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
           shape: BoxShape.rectangle,
           color: MQColor.bgColorLight,
           borderRadius: BorderRadius.all(MQTheme.radiusCard),
@@ -64,8 +64,8 @@ class _PopupDialogWidgetState extends State<PopupDialogWidget> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Text(widget.title,style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),),
-            SizedBox(height: 24,),
+            Text(widget.title,style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w600),),
+            const SizedBox(height: 24,),
             widget.child
           ],
         ),

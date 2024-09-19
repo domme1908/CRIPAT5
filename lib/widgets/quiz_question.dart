@@ -81,7 +81,7 @@ class _AnswerCheckboxState extends State<AnswerCheckbox> {
   @override
   Widget build(BuildContext context) {
     return CheckboxListTile(
-      shape: RoundedRectangleBorder(
+      shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(MQTheme.radiusCard),
       ),
       dense: true,
