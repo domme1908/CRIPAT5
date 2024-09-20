@@ -58,7 +58,7 @@ class _QuizPageState extends State<QuizPage> {
           if (_currentPageNotifier.value != i) {
             _pageController.animateToPage(
               i,
-              duration: const Duration(milliseconds: 200),
+              duration: const Duration(milliseconds: 500),
               curve: Curves.easeInOut,
             );
           }
@@ -67,6 +67,7 @@ class _QuizPageState extends State<QuizPage> {
         currentPageNotifier: _currentPageNotifier,
         dotColor: MQColor.primaryColor,
         selectedDotColor: MQColor.secondaryColor,
+        dotSpacing: 2,
       ),
     );
   }

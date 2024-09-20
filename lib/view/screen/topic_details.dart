@@ -103,7 +103,7 @@ class _TopicPageState extends State<TopicPage> {
                       // Generate the quiz with the valid or random topic ID
                       var quiz = await QuizAPI().generateQuiz(
                         topicId, // Use the fetched random topic ID or the original topic ID
-                        DummyNumbers.getRandQuizSize,
+                        30,
                       );
 
                       // Navigate to the quiz page

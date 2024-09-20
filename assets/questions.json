@@ -1,317 +1,6017 @@
 [
-    {
-      "id": 1,
-      "title": "Sample Topic",
-      "description": "This is a sample topic for testing.",
-      "img_url": "assets/img/dummy/munich_1.jpg",
-      "questions": [
-        {
-          "id": 1,
-          "text": "Is the sky blue?",
-          "img_url": "assets/img/dummy/munich_1.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },{
-          "id": 2,
-          "text": "Is the sky blue question 2?",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        }
-      ]
-    },
-    {
-      "id":3,
-      "title": "Scheda 1",
-      "description": "30 domande relative alla patente CRI.",
-      "questions": [
-        {
-          "id": 1,
-          "text": "La distanza di sicurezza di un veicolo rispetto al veicolo che precede deve essere tale da evitare collisioni.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "La distanza di sicurezza deve essere in relazione al numero di corsie sulla strada.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 3,
-          "text": "La distanza di sicurezza deve essere di almeno 100 mt. nelle forti discese.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 4,
-          "text": "In caso di pioggia occorre evitare l'appannamento dei vetri.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 5,
-          "text": "In caso di pioggia è necessario manovrare lo sterzo con prudenza.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 6,
-          "text": "Il segnale n. 40 ha valore quando il semaforo funziona a luce lampeggiante.",
-          "img_url": "assets/img/figure/40.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 7,
-          "text": "Il segnale n. 40 può essere preceduto dal preavviso DARE PRECEDENZA.",
-          "img_url": "assets/img/figure/40.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 8,
-          "text": "Il segnale n. 26 presegnala la possibilità di trovare sulle strade animali vaganti.",
-          "img_url": "assets/img/figure/26.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 9,
-          "text": "Il segnale n. 109 indica la fine di un'area riservata ai pedoni.",
-          "img_url": "assets/img/figure/109.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 10,
-          "text": "È consentito attraversare l'incrocio in figura n. 618 secondo l'ordine: primo il veicolo H, poi il veicolo C, per ultimo il veicolo L.",
-          "img_url": "assets/img/figure/618.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 11,
-          "text": "Il simbolo rappresentato nella figura n. 718 contraddistingue il comando delle luci posteriori per nebbia.",
-          "img_url": "assets/img/figure/718.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 12,
-          "text": "I catadiottri sono dispositivi a luce riflessa.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 13,
-          "text": "Quante persone si possono trasportare su un'ambulanza?",
-          "answers": [
-            { "id": 1, "text": "Il numero di persone indicate sulla carta di circolazione.", "is_correct": true },
-            { "id": 2, "text": "In base al numero di sedili presenti sul mezzo.", "is_correct": false }
-          ]
-        },
-        {
-          "id": 14,
-          "text": "La sosta del mezzo sulla strada durante l'espletamento di un servizio urgente d'istituto deve essere atta a garantire una rapida ripartenza verso l'ospedale.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 15,
-          "text": "Il segnale n. 84 consente la sosta nel tratto precedente.",
-          "img_url": "assets/img/figure/84.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 16,
-          "text": "Il segnale n. 302 deve essere posto alle due estremità del carico se sporge per tutta la larghezza del veicolo.",
-          "img_url": "assets/img/figure/302.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 17,
-          "text": "Il segnale n. 123 indica l'intervallo di lunghezza dei veicoli per i quali è vietato transitare.",
-          "img_url": "assets/img/figure/123.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 18,
-          "text": "Il segnale n. 17 richiede di mantenere una maggior distanza di sicurezza dal veicolo che ci precede.",
-          "img_url": "assets/img/figure/17.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 19,
-          "text": "Durante l'espletamento di un servizio urgente si accende la spia della pressione dell'olio. Si prosegue portando a termine il servizio in corso.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 20,
-          "text": "Il veicolo D può passare prima del veicolo R nell'incrocio rappresentato nella figura n. 604.",
-          "img_url": "assets/img/figure/604.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 21,
-          "text": "Il proiettore acceso così come lo si vede nella figura n. 690 è a luce abbagliante.",
-          "img_url": "assets/img/figure/690.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 22,
-          "text": "Durante la marcia, l'uso delle luci di posizione è sufficiente nelle gallerie extraurbane non sufficientemente illuminate.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 23,
-          "text": "Il segnale n. 55 vieta di entrare in una strada accessibile invece dall'altra parte.",
-          "img_url": "assets/img/figure/55.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 24,
-          "text": "Su tutte le strade è vietato danneggiare le opere e gli impianti che ad esse appartengono.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 25,
-          "text": "Il veicolo T passa per primo nell'incrocio rappresentato nella figura n. 607.",
-          "img_url": "assets/img/figure/607.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 26,
-          "text": "Il segnale n. 123 consente la circolazione a veicoli di lunghezza superiore ai limiti stabiliti.",
-          "img_url": "assets/img/figure/123.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 27,
-          "text": "In caso di nebbia fitta è obbligatorio accendere le luci di posizione.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 28,
-          "text": "Il segnale n. 302 indica la presenza di un passaggio a livello.",
-          "img_url": "assets/img/figure/302.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": false },
-            { "id": 2, "text": "False", "is_correct": true }
-          ]
-        },
-        {
-          "id": 29,
-          "text": "Il simbolo rappresentato nella figura n. 109 indica la fine di una pista ciclabile.",
-          "img_url": "assets/img/figure/109.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },
-        {
-          "id": 30,
-          "text": "La distanza di sicurezza deve essere tale da garantire l'arresto tempestivo del veicolo senza collisioni.",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        }
-      ]
-    },
-    
-    {
-      "id": 2,
-      "title": "Scheda 2",
-      "description": "This is a sample topic for testing.",
-      "img_url": "assets/img/dummy/munich_1.jpg",
-      "questions": [
-        {
-          "id": 1,
-          "text": "Is the sky blue?",
-          "img_url": "assets/img/dummy/munich_1.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        },{
-          "id": 2,
-          "text": "Is the sky blue?",
-          "img_url": "assets/img/dummy/munich_1.jpg",
-          "answers": [
-            { "id": 1, "text": "True", "is_correct": true },
-            { "id": 2, "text": "False", "is_correct": false }
-          ]
-        }
-      ]
-    }
-  ]
+  {
+    "id":1,
+    "title": "Scheda 1",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "La distanza di sicurezza di un veicolo rispetto al veicolo che precede deve essere tale da evitare collisioni con i veicoli che precedono.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "La distanza di sicurezza di un veicolo rispetto al veicolo che precede deve essere in relazione al numero di corsie sulla strada.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "La distanza di sicurezza di un veicolo rispetto al veicolo che precede deve essere di almeno 100 mt. nelle forti discese.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "In caso di pioggia occorre evitare l’appannamento dei vetri.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "In caso di pioggia occorre impiegare con prudenza gli indicatori di direzione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "In caso di pioggia occorre manovrare con prudenza lo sterzo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 40 ha valore quando il semaforo funziona a luce lampeggiante.",
+        "img_url": "assets/img/figure/40.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 40 può essere preceduto dal preavviso DARE PRECEDENZA.",
+        "img_url": "assets/img/figure/40.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 40 lungo le autostrade è posto a distanza di 150 mt. dall’area di servizio.",
+        "img_url": "assets/img/figure/40.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Il segnale n. 26 presegnala una zona riservata al pascolo con divieto di transito ai veicoli a motore.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Il segnale n. 26 presegnala la possibilità di trovare sulle strade animali vaganti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Il segnale n. 26 presegnala una strada di campagna.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Il segnale n. 109 indica la fine del percorso pedonale.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Il segnale n. 109 indica la fine di un’ area riservata ai pedoni.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Il segnale n. 109 è un divieto di transito dei pedoni.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "È consentito attraversare l’incrocio in figura n. 618 secondo l’ordine per primo il veicolo H, poi il veicolo C, per ultimo il veicolo L.",
+        "img_url": "assets/img/figure/618.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "È consentito attraversare l’incrocio in figura n. 618 secondo l’ordine per primo il veicolo L, poi quello C, per ultimo H.",
+        "img_url": "assets/img/figure/618.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "È consentito attraversare l’incrocio in figura n. 618 secondo l’ordine il veicolo C, dopo il veicolo L, ma prima del veicolo H.",
+        "img_url": "assets/img/figure/618.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il simbolo rappresentato nella figura 718 è posto sul comando di accensione delle luci posteriori per nebbia.",
+        "img_url": "assets/img/figure/718.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il simbolo rappresentato nella figura 718 è posto sul comando di accensione dei fendinebbia anteriori.",
+        "img_url": "assets/img/figure/718.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il simbolo rappresentato nella figura 718 individua una spia luminosa di colore giallo.",
+        "img_url": "assets/img/figure/718.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "I catadiottri sono dispositivi a luce riflessa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "I catadiottri debbono essere accesi mezz’ora dopo il tramonto del sole.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "I catadiottri possono essere anteriori, laterali e posteriori.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Quante persone si possono trasportare su un’ambulanza? il numero di persone indicate sulla carta di circolazione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Quante persone si possono trasportare su un’ambulanza? in base al numero di sedili presenti sul mezzo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Quante persone si possono trasportare su un’ambulanza? secondo il numero dei sedili del mezzo più un bambino.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "La sosta del mezzo sulla strada, durante l’espletamento di un servizio urgente d’istituto deve essere atta a garantire una rapida ripartenza verso l’ospedale.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "La sosta del mezzo sulla strada, durante l’espletamento di un servizio urgente d’istituto deve essere nel rispetto della segnaletica presente sul posto.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "La sosta del mezzo sulla strada, durante l’espletamento di un servizio urgente d’istituto deve essere congrua da scagionare eventuali rischi dinamici del luogo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":2,
+    "title": "Scheda 2",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n.84 consente la sosta nel tratto precedente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n.84 opportunamente integrato, può vietare la sosta, nei centri abitati dalle 0 alle 24.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n.84 può sempre comportare la rimozione del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Il pannello a strisce diagonali alternate bianche e rosse deve essere posto alle due estremità del carico se sporge per tutta la larghezza del veicolo.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Il pannello a strisce diagonali alternate bianche e rosse può essere posto sui veicoli in avaria quando vengono trainati.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Il pannello a strisce diagonali alternate bianche e rosse di notte può essere sostituito da una luce rossa fissa.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n.123 indica l’intervallo di lunghezza dei veicoli per i quali è vietato transitare.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n.123 indica la distanza di sicurezza minima e massima tra i veicoli.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n.123 posto sotto il segnale DIVIETO DI SOSTA indica la fascia di ore di esenzione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Su tutte le strade (e loro pertinenze) è vietato danneggiare le opere e gli impianti che ad esse appartengono.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Su tutte le strade (e loro pertinenze) è vietato accedere con le ruote dei veicoli sporche di fango.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Su tutte le strade (e loro pertinenze) è vietato transitare nelle zone riservate al parcheggio.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "La distanza di sicurezza è la minima che si deve mantenere dal veicolo che ci precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "La distanza di sicurezza dipende dalla velocità del veicolo che segue.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "La distanza di sicurezza è sempre uguale alla distanza di visibilità.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Il segnale n.17 richiede di mantenere una maggior distanza di sicurezza dal veicolo che ci precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Il segnale n.17 indica l’entità della pendenza di una salita ripida.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Il segnale n.17 presegnala un tratto di strada da percorrere a motore spento.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Con la segnaletica orizzontale indicata in figura n.565 la corsia B consente di proseguire diritto e svoltare a sinistra.",
+        "img_url": "assets/img/figure/565.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Con la segnaletica orizzontale indicata in figura n.565 solo la corsia C consente di effettuare la svolta a destra.",
+        "img_url": "assets/img/figure/565.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Con la segnaletica orizzontale indicata in figura n.565 solo la corsia A consente di effettuare la svolta a sinistra.",
+        "img_url": "assets/img/figure/565.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Durante la marcia, l’uso delle luci di posizione è sufficiente di notte quando manca l’illuminazione pubblica.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Durante la marcia, l’uso delle luci di posizione è sufficiente nelle gallerie extraurbane non sufficientemente illuminate.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Durante la marcia, l’uso delle luci di posizione è sufficiente di giorno, nelle gallerie urbane sufficientemente illuminate.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Durante l’espletamento di un servizio urgente si accende la spia della pressione dell’olio, si prosegue portando a termine il servizio in corso.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Durante l’espletamento di un servizio urgente si accende la spia della pressione dell’olio ci si ferma alla prima officina per fare controllare il mezzo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Durante l’espletamento di un servizio urgente si accende la spia della pressione dell’olio si fa intervenire un’altra unità di soccorso prima di ogni altra manovra.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "È possibile trainare un’ambulanza si, sempre.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "È possibile trainare un’ambulanza si, quando non ci sono malati a bordo, rispettando le norme del codice.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "È possibile trainare un’ambulanza no, mai.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":3,
+    "title": "Scheda 3",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "In presenza del segnale n. 25 è necessario fare attenzione ai bambini sulla carreggiata e non a quelli sul marciapiede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "In presenza del segnale n. 25 prestare particolare attenzione per la possibile presenza di bambini.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "In presenza del segnale n. 25 tenere presente che è vietato effettuare la sosta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Dopo un incidente stradale occorre mettere l’apposito segnale di veicolo fermo, nei casi previsti dal codice.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Dopo un incidente stradale occorre mettere il “triangolo” sul lunotto posteriore del veicolo, prima di andare via.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Dopo un incidente stradale occorre allontanare al più presto, ove possibile, il veicolo fuori dalla carreggiata.",
+        "img_url": "assets/img/figure/302.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Nella fase di sorpasso il conducente è tenuto a lasciare un margine di sicurezza proporzionato alla velocità dei due veicoli.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Nella fase di sorpasso il conducente è tenuto ad avvicinarsi il più possibile al veicolo che precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Nella fase di sorpasso il conducente è tenuto a mantenere in ogni caso la stessa marcia ed accelerare a fondo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Il segnale n.256 segnala una corsia riservata ad autobus extraurbani.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Il segnale n.256 indica le fermate degli autobus di pubblico trasporto extraurbani.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Il segnale n.256 indica una stazione di servizio per autobus.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Il segnale n.103 indica i passaggi consentiti a destra e a sinistra di un isola di traffico.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Il segnale n.103 consente ai conducenti di passare sia a destra che a sinistra di un salvagente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Il segnale n.103 indica la circolazione rotatoria consentita nei due sensi.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Ciascuno dei pannelli integrativi n. 128 indica la corsia preferenziale per i taxi.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Ciascuno dei pannelli integrativi n. 128 posto sotto un segnale indica la fine della prescrizione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Ciascuno dei pannelli integrativi n. 128 posto sotto il segnale di DIVIETO DI SOSTA indica il punto d’inizio.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Si debbono usare gli indicatori di direzione ogni volta che si deve effettuare una manovra di svolta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Si debbono usare gli indicatori di direzione mai, quando si marcia su una strada a senso unico.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Si debbono usare gli indicatori di direzione se si viaggia su strada suddivisa in corsie, prima di cambiarla.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n.717 è posto sul comando di accensione delle luci posteriori per nebbia.",
+        "img_url": "assets/img/figure/717.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n.717 individua una spia luminosa di colore verde.",
+        "img_url": "assets/img/figure/717.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n.717 è posto sul comando di accensione dei fendinebbia anteriori.",
+        "img_url": "assets/img/figure/717.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Da chi viene decisa la velocità di un’ambulanza? dall’autista.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Da chi viene decisa la velocità di un’ambulanza? da chi si trova vicino al trasportato.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Da chi viene decisa la velocità di un’ambulanza? dall’autista, seguendo le indicazioni dei barellieri.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "In caso di incidente, il conducente di ambulanza deve accompagnare l’infortunato a casa dietro sua espressa richiesta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "In caso di incidente, il conducente di ambulanza deve trasportare l’infortunato presso la più vicina casa di cura.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "In caso di incidente, il conducente di ambulanza deve trasportare l’infortunato presso l’Ospedale di competenza.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":4,
+    "title": "Scheda 4",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n.1 presegnala un percorso di montagna.",
+        "img_url": "assets/img/figure/1.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n.1 presegnala un tratto di strada deformata.",
+        "img_url": "assets/img/figure/1.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n.1 può essere accoppiato con un segnale di limite massimo di velocità.",
+        "img_url": "assets/img/figure/1.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Gli ammortizzatori scarichi provocano usura non uniforme del battistrada dei pneumatici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Gli ammortizzatori scarichi provocano un anomalo funzionamento del motore.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Gli ammortizzatori scarichi provocano la possibile rottura delle molle delle sospensioni.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n.54 vieta la circolazione nei due sensi.",
+        "img_url": "assets/img/figure/54.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n.54 vieta il transito a tutti i veicoli.",
+        "img_url": "assets/img/figure/54.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n.54 vieta la circolazione anche ai ciclomotori.",
+        "img_url": "assets/img/figure/54.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Lo spazio minimo totale di arresto di un veicolo diminuisce se aumenta la prontezza di riflessi del conducente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Lo spazio minimo totale di arresto di un veicolo si ottiene bloccando le ruote.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Lo spazio minimo totale di arresto di un veicolo aumenta con l’aumentare della velocità del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nell’incrocio rappresentato in figura n.604 il veicolo D può passare prima del veicolo R.",
+        "img_url": "assets/img/figure/604.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nell’incrocio rappresentato in figura n.604 il veicolo R può passare per primo.",
+        "img_url": "assets/img/figure/604.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nell’incrocio rappresentato in figura n.604 i veicoli transitano nel seguente ordine: D, A, R.",
+        "img_url": "assets/img/figure/604.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Il proiettore acceso così come lo si vede nella figura n.690 è a luce abbagliante.",
+        "img_url": "assets/img/figure/690.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Il proiettore acceso così come lo si vede nella figura n.690 ha un fascio luminoso per illuminare la strada a grande distanza.",
+        "img_url": "assets/img/figure/690.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Il proiettore acceso così come lo si vede nella figura n.690 ha un fascio luminoso che non colpisce direttamente i veicoli incrociati.",
+        "img_url": "assets/img/figure/690.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n.199 identifica le strade extraurbane.",
+        "img_url": "assets/img/figure/199.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n.199 indica l’uscita n.55.",
+        "img_url": "assets/img/figure/199.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n.199 indica un itinerario internazionale.",
+        "img_url": "assets/img/figure/199.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n.696 è posto su una spia a luce blu.",
+        "img_url": "assets/img/figure/696.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n.696 è posto sul comando dei proiettori anabbaglianti.",
+        "img_url": "assets/img/figure/696.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n.696 indica il comando dei fendinebbia.",
+        "img_url": "assets/img/figure/696.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Durante l’espletamento di un servizio urgente d’istituto quali dispositivi supplementari devo usare luci di emergenza accese e lampeggianti blu.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Durante l’espletamento di un servizio urgente d’istituto quali dispositivi supplementari devo usare lampeggianti blu, sirena in maniera simultanea e continuativa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Durante l’espletamento di un servizio urgente d’istituto quali dispositivi supplementari devo usare lampeggianti blu, sirena e luci anabbaglianti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo ripetere due volte il mio identificativo e poi quello di chi si chiama.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo chiamare prima il codice del chiamato poi la propria sigla.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo utilizzare, se conosciuta, la codifica del terminale chiamato.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":5,
+    "title": "Scheda 5",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 2 presegnala una cunetta.",
+        "img_url": "assets/img/figure/2.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 2 presegnala un tratto di strada deformata.",
+        "img_url": "assets/img/figure/2.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 2 presegnala un dosso.",
+        "img_url": "assets/img/figure/2.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "I pneumatici devono essere tenuti a bassa pressione per aumentare l’aderenza.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Non debbono esistere giochi anomali nel meccanismo dello sterzo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "È necessario guidare il più vicino possibile al volante.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 55 consente l’accesso ai motocicli.",
+        "img_url": "assets/img/figure/55.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 55 vieta di entrare in una strada accessibile invece dall’altra parte.",
+        "img_url": "assets/img/figure/55.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 55 consente l’accesso alle biciclette.",
+        "img_url": "assets/img/figure/55.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Per arrestare il veicolo nello spazio minimo, bisogna intervenire con energia sul pedale del freno innestando la marcia più alta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Per arrestare il veicolo nello spazio minimo, bisogna caricare il veicolo senza superare la massa massima autorizzata.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Per arrestare il veicolo nello spazio minimo, bisogna intervenire energeticamente sul pedale del freno, evitando in ogni caso il bloccaggio delle ruote.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Dovendo attraversare l’incrocio rappresentato in figura n. 606, il veicolo E può transitare per primo.",
+        "img_url": "assets/img/figure/606.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Dovendo attraversare l’incrocio rappresentato in figura n. 606, il veicolo C può transitare subito dopo il veicolo E.",
+        "img_url": "assets/img/figure/606.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Dovendo attraversare l’incrocio rappresentato in figura n. 606, il veicolo M può transitare per primo.",
+        "img_url": "assets/img/figure/606.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Il proiettore acceso così come lo si vede nella figura n. 694 è a luce anabbagliante, ma la lampada è montata in maniera errata.",
+        "img_url": "assets/img/figure/694.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Il proiettore acceso così come lo si vede nella figura n. 694 ha un fascio luminoso che non colpisce direttamente i veicoli incrociati.",
+        "img_url": "assets/img/figure/694.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Il proiettore acceso così come lo si vede nella figura n. 694 ha un fascio luminoso per illuminare la strada a grande distanza.",
+        "img_url": "assets/img/figure/694.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 200 identifica un'autostrada.",
+        "img_url": "assets/img/figure/200.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 200 può integrare un segnale di preavviso di diramazione autostradale.",
+        "img_url": "assets/img/figure/200.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 200 può essere incluso in un segnale di preselezione per bivio autostradale.",
+        "img_url": "assets/img/figure/200.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 695 è posto sul comando dei proiettori di profondità.",
+        "img_url": "assets/img/figure/695.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 695 è il simbolo di una spia luminosa di colore verde.",
+        "img_url": "assets/img/figure/695.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 695 indica il comando di accensione delle luci di profondità.",
+        "img_url": "assets/img/figure/695.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Cosa si deve fare alla guida di un’ambulanza durante un servizio urgente, all’intimazione di ALT da parte delle forze dell’ordine? Occorre fermarsi.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Cosa si deve fare alla guida di un’ambulanza durante un servizio urgente, all’intimazione di ALT da parte delle forze dell’ordine? Non si è tenuti a fermarsi.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Cosa si deve fare alla guida di un’ambulanza durante un servizio urgente, all’intimazione di ALT da parte delle forze dell’ordine? Si può proseguire il servizio e la polizia potrà seguire l’ambulanza.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Come si deve comportare un conducente di ambulanza quando i pedoni tardano a scansarsi? Deve azionare i dispositivi di allarme senza aumentare la velocità.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Come si deve comportare un conducente di ambulanza quando i pedoni tardano a scansarsi? Deve fermarsi solo se i pedoni sono su un attraversamento pedonale.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Come si deve comportare un conducente di ambulanza quando i pedoni tardano a scansarsi? Deve in ogni caso rallentare e all’occorrenza fermarsi.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":6,
+    "title": "Scheda 6",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 3 indica una banchina cedevole.",
+        "img_url": "assets/img/figure/3.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 3 presegnala una strada deformata.",
+        "img_url": "assets/img/figure/3.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 3 presegnala un tratto di strada in cattivo stato.",
+        "img_url": "assets/img/figure/3.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Se lo sterzo vibra fortemente, può dipendere da eccessivi giochi ai comandi dello sterzo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Se lo sterzo vibra fortemente, può dipendere da diversa pressione dei pneumatici delle ruote direttrici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Se lo sterzo vibra fortemente, può dipendere dalle ruote di dimensioni non regolamentari.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 57 obbliga i veicoli a marciare a meno di 70 metri di distanza l’uno dall’altro.",
+        "img_url": "assets/img/figure/57.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 57 prescrive di accostarsi al veicolo che precede lasciando libero uno spazio inferiore a 70 metri.",
+        "img_url": "assets/img/figure/57.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 57 vieta di seguire il veicolo che precede a una distanza inferiore a quella indicata.",
+        "img_url": "assets/img/figure/57.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "La distanza di sicurezza è la minima che si deve mantenere dal veicolo che ci precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "La distanza di sicurezza non dipende dal conducente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "La distanza di sicurezza è una distanza fissa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nell’intersezione rappresentata nella figura n. 607, il veicolo T transita per primo.",
+        "img_url": "assets/img/figure/607.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nell’intersezione rappresentata nella figura n. 607, il veicolo M ha la precedenza perché è in servizio pubblico.",
+        "img_url": "assets/img/figure/607.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nell’intersezione rappresentata nella figura n. 607, i veicoli transitano nel seguente ordine: T, M, P.",
+        "img_url": "assets/img/figure/607.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Il proiettore così come lo si vede nella figura n. 693 emette luce verso il basso e verso destra.",
+        "img_url": "assets/img/figure/693.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Il proiettore così come lo si vede nella figura n. 693 è a luce anabbagliante, ma la lampada è montata in maniera errata.",
+        "img_url": "assets/img/figure/693.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Il proiettore così come lo si vede nella figura n. 693 è un proiettore a luce anabbagliante, ma la lampada è rovesciata.",
+        "img_url": "assets/img/figure/693.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 201 indica il numero di una strada di scorrimento.",
+        "img_url": "assets/img/figure/201.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 201 identifica il tipo di strada percorsa.",
+        "img_url": "assets/img/figure/201.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 201 indica una strada sdrucciolevole per 2 chilometri.",
+        "img_url": "assets/img/figure/201.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 697 individua il comando degli indicatori di direzione.",
+        "img_url": "assets/img/figure/697.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 697 è posto su una spia di colore verde.",
+        "img_url": "assets/img/figure/697.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 697 è riprodotto sulla spia, a luce pulsante, di indicatori di direzione in funzione.",
+        "img_url": "assets/img/figure/697.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Da chi dovrebbe essere composto l’equipaggio tipo per trasporti non urgenti, secondo il regolamento? Autista.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Da chi dovrebbe essere composto l’equipaggio tipo per trasporti non urgenti, secondo il regolamento? Autista e barelliere.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Da chi dovrebbe essere composto l’equipaggio tipo per trasporti non urgenti, secondo il regolamento? Autista e due barellieri.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Un’ambulanza che provenga da sinistra ha la precedenza? - Si, sempre",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Un’ambulanza che provenga da sinistra ha la precedenza? La chiede solo quando ha in funzione i dispositivi di allarme.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Un’ambulanza che provenga da sinistra ha la precedenza? No, in nessun caso",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id":7,
+    "title": "Scheda 7",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 4 presegnala una curva pericolosa a destra.",
+        "img_url": "assets/img/figure/4.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 4 presegnala una serie di curve pericolose di cui la prima a destra.",
+        "img_url": "assets/img/figure/4.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 4 può essere integrato con un pannello recante la scritta TORNANTE.",
+        "img_url": "assets/img/figure/4.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Una frenatura poco efficiente o squilibrata può essere causata dal carico erroneamente ripartito o eccessivo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Una frenatura poco efficiente o squilibrata può essere causata da una anomalia dell’impianto frenante.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Una frenatura poco efficiente o squilibrata può essere causata dal consumo eccessivo dei denti del freno a mano.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 59 vieta l’uso di avvisatori acustici.",
+        "img_url": "assets/img/figure/59.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 59 obbliga ad usare il clacson ogni volta le circostanze lo consiglino.",
+        "img_url": "assets/img/figure/59.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 59 vieta le segnalazioni acustiche.",
+        "img_url": "assets/img/figure/59.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "La distanza di sicurezza deve essere maggiore se si percorre la corsia d’emergenza.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "La distanza di sicurezza deve essere tale da evitare collisioni con il veicolo che precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "La distanza di sicurezza deve essere uguale allo spazio di frenatura del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nella situazione rappresentata in figura n. 608, il veicolo B non ha obblighi di precedenza.",
+        "img_url": "assets/img/figure/608.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nella situazione rappresentata in figura n. 608, il veicolo H passa per primo.",
+        "img_url": "assets/img/figure/608.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nella situazione rappresentata in figura n. 608, il veicolo H può passare per secondo.",
+        "img_url": "assets/img/figure/608.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "La targa posteriore deve essere illuminata nelle gallerie stradali, solo se non sufficientemente illuminate.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "La targa posteriore deve essere illuminata solo se si circola di notte.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "La targa posteriore deve essere illuminata di notte per permettere l’identificazione del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 216 è posto in un luogo soggetto ad inondazione.",
+        "img_url": "assets/img/figure/216.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 216 si trova in prossimità del fiume Arno.",
+        "img_url": "assets/img/figure/216.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 216 indica il nome del fiume in vicinanza del ponte che lo attraversa.",
+        "img_url": "assets/img/figure/216.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 698 identifica il comando del dispositivo di accensione dei proiettori.",
+        "img_url": "assets/img/figure/698.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 698 indica il comando del segnale di emergenza.",
+        "img_url": "assets/img/figure/698.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 698 è posto sull’interruttore che accende simultaneamente tutti gli indicatori di direzione.",
+        "img_url": "assets/img/figure/698.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? Si, se il malato non è grave ed è accompagnato dai parenti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? No, mai.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? Si, se il malato non è in pericolo di vita.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Come deve essere la velocità nelle ore notturne? Particolarmente moderata.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Come deve essere la velocità nelle ore notturne? La stessa delle ore diurne.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Come deve essere la velocità nelle ore notturne? Non particolarmente moderata perché il traffico è meno intenso.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Scheda 8",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 6 presegnala una doppia curva, la prima a destra.",
+        "img_url": "assets/img/figure/6.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 6 può essere integrato con un pannello indicante TORNANTI.",
+        "img_url": "assets/img/figure/6.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 6 vieta la svolta a destra.",
+        "img_url": "assets/img/figure/6.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Per controllare lo sbandamento del veicolo è opportuno frenare immediatamente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Per controllare lo sbandamento del veicolo è opportuno, se in frenata, ridurre lo sforzo frenante.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Per controllare lo sbandamento del veicolo è opportuno innestare una marcia inferiore e lasciare bruscamente la frizione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 56 consente la marcia di autovetture per file parallele.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 56 vieta il sorpasso tra autovetture solo se si valica la riga continua.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 56 consente ad una autovettura di sorpassare un motociclo.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "La distanza di sicurezza tra due veicoli deve essere sempre stabilita in modo da garantire l’arresto tempestivo ed evitare collisioni con il veicolo che precede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "La distanza di sicurezza deve essere stabilita in relazione al numero di corsie della strada.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "La distanza di sicurezza deve essere stabilita in relazione alle variazioni di pendenza della strada.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 613, il veicolo T passa per primo.",
+        "img_url": "assets/img/figure/613.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 613, il veicolo A deve attendere il transito del veicolo O.",
+        "img_url": "assets/img/figure/613.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 613, il veicolo T deve attendere il transito del veicolo O.",
+        "img_url": "assets/img/figure/613.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Durante la marcia, l’uso dei proiettori a luce abbagliante è prescritto fuori città quando l’illuminazione pubblica manca e non si incrociano altri veicoli.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Durante la marcia, l’uso dei proiettori a luce abbagliante è consentito in città in caso di nebbia fitta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Durante la marcia, l’uso dei proiettori a luce abbagliante è consentito nelle gallerie urbane a senso unico.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 218 indica un attraversamento pedonale non regolato da semaforo.",
+        "img_url": "assets/img/figure/218.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 218 presegna un viale pedonale.",
+        "img_url": "assets/img/figure/218.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 218 impone di usare i segnali acustici per avvertire i pedoni.",
+        "img_url": "assets/img/figure/218.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 699 è posto sulla spia di tergicristallo in funzione.",
+        "img_url": "assets/img/figure/699.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 699 contraddistingue l’interruttore di comando del tergilunotto posteriore.",
+        "img_url": "assets/img/figure/699.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 699 individua il dispositivo di comando del lavacristallo.",
+        "img_url": "assets/img/figure/699.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "È possibile costringere un malato a salire sull’ambulanza per trasportarlo in ospedale? No, ma si può fare opera di convinzione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "È possibile costringere un malato a salire sull’ambulanza per trasportarlo in ospedale? Si, se versa in imminente pericolo di vita.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "È possibile costringere un malato a salire sull’ambulanza per trasportarlo in ospedale? Si, se trattasi di malato infettivo e contagioso.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "In quale dei seguenti casi possiamo cambiare canale radio? In caso di elevato traffico radio.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "In quale dei seguenti casi possiamo cambiare canale radio? Nel caso in cui non si riesca a comunicare sul solito canale radio.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "In quale dei seguenti casi possiamo cambiare canale radio? Nel caso in cui ci venga comunicato dalla Sede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Scheda 9",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 7 presegnala una doppia curva, la prima a sinistra.",
+        "img_url": "assets/img/figure/7.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 7 presegnala una confluenza a sinistra.",
+        "img_url": "assets/img/figure/7.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 7 può essere integrato con pannello recante l’indicazione di una lunghezza tra due frecce.",
+        "img_url": "assets/img/figure/7.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Il sistema frenante antibloccaggio ruote (ABS) valuta le differenze di velocità di rotazione delle ruote in frenata.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Il sistema frenante antibloccaggio ruote (ABS) è un olio speciale per l’impianto frenante dell’autoveicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Il sistema frenante antibloccaggio ruote (ABS) impedisce il bloccaggio delle ruote in fase di frenatura.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 56 consente ad un’autovettura di sorpassare un autocarro.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 56 consente ad un autocarro di sorpassare un motociclo.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 56 si trova solo sulle strade extraurbane principali.",
+        "img_url": "assets/img/figure/56.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Influisce sulla distanza di sicurezza: Il numero di corsie della strada.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Influisce sulla distanza di sicurezza: La concentrazione del conducente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Influisce sulla distanza di sicurezza: La velocità a cui si viaggia.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nell’incrocio rappresentato nella figura n. 614, il veicolo T passa prima del veicolo R.",
+        "img_url": "assets/img/figure/614.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nell’incrocio rappresentato nella figura n. 614, il veicolo T passa per ultimo.",
+        "img_url": "assets/img/figure/614.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nell’incrocio rappresentato nella figura n. 614, i veicoli transitano nel seguente ordine: R, T, A.",
+        "img_url": "assets/img/figure/614.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Occorre eseguire con frequenza sull’impianto di illuminazione il controllo e la pulizia dei trasparenti di vetro e di plastica dei gruppi ottici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Occorre eseguire con frequenza sull’impianto di illuminazione la verifica del sistema di accensione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Occorre eseguire con frequenza sull’impianto di illuminazione il controllo della colorazione dei trasparenti di vetro e plastica dei gruppi ottici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale di figura n. 236 indica che una pista ciclabile attraversa la carreggiata.",
+        "img_url": "assets/img/figure/236.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale di figura n. 236 indica l’inizio di una pista ciclabile.",
+        "img_url": "assets/img/figure/236.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale di figura n. 236 è posto in corrispondenza di un attraversamento ciclabile.",
+        "img_url": "assets/img/figure/236.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 709 indica il comando del dispositivo di sbrinamento del lunotto posteriore.",
+        "img_url": "assets/img/figure/709.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 709 contrassegna il comando del dispositivo di sbrinamento del parabrezza.",
+        "img_url": "assets/img/figure/709.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 709 contrassegna il dispositivo antiappannante del lunotto posteriore.",
+        "img_url": "assets/img/figure/709.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: avvisiamo immediatamente i Vigili del Fuoco.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: avvisiamo immediatamente la Centrale Operativa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: lo lasciamo dov’è e rientriamo in sede.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Si può entrare in un senso vietato con i dispositivi d’allarme inseriti? No, mai.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Si può entrare in un senso vietato con i dispositivi d’allarme inseriti? Si, solo se la strada è libera e visibile fino al primo incrocio.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Si può entrare in un senso vietato con i dispositivi d’allarme inseriti? Si, in ogni caso, per guadagnare tempo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },{
+    "id": 10,
+    "title": "Scheda 10",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "In presenza del segnale n. 8, è necessario moderare la velocità per potersi fermare se le barriere sono chiuse.",
+        "img_url": "assets/img/figure/8.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "In presenza del segnale n. 8, è possibile transitare tra una barra e l’altra se le semi barriere sono chiuse.",
+        "img_url": "assets/img/figure/8.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "In presenza del segnale n. 8, è consentito sostare.",
+        "img_url": "assets/img/figure/8.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "I pneumatici con lesioni sui fianchi che interessano le tele possono essere usati a bassa velocità.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "I pneumatici con lesioni sui fianchi che interessano le tele debbono essere subito ricostruiti e ricoperti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "I pneumatici con lesioni sui fianchi che interessano le tele si devono sostituire.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 82 indica la fine del divieto di sorpasso precedentemente imposto.",
+        "img_url": "assets/img/figure/82.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 82 indica la fine del divieto tra le sole autovetture.",
+        "img_url": "assets/img/figure/82.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 82 non consente il sorpasso se deve essere superata la striscia continua.",
+        "img_url": "assets/img/figure/82.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Lo spazio minimo totale di arresto di un veicolo dipende dalle condizioni della pavimentazione stradale.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Lo spazio minimo totale di arresto di un veicolo non dipende dallo stato dei pneumatici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Lo spazio minimo totale di arresto di un veicolo non dipende dalla spinta sul pedale del freno quando le ruote sono bloccate.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Secondo le norme di precedenza nell’incrocio in figura n. 615, il veicolo R passa per primo.",
+        "img_url": "assets/img/figure/615.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Secondo le norme di precedenza nell’incrocio in figura n. 615, il veicolo A può passare per primo.",
+        "img_url": "assets/img/figure/615.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Secondo le norme di precedenza nell’incrocio in figura n. 615, il veicolo C deve passare per ultimo.",
+        "img_url": "assets/img/figure/615.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Le luci di sosta (o stazionamento) non sono obbligatorie.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Le luci di sosta (o stazionamento) possono sostituire le luci di posizione in ogni caso di sosta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Le luci di sosta (o stazionamento) sono da utilizzare solo nei centri abitati durante la sosta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 219 presegna parchi giochi per bambini.",
+        "img_url": "assets/img/figure/219.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 219, posto sul bordo del marciapiede, indica la fermata di uno scuolabus.",
+        "img_url": "assets/img/figure/219.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 219 presegna un attraversamento pedonale.",
+        "img_url": "assets/img/figure/219.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 708 indica il comando del dispositivo di sbrinamento del lunotto posteriore.",
+        "img_url": "assets/img/figure/708.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 708 contrassegna il comando del dispositivo di sbrinamento del parabrezza.",
+        "img_url": "assets/img/figure/708.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 708 contrassegna il dispositivo antiappannante del lunotto posteriore.",
+        "img_url": "assets/img/figure/708.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Dove devono essere portati i feriti di un incidente stradale? All’ospedale più vicino.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Dove devono essere portati i feriti di un incidente stradale? All’ospedale richiesto dall’interessato.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Dove devono essere portati i feriti di un incidente stradale? All’ospedale indicato dalla Centrale Operativa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Se un’ambulanza in urgenza ed un’automobile che procedono in senso opposto hanno difficoltà ad incrociarsi, chi ha l’obbligo di rallentare e all’occorrenza fermarsi? Entrambi i conducenti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Se un’ambulanza in urgenza ed un’automobile che procedono in senso opposto hanno difficoltà ad incrociarsi, chi ha l’obbligo di rallentare e all’occorrenza fermarsi? Solo il conducente dell’ambulanza.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Se un’ambulanza in urgenza ed un’automobile che procedono in senso opposto hanno difficoltà ad incrociarsi, chi ha l’obbligo di rallentare e all’occorrenza fermarsi? Solo il conducente dell’autovettura.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Scheda 11",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 9 presegna un attraversamento ferroviario a livello non munito di barriere.",
+        "img_url": "assets/img/figure/9.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 9 è posto a 150 metri dai binari con relativo pannello distanziometrico.",
+        "img_url": "assets/img/figure/9.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 9 segnala un incrocio con linea tranviaria.",
+        "img_url": "assets/img/figure/9.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "La squilibratura dei freni può dipendere da un pistoncino bloccato nel cilindretto.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "La squilibratura dei freni può dipendere da eccessivo gioco della frizione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "La squilibratura dei freni può dipendere da bolle d’aria nell’impianto idraulico di frenatura.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 60 consente ad un autocarro di massa complessiva pari a 3,5 t di sorpassare un autoarticolato.",
+        "img_url": "assets/img/figure/60.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 60 consente ad un autobus di 18 t di sorpassare un autotreno.",
+        "img_url": "assets/img/figure/60.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 60 consente alle autovetture di sorpassare gli autocarri sulla corsia di destra.",
+        "img_url": "assets/img/figure/60.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Influisce sulla distanza di sicurezza: la dimensione del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Influisce sulla distanza di sicurezza: l’entità del carico del veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Influisce sulla distanza di sicurezza: la prontezza di riflessi del conducente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nell’incrocio rappresentato in figura n. 616, i veicoli transitano nel seguente ordine: S, B, T.",
+        "img_url": "assets/img/figure/616.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nell’incrocio rappresentato in figura n. 616, il veicolo B deve dare la precedenza al veicolo T.",
+        "img_url": "assets/img/figure/616.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nell’incrocio rappresentato in figura n. 616, il veicolo B transita per primo.",
+        "img_url": "assets/img/figure/616.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "In caso di avverse condizioni del tempo, prima di partire bisogna pulire bene il parabrezza ed i vetri che permettono la visibilità del conducente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "In caso di avverse condizioni del tempo, prima di partire bisogna aumentare la pressione dei pneumatici delle ruote motrici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "In caso di avverse condizioni del tempo, prima di partire bisogna cambiare l’olio dei freni.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 220 localizza un dispositivo di chiamata stradale di soccorso.",
+        "img_url": "assets/img/figure/220.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 220 invita ad evitare rumori in prossimità di un centro di soccorso medico.",
+        "img_url": "assets/img/figure/220.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 220 indica l’assoluto divieto di sosta.",
+        "img_url": "assets/img/figure/220.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura 702 obbliga ad effettuare segnalazioni acustiche.",
+        "img_url": "assets/img/figure/702.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura 702 è posto sulla spia di clacson inefficiente.",
+        "img_url": "assets/img/figure/702.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura 702 indica il comando del dispositivo di segnalazione acustica.",
+        "img_url": "assets/img/figure/702.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "A quale velocità si deve viaggiare trasportando un politraumatizzato grave? Al massimo della velocità consentita dal veicolo.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "A quale velocità si deve viaggiare trasportando un politraumatizzato grave? A non più di 40 Km/h.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "A quale velocità si deve viaggiare trasportando un politraumatizzato grave? Come consente la strada ed il barelliere suggerisce.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Quali dispositivi di allarme si devono azionare per il trasporto di un ustionato grave? Sirena e luci di posizione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Quali dispositivi di allarme si devono azionare per il trasporto di un ustionato grave? Sirena, lampeggiatori e fari anabbaglianti.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Quali dispositivi di allarme si devono azionare per il trasporto di un ustionato grave? Nessun dispositivo supplementare di allarme.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Scheda 12",
+    "description": "30 domande relative alla patente CRI.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Il segnale n. 10, CROCE DI S. ANDREA, presegna una sede ferroviaria con più binari.",
+        "img_url": "assets/img/figure/10.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Il segnale n. 10 presegna un quadrivio.",
+        "img_url": "assets/img/figure/10.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Il segnale n. 10 indica che la sede ferroviaria ha un solo binario.",
+        "img_url": "assets/img/figure/10.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Il fenomeno dell’acquaplaning si verifica più facilmente a velocità ridotta.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Il fenomeno dell’acquaplaning fa sollevare le ruote dal terreno bagnato.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Il fenomeno dell’acquaplaning fa scivolare le ruote sullo strato di acqua compressa.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Il segnale n. 83 consente ad un autotreno di massa pari a 44 t di sorpassare un’autovettura.",
+        "img_url": "assets/img/figure/83.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Il segnale n. 83 indica la fine del divieto di sorpasso per tutti gli autocarri.",
+        "img_url": "assets/img/figure/83.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Il segnale n. 83 vieta il transito degli autotreni, autosnodati, autoarticolati.",
+        "img_url": "assets/img/figure/83.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Per arrestare il veicolo nello spazio minimo il conducente deve curare la manutenzione dei pneumatici.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Per arrestare il veicolo nello spazio minimo il conducente deve evitare di caricare il veicolo oltre il limite di peso consentito.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Per arrestare il veicolo nello spazio minimo il conducente deve abbassare prima il pedale della frizione e poi quello del freno.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Nell’incrocio rappresentato in figura n. 617, il conducente del veicolo N attraversa per primo.",
+        "img_url": "assets/img/figure/617.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Nell’incrocio rappresentato in figura n. 617, il conducente del veicolo N conclude per ultimo l’attraversamento dell’incrocio.",
+        "img_url": "assets/img/figure/617.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Nell’incrocio rappresentato in figura n. 617, il conducente del veicolo N deve dare la precedenza al veicolo R.",
+        "img_url": "assets/img/figure/617.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "L’uso degli indicatori di direzione è necessario per almeno 500 metri dopo aver effettuato il sorpasso.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "L’uso degli indicatori di direzione è necessario per impegnare la corsia di sorpasso.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "L’uso degli indicatori di direzione è necessario in occasione di ogni cambio di corsia.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Il segnale n. 224 è posto all’inizio di una strada senza uscita per i veicoli.",
+        "img_url": "assets/img/figure/224.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Il segnale n. 224 consente il transito delle autovetture.",
+        "img_url": "assets/img/figure/224.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Il segnale n. 224 è un segnale di divieto.",
+        "img_url": "assets/img/figure/224.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Il simbolo rappresentato nella figura n. 703 contraddistingue una spia luminosa di riserva carburante.",
+        "img_url": "assets/img/figure/703.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Il simbolo rappresentato nella figura n. 703 indica che la benzina sta per finire se la spia è accesa.",
+        "img_url": "assets/img/figure/703.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Il simbolo rappresentato nella figura n. 703 indica il bocchettone di caricamento del carburante.",
+        "img_url": "assets/img/figure/703.jpg",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "È consigliabile provvedere ad accendere i fari anabbaglianti in caso di soccorso urgente.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "È consigliabile in urgenza usare il clacson insieme con il dispositivo supplementare di allarme (sirena).",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "È consigliabile in urgenza usare il dispositivo di accensione simultanea degli indicatori di direzione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "text": "In quale dei seguenti casi la velocità deve essere particolarmente moderata? Nelle forti salite.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "text": "In quale dei seguenti casi la velocità deve essere particolarmente moderata? Nei tratti di strada a visuale non libera.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "text": "In quale dei seguenti casi la velocità deve essere particolarmente moderata? Nelle strade a senso unico di circolazione.",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
   
+  
+  
+  
+  
+  
+  
+]

@@ -91,6 +91,7 @@ flutter:
     - assets/error.png
     - assets/img/
     - assets/img/dummy/
+    - assets/img/figure/
     - assets/questions.json
 
 

@@ -30,17 +30,22 @@ class _ImageWidgetState extends State<ImageWidget>
   );
 
   Widget _image(BuildContext context, String? _imageURL) {
+    print(_imageURL);
     String localUrl = DummyAssets.randMunichImage;
+    print(localUrl);
+    print((_imageURL ?? "").isNotEmpty);
     if ((_imageURL ?? "").startsWith(localImgReplacer)) {
       localUrl = (_imageURL ?? "").replaceAll(localImgReplacer, "");
       _imageURL = null;
     }
 
     if ((_imageURL ?? "").isNotEmpty) {
+      print("entering correct if");
       return Image.asset(
         _imageURL!, // The path to the local image
         fit: BoxFit.cover, // To ensure the image fits the available space
         errorBuilder: (context, error, stackTrace) {
+          print(error);
           return _defaultImage(
               localUrl); // Fallback to the default image if there's an issue
         },
