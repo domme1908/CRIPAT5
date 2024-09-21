@@ -16,7 +16,6 @@ class QuizAPI {
     // Load the JSON file from assets
     final String jsonString = await rootBundle.loadString('assets/questions.json');
     final List<dynamic> jsonData = jsonDecode(jsonString);
-
     // Convert the JSON data into a list of Topic objects
     return jsonData.map((topicData) => Topic.fromJson(topicData)).toList();
   }
@@ -80,7 +79,7 @@ Future<QuizSubmissionResponse> evaluateQuizTotal(
         questionId: question.id,
         answerCorrect: answerCorrect,
         incorrectAnswers: incorrectAnswers,
-        answerDetail: answerCorrect ? "Correct" : "Incorrect",
+        answerDetail: answerCorrect ? "Corretto" : "Sbagliato",
       ));
     }
   }
@@ -88,8 +87,8 @@ Future<QuizSubmissionResponse> evaluateQuizTotal(
   // Return the evaluation results
   return QuizSubmissionResponse(
     code: 0,
-    title: "Quiz Result",
-    message: "Evaluation complete",
+    title: "Risultato",
+    message: "Quiz valutato",
     data: evaluatedQuestions,
   );
 }

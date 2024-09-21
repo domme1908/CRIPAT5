@@ -34,8 +34,10 @@ class _TopicListPageState extends State<TopicListPage> {
     // Fetch all topics from API (this assumes your QuizAPI returns topics)
     var topicsRaw = await QuizAPI().topics().onError((error, stackTrace) {
       _error = error.toString();
+      print(error);
       return [];
     });
+    print(topicsRaw.length); 
 
     for (Topic newTopicsRaw in topicsRaw) {
       var find = topics.where((element) => element.id == newTopicsRaw.id);

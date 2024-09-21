@@ -13992,10 +13992,12 @@
         "img_url": "assets/img/figure/39.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14007,10 +14009,12 @@
         "img_url": "assets/img/figure/39.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14022,10 +14026,12 @@
         "img_url": "assets/img/figure/39.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14036,10 +14042,12 @@
         "text": "Per limitare i consumi di carburante: Conviene utilizzare carburanti più economici.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14050,10 +14058,12 @@
         "text": "Per limitare i consumi di carburante: Si deve marciare ad un elevato numero di giri del motore.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14064,10 +14074,12 @@
         "text": "Per limitare i consumi di carburante: È opportuno eliminare i carichi sul tetto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14079,10 +14091,12 @@
         "img_url": "assets/img/figure/85.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14093,10 +14107,12 @@
         "text": "Il segnale n. 85 non vale per gli autobus.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14107,10 +14123,12 @@
         "text": "Il segnale n. 85 vieta la sosta sia di giorno che di notte, anche nei centri abitati.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14121,10 +14139,12 @@
         "text": "Su una strada a quattro carreggiate, quelle centrali sono riservate al sorpasso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14135,10 +14155,12 @@
         "text": "Si può transitare sui binari tranviari a raso senza ostacolare la marcia dei tram.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14149,10 +14171,12 @@
         "text": "Su una strada extraurbana principale la sosta è ammessa solo su aree a ciò destinate.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14164,10 +14188,12 @@
         "img_url": "assets/img/figure/638.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14178,10 +14204,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 638: Il veicolo B può passare dopo il veicolo N.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14192,10 +14220,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 638: Il veicolo D può passare dopo il veicolo R.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14207,10 +14237,12 @@
         "img_url": "assets/img/figure/693.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14221,10 +14253,12 @@
         "text": "Il proiettore acceso così come lo si vede nella figura n. 693 è un proiettore con la luce abbagliante accesa.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14235,10 +14269,12 @@
         "text": "Il proiettore acceso così come lo si vede nella figura n. 693 non illumina correttamente la strada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14250,10 +14286,12 @@
         "img_url": "assets/img/figure/153.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14264,10 +14302,12 @@
         "text": "Il segnale n. 153 indica il divieto di svoltare a destra o sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14278,10 +14318,12 @@
         "text": "Il segnale n. 153 indica un senso unico alternato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14293,10 +14335,12 @@
         "img_url": "assets/img/figure/718.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14307,10 +14351,12 @@
         "text": "Il simbolo rappresentato in figura n. 718 individua una spia luminosa di colore giallo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14321,10 +14367,12 @@
         "text": "Il simbolo rappresentato in figura n. 718 identifica il comando di accensione della luce posteriore per nebbia.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14335,10 +14383,12 @@
         "text": "Durante l’espletamento di un servizio urgente d’istituto, quali dispositivi supplementari devo usare: Luci di emergenza accese e lampeggianti blu.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14349,10 +14399,12 @@
         "text": "Durante l’espletamento di un servizio urgente d’istituto, quali dispositivi supplementari devo usare: Lampeggianti blu, sirena in maniera simultanea e continuativa.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14363,10 +14415,12 @@
         "text": "Durante l’espletamento di un servizio urgente d’istituto, quali dispositivi supplementari devo usare: Lampeggianti blu, sirena e luci anabbaglianti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14377,10 +14431,12 @@
         "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo: Ripetere due volte il mio identificativo e poi quello di chi si chiama.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14391,10 +14447,12 @@
         "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo: Chiamare prima il codice del chiamato poi la propria sigla.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14405,10 +14463,12 @@
         "text": "Per effettuare una chiamata radio da un mezzo CRI ad una postazione fissa devo: Utilizzare, se conosciuta la codifica del terminale chiamato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14426,10 +14486,12 @@
         "img_url": "assets/img/figure/24.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14440,10 +14502,12 @@
         "text": "In presenza del segnale n. 24, opportunamente integrato, è necessario: In caso di pioggia, accelerare bruscamente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14454,10 +14518,12 @@
         "text": "In presenza del segnale n. 24, opportunamente integrato, è necessario: In caso di ghiaccio, moderare la velocità ed evitare brusche accelerate.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14468,10 +14534,12 @@
         "text": "Gli ammortizzatori scarichi provocano: Un maggior consumo di lubrificante.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14482,10 +14550,12 @@
         "text": "Gli ammortizzatori scarichi provocano: Un minor caricamento laterale del veicolo in curva.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14496,10 +14566,12 @@
         "text": "Gli ammortizzatori scarichi provocano: Un comportamento anomalo del veicolo in frenata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14511,10 +14583,12 @@
         "img_url": "assets/img/figure/151.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14525,10 +14599,12 @@
         "text": "Il segnale n. 151 è un divieto di transito per determinate categorie di veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14539,10 +14615,12 @@
         "text": "Il segnale n. 151 preavvisa un segnale di divieto per autocarri ed autotreni.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14553,10 +14631,12 @@
         "text": "La distanza di sicurezza dipende: Dalla velocità del veicolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14567,10 +14647,12 @@
         "text": "La distanza di sicurezza dipende: Dalla larghezza della carreggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14581,10 +14663,12 @@
         "text": "La distanza di sicurezza dipende: Dal tempo di reazione del conducente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14596,10 +14680,12 @@
         "img_url": "assets/img/figure/665.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14610,10 +14696,12 @@
         "text": "Nell’incrocio rappresentato in figura n. 665: I veicoli disimpegnano l’incrocio nel seguente ordine: A, E, C, V, H.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14624,10 +14712,12 @@
         "text": "Nell’incrocio rappresentato in figura n. 665: Il veicolo E può passare prima del veicolo H.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14638,10 +14728,12 @@
         "text": "I dispositivi di segnalazione acustica (clacson, trombe): Possono usarsi in un centro abitato in prossimità di un ospedale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14652,10 +14744,12 @@
         "text": "I dispositivi di segnalazione acustica (clacson, trombe): Si possono utilizzare fuori dai centri abitati, se è consigliabile, per evitare incidenti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14666,10 +14760,12 @@
         "text": "I dispositivi di segnalazione acustica (clacson, trombe): Debbono usarsi sempre fuori dai centri abitati, se si intende sorpassare.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14681,10 +14777,12 @@
         "img_url": "assets/img/figure/245.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14695,10 +14793,12 @@
         "text": "Il segnale di figura n. 245, se di colore verde, è installato lungo un’autostrada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14709,10 +14809,12 @@
         "text": "Il segnale di figura n. 245 indica che le corsie di sinistra sono destinate al traffico normale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14724,10 +14826,12 @@
         "img_url": "assets/img/figure/720.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14738,10 +14842,12 @@
         "text": "Il simbolo rappresentato in figura n. 720 individua il comando delle luci di stazionamento.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14752,10 +14858,12 @@
         "text": "Il simbolo rappresentato in figura n. 720 contrassegna la spia del freno di stazionamento.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14766,10 +14874,12 @@
         "text": "Cosa si deve fare alla guida di un’ambulanza durante un soccorso urgente, all’intimazione di ALT da parte delle forze dell’ordine? Occorre fermarsi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14780,10 +14890,12 @@
         "text": "Cosa si deve fare alla guida di un’ambulanza durante un soccorso urgente, all’intimazione di ALT da parte delle forze dell’ordine? Non si è tenuti a fermarsi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14794,10 +14906,12 @@
         "text": "Cosa si deve fare alla guida di un’ambulanza durante un soccorso urgente, all’intimazione di ALT da parte delle forze dell’ordine? Si può proseguire il servizio e la Polizia potrà seguire l’ambulanza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14808,10 +14922,12 @@
         "text": "Come si deve comportare un conducente di ambulanza, quando i pedoni tardano a scansarsi? Deve azionare i dispositivi di allarme senza aumentare la velocità.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14822,10 +14938,12 @@
         "text": "Come si deve comportare un conducente di ambulanza, quando i pedoni tardano a scansarsi? Deve fermarsi solo se i pedoni sono su un’attraversamento pedonale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14836,10 +14954,12 @@
         "text": "Come si deve comportare un conducente di ambulanza, quando i pedoni tardano a scansarsi? Deve in ogni caso rallentare e all’occorrenza fermarsi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14857,10 +14977,12 @@
         "img_url": "assets/img/figure/7.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14871,10 +14993,12 @@
         "text": "In presenza del segnale n. 7, è necessario regolare la velocità in relazione alle condizioni del carico del veicolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14885,10 +15009,12 @@
         "text": "In presenza del segnale n. 7, è opportuno fare particolare attenzione ai veicoli provenienti dal senso opposto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14899,10 +15025,12 @@
         "text": "Una zona a traffico limitato può essere: Un’area sempre e comunque esclusa al traffico dei veicoli a motore.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14913,10 +15041,12 @@
         "text": "Una zona a traffico limitato può essere: Un’area nella quale la circolazione è riservata a particolari categorie di utenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14927,10 +15057,12 @@
         "text": "Una zona a traffico limitato può essere: Una zona nella quale non può accedere più di un certo numero di veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14942,10 +15074,12 @@
         "img_url": "assets/img/figure/95.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14956,10 +15090,12 @@
         "text": "Il segnale n. 95, posto prima di un incrocio, non consente di proseguire diritto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14970,10 +15106,12 @@
         "text": "Il segnale n. 95 è un segnale di indicazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -14984,10 +15122,12 @@
         "text": "Nella fase di rientro dal sorpasso il conducente deve: Distanziarsi di almeno 100 metri dal veicolo sorpassato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -14998,10 +15138,12 @@
         "text": "Nella fase di rientro dal sorpasso il conducente deve: Affrettare la manovra in autostrada onde evitare la formazione di code.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15012,10 +15154,12 @@
         "text": "Nella fase di rientro dal sorpasso il conducente deve: Rientrare repentinamente, soprattutto in caso di pioggia.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15027,10 +15171,12 @@
         "img_url": "assets/img/figure/640.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15041,10 +15187,12 @@
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: Il veicolo B dopo l’attraversamento dei veicoli R e D.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15055,10 +15203,12 @@
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: Il veicolo B contemporaneamente al veicolo R e prima di quello D.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15070,10 +15220,12 @@
         "img_url": "assets/img/figure/718.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15084,10 +15236,12 @@
         "text": "Il simbolo rappresentato in figura n. 718: È posto sul comando di accensione dei proiettori fendinebbia anteriori.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15098,10 +15252,12 @@
         "text": "Il simbolo rappresentato in figura n. 718: Individua una spia luminosa di colore giallo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15113,10 +15269,12 @@
         "img_url": "assets/img/figure/77.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15127,10 +15285,12 @@
         "text": "Il segnale n. 77: Si applica solo agli autoveicoli per il trasporto merci.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15141,10 +15301,12 @@
         "text": "Il segnale n. 77: Si applica anche agli autobus.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15156,10 +15318,12 @@
         "img_url": "assets/img/figure/567.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15170,10 +15334,12 @@
         "text": "Rispetto al veicolo che procede nel senso della freccia, la segnaletica orizzontale rappresentata in figura n. 567: Viene impiegata subito dopo un dosso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15184,10 +15350,12 @@
         "text": "Rispetto al veicolo che procede nel senso della freccia, la segnaletica orizzontale rappresentata in figura n. 567: Viene impiegata subito prima di un incrocio.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15198,10 +15366,12 @@
         "text": "Un’ambulanza che proviene da sinistra, ha la precedenza? Si, sempre.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15212,10 +15382,12 @@
         "text": "Un’ambulanza che proviene da sinistra, ha la precedenza? La chiede solo quando ha in funzione i segnali d’allarme.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15226,10 +15398,12 @@
         "text": "Un’ambulanza che proviene da sinistra, ha la precedenza? No, in nessun caso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15240,10 +15414,12 @@
         "text": "Come deve essere trasportato un sospetto fratturato di colonna vertebrale? Con urgenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15254,10 +15430,12 @@
         "text": "Come deve essere trasportato un sospetto fratturato di colonna vertebrale? Con precauzione, senza fretta.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15268,10 +15446,12 @@
         "text": "Come deve essere trasportato un sospetto fratturato di colonna vertebrale? Usando ogni cautela, evitando sobbalzi e brusche frenate.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15289,10 +15469,12 @@
         "img_url": "assets/img/figure/30.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15303,10 +15485,12 @@
         "text": "Il segnale n. 30: Può presegnalare un ponte interrotto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15317,10 +15501,12 @@
         "text": "Il segnale n. 30: Può presegnalare un tratto di strada interrotta per alluvione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15331,10 +15517,12 @@
         "text": "Quando si vuole cambiare corsia: In prossimità degli incroci, si può sempre farlo prima della striscia di arresto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15345,10 +15533,12 @@
         "text": "Quando si vuole cambiare corsia: Bisogna accertare che la corsia da impegnare sia libera anteriormente per un tratto sufficiente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15359,10 +15549,12 @@
         "text": "Quando si vuole cambiare corsia: Ci si deve accertare che la striscia di delimitazione della corsia sia tratteggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15374,10 +15566,12 @@
         "img_url": "assets/img/figure/85.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15388,10 +15582,12 @@
         "text": "Il segnale n. 85: Lungo le strada dove è posto vale 24 ore su 24.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15402,10 +15598,12 @@
         "text": "Il segnale n. 85: Lungo le strade urbane indica che il divieto di fermata vige dalle ore 8 alle ore 20.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15416,10 +15614,12 @@
         "text": "La squilibratura dei freni può dipendere da: Eccessivo gioco del pedale del freno.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15430,10 +15630,12 @@
         "text": "La squilibratura dei freni può dipendere da: Pistoncino bloccato nel cilindretto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15444,10 +15646,12 @@
         "text": "La squilibratura dei freni può dipendere da: Differente pressione di gonfiaggio dei pneumatici anteriori rispetto a quelli posteriori.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15459,10 +15663,12 @@
         "img_url": "assets/img/figure/640.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15473,10 +15679,12 @@
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: I veicoli transitano nel seguente ordine: B, T, S.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15487,10 +15695,12 @@
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: I veicoli B ed S possono passare contemporaneamente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15502,10 +15712,12 @@
         "img_url": "assets/img/figure/163.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15516,10 +15728,12 @@
         "text": "Il segnale n. 163: È posto sul comando di accensione dei proiettori fendinebbia anteriori.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15530,10 +15744,12 @@
         "text": "Il segnale n. 163: Non obbliga ad arrestarsi per il controllo doganale al confine di stato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15545,10 +15761,12 @@
         "img_url": "assets/img/figure/141.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15559,10 +15777,12 @@
         "text": "Il pannello integrativo n. 141: È posto dove la sosta di un veicolo costituisce grave intralcio alla circolazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15573,10 +15793,12 @@
         "text": "Il pannello integrativo n. 141: Prevede lo spostamento del veicolo o il blocco dello stesso con attrezzo a chiave.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15588,10 +15810,12 @@
         "img_url": "assets/img/figure/546.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15602,10 +15826,12 @@
         "text": "La striscia gialla a zig zag in figura n. 546: Interessa solo gli autobus.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15616,10 +15842,12 @@
         "text": "La striscia gialla a zig zag in figura n. 546: Vieta il transito ai veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15630,10 +15858,12 @@
         "text": "Come ci si comporta in emergenza dietro ad un veicolo in prossimità di un dosso o di una curva cieca? Si sorpassa solo se il veicolo che precede favorisce il sorpasso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15644,10 +15874,12 @@
         "text": "Come ci si comporta in emergenza dietro ad un veicolo in prossimità di un dosso o di una curva cieca? Si sorpassa, in quanto i dispositivi di allarme danno diritto di precedenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15658,10 +15890,12 @@
         "text": "Come ci si comporta in emergenza dietro ad un veicolo in prossimità di un dosso o di una curva cieca? Non si sorpassa fino a quando la visibilità non lo consente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15672,10 +15906,12 @@
         "text": "In emergenza di fronte ad un divieto di transito, come ci si comporta? Si prosegue azionando i dispositivi supplementari di allarme.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15686,10 +15922,12 @@
         "text": "In emergenza di fronte ad un divieto di transito, come ci si comporta? Si prosegue solo se si conosce il motivo per cui è stato collocato il segnale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15700,10 +15938,12 @@
         "text": "In emergenza di fronte ad un divieto di transito, come ci si comporta? Si prosegue rapidamente in modo da sgomberare la strada il più rapidamente possibile.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15721,10 +15961,12 @@
         "img_url": "assets/img/figure/11.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15735,10 +15977,12 @@
         "text": "Il segnale DOPPIA CROCE DI S. ANDREA (figura n. 11): Invita a fare attenzione perché potrebbe arrivare un altro treno su un altro binario.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15749,10 +15993,12 @@
         "text": "Il segnale DOPPIA CROCE DI S. ANDREA (figura n. 11): Indica che la linea ferroviaria ha solo due binari.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15763,10 +16009,12 @@
         "text": "La distanza di sicurezza di un veicolo rispetto a quello che lo precede deve essere: Valutata in relazione alle condizioni atmosferiche.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15777,10 +16025,12 @@
         "text": "La distanza di sicurezza di un veicolo rispetto a quello che lo precede deve essere: Tale da evitare collisioni con i veicoli che precedono.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15791,10 +16041,12 @@
         "text": "La distanza di sicurezza di un veicolo rispetto a quello che lo precede deve essere: Di almeno 100 metri in caso di nevicata in atto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15806,10 +16058,12 @@
         "img_url": "assets/img/figure/62.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15820,10 +16074,12 @@
         "text": "Il segnale n. 62: Consente il transito agli autoveicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15834,10 +16090,12 @@
         "text": "Il segnale n. 62: Vieta il traffico ai ciclomotori.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15849,10 +16107,12 @@
         "img_url": "assets/img/figure/161.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15863,10 +16123,12 @@
         "text": "I segnali luminosi della figura n. 161: Indicano le velocità consigliate anche a semaforo spento.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15877,10 +16139,12 @@
         "text": "I segnali luminosi della figura n. 161: Indicano di procedere con prudenza se a luce lampeggiante gialla.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15892,10 +16156,12 @@
         "img_url": "assets/img/figure/638.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15906,10 +16172,12 @@
         "text": "Nell’incrocio rappresentato nella figura 638, il conducente del veicolo B: Deve impegnare per ultimo l’incrocio perché svolta a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15920,10 +16188,12 @@
         "text": "Nell’incrocio rappresentato nella figura 638, il conducente del veicolo B: Può concludere la manovra di svolta a sinistra dopo il transito del veicolo N.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15935,10 +16205,12 @@
         "img_url": "assets/img/figure/96.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15949,10 +16221,12 @@
         "text": "Il segnale n. 96: È un segnale di indicazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15963,10 +16237,12 @@
         "text": "Il segnale n. 96: Può essere integrato con un pannello che indica la distanza dal punto in cui vige l’obbligo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -15978,10 +16254,12 @@
         "img_url": "assets/img/figure/706.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -15992,10 +16270,12 @@
         "text": "Il simbolo rappresentato in figura n. 706: Posto su una spia accesa, indica l’eccessiva temperatura dell’olio motore.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16006,10 +16286,12 @@
         "text": "Il simbolo rappresentato in figura n. 706: È posto su un dispositivo che dà indicazioni sulla pressione del lubrificante nel motore.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16020,10 +16302,12 @@
         "text": "La sospensione della patente è disposta: Quando il titolare affidi la guida del proprio veicolo a chi è privo di patente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16034,10 +16318,12 @@
         "text": "La sospensione della patente è disposta: Quando si circola abusivamente con un veicolo sottoposto a sequestro.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16048,10 +16334,12 @@
         "text": "La sospensione della patente è disposta: Quando siano violate le disposizioni sull’equipaggiamento dei veicoli con cinture di sicurezza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16062,10 +16350,12 @@
         "text": "Un’ambulanza che proviene da sinistra ha la precedenza? Si, sempre.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16076,10 +16366,12 @@
         "text": "Un’ambulanza che proviene da sinistra ha la precedenza? La chiede solo quando ha in funzione i segnali di allarme.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16090,10 +16382,12 @@
         "text": "Un’ambulanza che proviene da sinistra ha la precedenza? No, in nessun caso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16104,10 +16398,12 @@
         "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? Si, se il malato non è grave ed è accompagnato da parenti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16118,10 +16414,12 @@
         "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? No, mai.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16132,10 +16430,12 @@
         "text": "Durante il trasporto di un malato, è consentito al barelliere di sedere accanto all’autista? Si, se il malato non è in pericolo di vita.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16153,10 +16453,12 @@
         "img_url": "assets/img/figure/42.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16167,10 +16469,12 @@
         "text": "Il segnale n. 42: È un preavviso di dare la precedenza sia a destra che a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16181,10 +16485,12 @@
         "text": "Il segnale n. 42: Indica la distanza dal prossimo segnale di stop.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16195,10 +16501,12 @@
         "text": "Su strade extraurbane principali il limite massimo di velocità è di: 100 Km/h per autocarri di massa complessiva fino a 3,5 t.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16209,10 +16517,12 @@
         "text": "Su strade extraurbane principali il limite massimo di velocità è di: 110 Km/h per autoveicoli adibiti al trasporto di persone o cose fino a 3,5 t.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16223,10 +16533,12 @@
         "text": "Su strade extraurbane principali il limite massimo di velocità è di: 100 Km/h per motocicli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16238,10 +16550,12 @@
         "img_url": "assets/img/figure/284.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16252,10 +16566,12 @@
         "text": "Il segnale di figura n. 284: Preavvisa “direzione obbligatoria” per autocarri in transito.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16266,10 +16582,12 @@
         "text": "Il segnale di figura n. 284: Obbliga tutti i veicoli a proseguire diritto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16281,10 +16599,12 @@
         "img_url": "assets/img/figure/203.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16295,10 +16615,12 @@
         "text": "Il segnale n. 203 si può trovare: Per segnalare una strada a due corsie delimitate sulla carreggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16309,10 +16631,12 @@
         "text": "Il segnale n. 203 si può trovare: Ad integrazione di segnali di direzione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16324,10 +16648,12 @@
         "img_url": "assets/img/figure/654.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16338,10 +16664,12 @@
         "text": "Nella situazione rappresentata in figura n. 654: Il veicolo A deve attendere il transito dei veicoli C ed R.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16352,10 +16680,12 @@
         "text": "Nella situazione rappresentata in figura n. 654: I veicoli transitano nel seguente ordine: C, R, A, H.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16366,10 +16696,12 @@
         "text": "In caso di strada sdrucciolevole il conducente deve: Percorrere le forti discese con il cambio in folle, controllando la velocità tramite il freno.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16380,10 +16712,12 @@
         "text": "In caso di strada sdrucciolevole il conducente deve: Aumentare la distanza di sicurezza dal veicolo che lo precede.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16394,10 +16728,12 @@
         "text": "In caso di strada sdrucciolevole il conducente deve: Cercare di procedere a velocità quanto più possibile moderata e uniforme.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16408,10 +16744,12 @@
         "text": "La sospensione della patente è disposta: Quando il titolare di patente speciale, guida veicoli con adattamenti diversi da quelli prescritti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16422,10 +16760,12 @@
         "text": "La sospensione della patente è disposta: Qualora sorgano dubbi sulla persistenza dell’idoneità alla guida.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16436,10 +16776,12 @@
         "text": "La sospensione della patente è disposta: Qualora il titolare guidi con patente la cui validità sia scaduta.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16450,10 +16792,12 @@
         "text": "In relazione al contratto di assicurazione R.C.A. stipulato, l’impresa assicuratrice deve rilasciare al contraente: Un manuale completo sulle cautele da osservare per evitare incidenti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16464,10 +16808,12 @@
         "text": "In relazione al contratto di assicurazione R.C.A. stipulato, l’impresa assicuratrice deve rilasciare al contraente: Il certificato di assicurazione da esibire a richiesta assieme alla carta di circolazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16478,10 +16824,12 @@
         "text": "In relazione al contratto di assicurazione R.C.A. stipulato, l’impresa assicuratrice deve rilasciare al contraente: Un attestato annuo relativo allo stato di rischio.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16492,10 +16840,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? Si, in alcuni casi particolari.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16506,10 +16856,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? Si, sempre.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16520,10 +16872,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? No, mai.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16534,10 +16888,12 @@
         "text": "Giungendo sul luogo dell’incidente, qual è il compito dell’equipaggio? L’autista compila il rapportino, mentre il barelliere presta i primi soccorsi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16548,10 +16904,12 @@
         "text": "Giungendo sul luogo dell’incidente, qual è il compito dell’equipaggio? L’autista parcheggia il mezzo nel modo più idoneo per il soccorso, mentre il barelliere provvede a valutare la situazione e iniziare il soccorso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16562,10 +16920,12 @@
         "text": "Giungendo sul luogo dell’incidente, qual è il compito dell’equipaggio? L’autista provvede a valutare la situazione, mentre il barelliere attende i suoi ordini.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16583,10 +16943,12 @@
         "img_url": "assets/img/figure/9.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16597,10 +16959,12 @@
         "text": "In presenza del segnale n. 9: È possibile attraversare i binari anche se sbarrati da cavalletti a striscie bianche e rosse.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16611,10 +16975,12 @@
         "text": "In presenza del segnale n. 9: È necessario rallentare in relazione alla visibilità che presenta il passaggio a livello.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16626,10 +16992,12 @@
         "img_url": "assets/img/figure/126.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16640,10 +17008,12 @@
         "text": "Il pannello integrativo di figura n. 126: Posto sotto il segnale PARCHEGGIO indica un’area destinata alla sosta dei veicoli indicati.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16654,10 +17024,12 @@
         "text": "Il pannello integrativo di figura n. 126: Può integrare un segnale di divieto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16668,10 +17040,12 @@
         "text": "Il segnale n. 78: Consente il transito di una macchina agricola di massa a pieno carico pari a 7 t.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16682,10 +17056,12 @@
         "text": "Il segnale n. 78: Vieta il transito ai soli autoveicoli per trasporto merci di massa superiore a 7 t.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16696,10 +17072,12 @@
         "text": "Il segnale n. 78: Si può trovare prima di un ponte.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16710,10 +17088,12 @@
         "text": "L’autostrada: È aperta alla circolazione dei motocicli aventi cilindrata di 125 cc.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16724,10 +17104,12 @@
         "text": "L’autostrada: È riservata alla circolazione di alcune categorie di veicoli a motore.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16738,10 +17120,12 @@
         "text": "L’autostrada: È aperta alla circolazione dei motocicli con cilindrata di almeno 150 cc.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16753,10 +17137,12 @@
         "img_url": "assets/img/figure/647.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16767,10 +17153,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 647: Il veicolo B transita prima del veicolo O e dopo i veicoli L e H.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16781,10 +17169,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 647: Il veicolo O può impegnare l’incrocio per primo e si ferma al centro di esso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16796,10 +17186,12 @@
         "img_url": "assets/img/figure/521.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16810,10 +17202,12 @@
         "text": "Due strisce bianche discontinue che attraversano la carreggiata indicano (figura n. 521): Attraversamento ciclabile obliquo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16824,10 +17218,12 @@
         "text": "Due strisce bianche discontinue che attraversano la carreggiata indicano (figura n. 521): Precedenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16838,10 +17234,12 @@
         "text": "Il segnale 102 significa: Passaggio obbligatorio a destra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16852,10 +17250,12 @@
         "text": "Il segnale 102 significa: Che non è consentito superare l’ostacolo a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16866,10 +17266,12 @@
         "text": "Il segnale 102 significa: Che non è possibile proseguire su quella strada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16880,10 +17282,12 @@
         "text": "È obbligatorio dare la precedenza a destra e a sinistra: Quando si impegna una zona soggetta a circolazione rotatoria.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16894,10 +17298,12 @@
         "text": "È obbligatorio dare la precedenza a destra e a sinistra: Negli incroci regolati da semaforo a luce gialla lampeggiante.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16908,10 +17314,12 @@
         "text": "È obbligatorio dare la precedenza a destra e a sinistra: Quando si svolta a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16922,10 +17330,12 @@
         "text": "Quante persone è possibile trasportare su un’ambulanza? Un numero tale da non superare quanto stabilito dall’omologazione del mezzo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16936,10 +17346,12 @@
         "text": "Quante persone è possibile trasportare su un’ambulanza? Una o due.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16950,10 +17362,12 @@
         "text": "Quante persone è possibile trasportare su un’ambulanza? Tante quante ne consente la capienza del mezzo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16964,10 +17378,12 @@
         "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: Avvisiamo le forze dell’ordine.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -16978,10 +17394,12 @@
         "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: Lo costringiamo a salire in ambulanza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -16992,10 +17410,12 @@
         "text": "Il paziente in imminente pericolo di vita rifiuta il trasporto: Lo lasciamo dov’è e rientriamo in sede.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17013,10 +17433,12 @@
         "img_url": "assets/img/figure/22.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17027,10 +17449,12 @@
         "text": "Il segnale n. 22: Impone di fermarsi prima di attraversare il ponte.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17041,10 +17465,12 @@
         "text": "Il segnale n. 22: Può essere seguito da un dispositivo ottico con luce o luci rosse lampeggianti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17055,10 +17481,12 @@
         "text": "Nella fase di sorpasso, il conducente è tenuto a: Mantenere in ogni caso la stessa marcia ed accelerare a fondo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17069,10 +17497,12 @@
         "text": "Nella fase di sorpasso, il conducente è tenuto a: Mantenere una velocità almeno il doppio di quella del veicolo sorpassato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17083,10 +17513,12 @@
         "text": "Nella fase di sorpasso, il conducente è tenuto a: Iniziare la manovra a distanza non inferiore a quella di sicurezza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17097,10 +17529,12 @@
         "text": "Il segnale n. 60: Fa riferimento alla massa a vuoto dei veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17111,10 +17545,12 @@
         "text": "Il segnale n. 60: Vieta agli autocarri di massa superiore a 3,5 t il sorpasso di motocicli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17125,10 +17561,12 @@
         "text": "Il segnale n. 60: Consente ad un autobus da 18 t di sorpassare un autotreno.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17140,10 +17578,12 @@
         "img_url": "assets/img/figure/162.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17154,10 +17594,12 @@
         "text": "Il segnale n. 162: Di norma è posto sul lato destro della strada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17168,10 +17610,12 @@
         "text": "Il segnale n. 162: Entra in funzione subito prima dell’inizio dell’abbassamento delle semisbarre.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17183,10 +17627,12 @@
         "img_url": "assets/img/figure/650.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17197,10 +17643,12 @@
         "text": "Nell’incrocio rappresentato in figura n. 650, il conducente del veicolo E: Deve dare la precedenza al veicolo L.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17211,10 +17659,12 @@
         "text": "Nell’incrocio rappresentato in figura n. 650, il conducente del veicolo E: Passa per primo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17226,10 +17676,12 @@
         "img_url": "assets/img/figure/93.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17240,10 +17692,12 @@
         "text": "Il segnale n. 93: È un segnale di divieto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17254,10 +17708,12 @@
         "text": "Il segnale n. 93: È un segnale di corsia.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17268,10 +17724,12 @@
         "text": "La revisione della patente di guida può essere disposta: Per perdita permanente dei requisiti fisici e psichici prescritti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17282,10 +17740,12 @@
         "text": "La revisione della patente di guida può essere disposta: Dagli uffici della Motorizzazione Civile e dal Prefetto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17296,10 +17756,12 @@
         "text": "La revisione della patente di guida può essere disposta: Quando il titolare non sia più in possesso dei requisiti morali richiesti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17311,10 +17773,12 @@
         "img_url": "assets/img/figure/304.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17325,10 +17789,12 @@
         "text": "I pannelli a strisce oblique gialle e rosse raffigurati in figura n. 304: Sono retroflettenti e fluorescenti, per migliorare la visibilità notturna del veicolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17339,10 +17805,12 @@
         "text": "I pannelli a strisce oblique gialle e rosse raffigurati in figura n. 304: Sono obbligatori per tutti gli autoveicoli per trasporto di cose che superano a pieno carico 3,5 t.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17353,10 +17821,12 @@
         "text": "Come deve essere trasportato un paziente con diagnosi di infarto cardiaco? Velocemente ma con precauzione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17367,10 +17837,12 @@
         "text": "Come deve essere trasportato un paziente con diagnosi di infarto cardiaco? Con la massima prudenza evitando percorsi lunghi e sconnessi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17381,10 +17853,12 @@
         "text": "Come deve essere trasportato un paziente con diagnosi di infarto cardiaco? Alla massima velocità consentita dal mezzo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17395,10 +17869,12 @@
         "text": "Durante l’espletamento di un servizio urgente, si incontra un incidente stradale, come ci si comporta? Ci si ferma a prestare soccorso proseguendo poi per completare il precedente servizio.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17409,10 +17885,12 @@
         "text": "Durante l’espletamento di un servizio urgente, si incontra un incidente stradale, come ci si comporta? Si prosegue lasciando, se possibile, un barelliere a prestare soccorso e avvisando via radio la Centrale Operativa per l’intervento di altre ambulanze.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17423,10 +17901,12 @@
         "text": "Durante l’espletamento di un servizio urgente, si incontra un incidente stradale, come ci si comporta? Ci si ferma a prestare soccorso, inviando un’altra ambulanza sul luogo della prima richiesta.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17444,10 +17924,12 @@
         "img_url": "assets/img/figure/74.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17458,10 +17940,12 @@
         "text": "Il segnale n. 74: Indica una zona soggetta ad allagamento.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17472,10 +17956,12 @@
         "text": "Il segnale n. 74: Segnala la probabile presenza di acqua sulla carreggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17486,10 +17972,12 @@
         "text": "L’elevata pericolosità del sorpasso è determinata da: Presenza di autocarri in rallentamento sulle strade a senso unico.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17500,10 +17988,12 @@
         "text": "L’elevata pericolosità del sorpasso è determinata da: Possibilità di collisione, in fase di rientro in corsia, con il veicolo sorpassato.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17514,10 +18004,12 @@
         "text": "L’elevata pericolosità del sorpasso è determinata da: Possibilità di collisione, in fase di avvicinamento, con il veicolo da sorpassare.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17529,10 +18021,12 @@
         "img_url": "assets/img/figure/117.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17543,10 +18037,12 @@
         "text": "Il segnale n. 117: Indica la fine di un passaggio riservato per quadrupedi da soma.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17557,10 +18053,12 @@
         "text": "Il segnale n. 117: È un divieto di transito per cavalli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17571,10 +18069,12 @@
         "text": "Le strisce bianche longitudinali discontinue: Consentono l’inversione di marcia in condizioni di sicurezza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17585,10 +18085,12 @@
         "text": "Le strisce bianche longitudinali discontinue: Sono poste a separazione delle strade a quattro corsie, due per ogni senso di marcia.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17599,10 +18101,12 @@
         "text": "Le strisce bianche longitudinali discontinue: Possono essere superate sempre che siano rispettate tutte le altre norme di circolazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17614,10 +18118,12 @@
         "img_url": "assets/img/figure/652.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17628,10 +18134,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 652: Il veicolo F può passare per primo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17642,10 +18150,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 652: Il veicolo H deve attendere il transito del veicolo L.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17656,10 +18166,12 @@
         "text": "Lungo le autostrade: L’uso dei proiettori di profondità è vietato nei tratti provvisti di illuminazione sufficiente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17670,10 +18182,12 @@
         "text": "Lungo le autostrade: La sosta su corsia di emergenza è consentita per avaria che renda il veicolo inutilizzabile.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17684,10 +18198,12 @@
         "text": "Lungo le autostrade: La corsia d’emergenza si può sempre usare per la marcia dei veicoli in caso di traffico intenso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17698,10 +18214,12 @@
         "text": "In caso di nebbia fitta, è opportuno: Se costretti a fermarsi su carreggiata, usare la segnalazione luminosa di pericolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17712,10 +18230,12 @@
         "text": "In caso di nebbia fitta, è opportuno: Accendere i proiettori fendinebbia o, in mancanza, quelli anabbaglianti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17726,10 +18246,12 @@
         "text": "In caso di nebbia fitta, è opportuno: Usare le luci abbaglianti con fascio di profondità.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17741,10 +18263,12 @@
         "img_url": "assets/img/figure/128.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17755,10 +18279,12 @@
         "text": "Ciascuno dei pannelli integrativi n. 128: Posto sotto un segnale indica la fine della prescrizione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17769,10 +18295,12 @@
         "text": "Ciascuno dei pannelli integrativi n. 128: Sotto il segnale PERCORSO PEDONALE indica il punto da cui non è consentito il transito dei veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17783,10 +18311,12 @@
         "text": "Alla guida di un’ambulanza che non sia in servizio di emergenza a quale velocità devo attraversare un centro abitato? A non più di 30 Km/h.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17797,10 +18327,12 @@
         "text": "Alla guida di un’ambulanza che non sia in servizio di emergenza a quale velocità devo attraversare un centro abitato? A non più di 50 Km/h.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17811,10 +18343,12 @@
         "text": "Alla guida di un’ambulanza che non sia in servizio di emergenza a quale velocità devo attraversare un centro abitato? A non più di 70 Km/h.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17825,10 +18359,12 @@
         "text": "Da  chi  dovrebbe  essere  composto  l’equipaggio  tipo  per  trasporti  non  urgenti,  secondo regolamento? Autista ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17839,10 +18375,12 @@
         "text": "Da  chi  dovrebbe  essere  composto  l’equipaggio  tipo  per  trasporti  non  urgenti,  secondo regolamento? Autista e barelliere ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17853,10 +18391,12 @@
         "text": "Da  chi  dovrebbe  essere  composto  l’equipaggio  tipo  per  trasporti  non  urgenti,  secondo regolamento? Autista e due barellieri ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17874,10 +18414,12 @@
         "img_url": "assets/img/figure/53.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17888,10 +18430,12 @@
         "text": "Il segnale n. 53: I veicoli provenienti dal senso opposto devono dare la precedenza; occorre comunque prudenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17902,10 +18446,12 @@
         "text": "Il segnale n. 53: Dobbiamo tenere bene la destra, per consentire il passaggio anche ai veicoli che vengono di fronte.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17916,10 +18462,12 @@
         "text": "La corsia di accelerazione: È riservata all’effettuazione dei sorpassi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17930,10 +18478,12 @@
         "text": "La corsia di accelerazione: È destinata ai veicoli veloci.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17944,10 +18494,12 @@
         "text": "La corsia di accelerazione: Consente ai veicoli l’ingresso in una carreggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17959,10 +18511,12 @@
         "img_url": "assets/img/figure/84.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -17973,10 +18527,12 @@
         "text": "Il segnale n. 84: Consente la sosta nel tratto precedente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -17987,10 +18543,12 @@
         "text": "Il segnale n. 84: Nelle strade extraurbane, consente la sosta dopo le ore 20.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18001,10 +18559,12 @@
         "text": "Se per rottura dell’impianto frenante, l’efficienza dei freni è limitata alle sole ruote dell’asse posteriore, è consigliabile: Controllare il livello del liquido dei freni.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18015,10 +18575,12 @@
         "text": "Se per rottura dell’impianto frenante, l’efficienza dei freni è limitata alle sole ruote dell’asse posteriore, è consigliabile: Ridurre la distanza di sicurezza dal veicolo che precede.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18029,10 +18591,12 @@
         "text": "Se per rottura dell’impianto frenante, l’efficienza dei freni è limitata alle sole ruote dell’asse posteriore, è consigliabile: Ridurre la velocità.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18044,10 +18608,12 @@
         "img_url": "assets/img/figure/650.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18058,10 +18624,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura 650: Il veicolo R (filobus) ha la precedenza sugli altri veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18072,10 +18640,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura 650: Il veicolo R deve attendere il transito dei veicoli E ed N.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18087,10 +18657,12 @@
         "img_url": "assets/img/figure/160.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18101,10 +18673,12 @@
         "text": "Dei tre segnali rappresentati nella figura n. 160: I tipi B e C sono affiancati ad un semaforo veicolare.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18115,10 +18689,12 @@
         "text": "Dei tre segnali rappresentati nella figura n. 160: Il tipo C indica che nelle svolte a destra i veicoli debbono dare la precedenza ai velocipedi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18130,10 +18706,12 @@
         "img_url": "assets/img/figure/150.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18144,10 +18722,12 @@
         "text": "Il segnale n. 150: Preavvisa il divieto di svoltare a destra per i veicoli rappresentati in figura.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18158,10 +18738,12 @@
         "text": "Il segnale n. 150: Indica la direzione consigliata per gli autocarri in transito.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18173,10 +18755,12 @@
         "img_url": "assets/img/figure/282.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18187,10 +18771,12 @@
         "text": "Il segnale n. 282: Indica una deviazione con circolazione a senso unico verso Novara.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18201,10 +18787,12 @@
         "text": "Il segnale n. 282: È integrato con la lunghezza della deviazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18215,10 +18803,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? Si, in alcuni casi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18229,10 +18819,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? Si, sempre.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18243,10 +18835,12 @@
         "text": "Alla guida di un’ambulanza, è possibile il sorpasso a destra? No, mai.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18257,10 +18851,12 @@
         "text": "L’elisoccorso ha confermato il suo intervento: Si portano i primi soccorsi e, in caso di aggravamento, si carica il ferito e si trasporta presso il più vicino Pronto Soccorso ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18271,10 +18867,12 @@
         "text": "L’elisoccorso ha confermato il suo intervento: Si portano i primi soccorsi e in ogni modo si attende l’arrivo dell’elicottero ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18285,10 +18883,12 @@
         "text": "L’elisoccorso ha confermato il suo intervento: Assieme al barelliere, si valuta la situazione e la si comunica via radio al medico ",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18306,10 +18906,12 @@
         "img_url": "assets/img/figure/43.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18320,10 +18922,12 @@
         "text": "Il segnale n. 43: Si trova solo nelle strade urbane.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18334,10 +18938,12 @@
         "text": "Il segnale n. 43: Avverte che dobbiamo fermarci 20 mt. dopo il segnale e dare precedenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18348,10 +18954,12 @@
         "text": "La corsia di accelerazione: Accedere con le ruote dei veicoli sporche di fango.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18362,10 +18970,12 @@
         "text": "La corsia di accelerazione: Gettare dai veicoli in movimento qualsiasi cosa.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18376,10 +18986,12 @@
         "text": "La corsia di accelerazione: Transitare nelle zone riservate al parcheggio.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18391,10 +19003,12 @@
         "img_url": "assets/img/figure/109.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18405,10 +19019,12 @@
         "text": "Il segnale n. 109: Vieta l’attraversamento pedonale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18419,10 +19035,12 @@
         "text": "Il segnale n. 109: Indica la fine del percorso pedonale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18434,10 +19052,12 @@
         "img_url": "assets/img/figure/236.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18448,10 +19068,12 @@
         "text": "Il segnale n. 236: Su strade extraurbane deve essere preceduto dal triangolo di ATTRAVERSAMENTO CICLABILE pericolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18462,10 +19084,12 @@
         "text": "Il segnale n. 236: È abbinato alle strisce di attraversamento ciclabile.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18477,10 +19101,12 @@
         "img_url": "assets/img/figure/657.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18491,10 +19117,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 657: Il veicolo C deve dare la precedenza al veicolo A.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18505,10 +19133,12 @@
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 657: Il veicolo C non deve dare la precedenza ad alcun veicolo.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18520,10 +19150,12 @@
         "img_url": "assets/img/figure/66.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18534,10 +19166,12 @@
         "text": "Il segnale n. 66: Non si applica ai Taxi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18548,10 +19182,12 @@
         "text": "Il segnale n. 66: Permette il transito ai ciclomotori a due ruote.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18563,10 +19199,12 @@
         "img_url": "assets/img/figure/383.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18577,10 +19215,12 @@
         "text": "Se il vigile è a braccia aperte e distese perpendicolarmente alla nostra direzione: Dobbiamo fermarci prima della striscia trasversale di arresto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18591,10 +19231,12 @@
         "text": "Se il vigile è a braccia aperte e distese perpendicolarmente alla nostra direzione: Si può svoltare, ma non proseguire diritto.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18605,10 +19247,12 @@
         "text": "La corsia di decelerazione: È riservata ai veicoli lenti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18619,10 +19263,12 @@
         "text": "La corsia di decelerazione: Agevola l’uscita dei veicoli da una carreggiata.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18633,10 +19279,12 @@
         "text": "La corsia di decelerazione: È destinata al rallentamento dei veicoli.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18647,10 +19295,12 @@
         "text": "Le manifestazioni iniziali dello stato di shock sono: Pallore, sudorazione fredda, stato di agitazione, battiti del cuore deboli ma frequenti.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18661,10 +19311,12 @@
         "text": "Le manifestazioni iniziali dello stato di shock sono: Presenza di brividi, pelle molto pallida e sudorazione fredda alla fronte.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18675,10 +19327,12 @@
         "text": "Le manifestazioni iniziali dello stato di shock sono: Improvvisa pronuncia di frasi e parole senza senso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18689,10 +19343,12 @@
         "text": "In emergenza, nel centro abitato, è possibile tenere una velocità superiore al limite imposto dal codice della strada? Si, mantenendo una velocità di sicurezza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18703,10 +19359,12 @@
         "text": "In emergenza, nel centro abitato, è possibile tenere una velocità superiore al limite imposto dal codice della strada? No, mai.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18717,10 +19375,12 @@
         "text": "In emergenza, nel centro abitato, è possibile tenere una velocità superiore al limite imposto dal codice della strada? Si, purché non costituisca pericolo per tutti gli altri utenti della strada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18738,10 +19398,12 @@
         "img_url": "assets/img/figure/48.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18752,10 +19414,12 @@
         "text": "Il segnale n. 48: Presegnala l’incrocio con una strada che non ha diritto di precedenza.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18766,10 +19430,12 @@
         "text": "Il segnale n. 48: Presegnala un’immissione stradale con corsia di accelerazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18780,10 +19446,12 @@
         "text": "Gli ammortizzatori scarichi provocano: L’usura non uniforme del battistrada dei pneumatici.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18794,10 +19462,12 @@
         "text": "Gli ammortizzatori scarichi provocano: La possibile rottura delle molle delle sospensioni.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18808,10 +19478,12 @@
         "text": "Gli ammortizzatori scarichi provocano: Un minor coricamento laterale del veicolo in curva.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18823,10 +19495,12 @@
         "img_url": "assets/img/figure/56.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18837,10 +19511,12 @@
         "text": "In presenza del segnale rappresentato in figura n. 56, si possono sorpassare: I veicoli a motore che non sono in grado di superare la velocità di 40 Km/h.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18851,10 +19527,12 @@
         "text": "In presenza del segnale rappresentato in figura n. 56, si possono sorpassare: I veicoli a trazione animale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18865,10 +19543,12 @@
         "text": "Il passaggio a livello può essere caratterizzato dalla presenza di: Pannelli integrativi.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18879,10 +19559,12 @@
         "text": "Il passaggio a livello può essere caratterizzato dalla presenza di: Cavalcavia ferroviario.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18893,10 +19575,12 @@
         "text": "Il passaggio a livello può essere caratterizzato dalla presenza di: Luci rosse.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18908,10 +19592,12 @@
         "img_url": "assets/img/figure/661.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18922,10 +19608,12 @@
         "text": "Nell’incrocio rappresentato nella figura n. 661: I veicoli disimpegnano l’incrocio nel seguente ordine: E, L, C.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18936,10 +19624,12 @@
         "text": "Nell’incrocio rappresentato nella figura n. 661: I veicoli C ed E possono passare contemporaneamente.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18950,10 +19640,12 @@
         "text": "La doppia striscia longitudinale continua: Non può essere valicata per svoltare a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -18964,10 +19656,12 @@
         "text": "La doppia striscia longitudinale continua: Consente il sorpasso, ove consentito, senza oltrepassarla.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18978,10 +19672,12 @@
         "text": "La doppia striscia longitudinale continua: Può essere superata sempre che siano rispettate tutte le altre norme di circolazione.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -18993,10 +19689,12 @@
         "img_url": "assets/img/figure/97.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19007,10 +19705,12 @@
         "text": "Il segnale n. 97: Preavvisa l’unica direzione consentita.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -19021,10 +19721,12 @@
         "text": "Il segnale n. 97: Presegnala il senso unico di circolazione nella svolta a sinistra.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -19036,10 +19738,12 @@
         "img_url": "assets/img/figure/145.jpg",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19050,10 +19754,12 @@
         "text": "Il pannello integrativo n. 145 abbinato al segnale DIVIETO DI SOSTA: Limita nel tempo la validità del segnale DIVIETO DI SOSTA.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19064,10 +19770,12 @@
         "text": "Il pannello integrativo n. 145 abbinato al segnale DIVIETO DI SOSTA: Indica la presenza di un deposito con probabile uscita di mezzi per la pulizia stradale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -19078,10 +19786,12 @@
         "text": "È possibile trainare un’ambulanza? Si, in ogni caso.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -19092,10 +19802,12 @@
         "text": "È possibile trainare un’ambulanza? Si, quando non ci sono malati a bordo, rispettando il codice della strada.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19106,10 +19818,12 @@
         "text": "È possibile trainare un’ambulanza? No.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": false
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": true
           }
@@ -19120,10 +19834,12 @@
         "text": "In emergenza, di fronte ad un divieto di transito: Non si prosegue.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19134,10 +19850,12 @@
         "text": "In emergenza, di fronte ad un divieto di transito: Si prosegue azionando i dispositivi supplementari di allarme.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
@@ -19148,10 +19866,12 @@
         "text": "In emergenza, di fronte ad un divieto di transito: Si prosegue, se si conosce il motivo per cui è stato posto il segnale.",
         "answers": [
           {
+            "id": 1,
             "text": "Vero",
             "is_correct": true
           },
           {
+            "id": 2,
             "text": "Falso",
             "is_correct": false
           }
