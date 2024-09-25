@@ -1,4 +1,4 @@
-package com.hackatum.quiz
+package com.marcatech.cripat5
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:munich_data_quiz/model/dummy/dummy_assets.dart';
+import 'package:cri_pat_5/model/dummy/dummy_assets.dart';
 
 class Topic {
   Topic({

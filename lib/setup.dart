@@ -1,10 +1,10 @@
 
 import 'package:flutter/widgets.dart';
-import 'package:munich_data_quiz/controller/state/state.dart';
-import 'package:munich_data_quiz/root.dart';
-import 'package:munich_data_quiz/view/screen/home.dart';
-import 'package:munich_data_quiz/view/screen/setup/init.dart';
-import 'package:munich_data_quiz/view/screen/waiting.dart';
+import 'package:cri_pat_5/controller/state/state.dart';
+import 'package:cri_pat_5/root.dart';
+import 'package:cri_pat_5/view/screen/home.dart';
+import 'package:cri_pat_5/view/screen/setup/init.dart';
+import 'package:cri_pat_5/view/screen/waiting.dart';
 import 'package:provider/provider.dart';
 
 class SetupSequence extends StatefulWidget {

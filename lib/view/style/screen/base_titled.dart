@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/cupertino.dart';
-import 'package:munich_data_quiz/view/style/screen/base.dart';
+import 'package:cri_pat_5/view/style/screen/base.dart';
 
 class BaseScreenTitled extends StatelessWidget {
   BaseScreenTitled({this.child, this.titleBar, Key? key}) : super(key: key);

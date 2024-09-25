@@ -19,7 +19,7 @@ class APIClient {
     // At first, we try to get the response by fetching it from the web server
     var response = await httpClient.get(url, headers: {
       "Accept": "application/json",
-      "User-Agent": "munich_data_quiz",
+      "User-Agent": "cri_pat_5",
     }).timeout(const Duration(seconds: 10));
 
     if (kDebugMode) {

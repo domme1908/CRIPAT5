@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
-import 'package:munich_data_quiz/model/dummy/dummy_assets.dart';
+import 'package:cri_pat_5/model/dummy/dummy_assets.dart';
 
 class ImageWidget extends StatefulWidget {
   const ImageWidget(this.imageURL, {this.heroTag, this.id, Key? key})

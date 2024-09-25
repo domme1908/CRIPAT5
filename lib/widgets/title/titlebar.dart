@@ -3,10 +3,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/view/widget/button/colored_icon_button.dart';
-import 'package:munich_data_quiz/widgets/title/titles.dart';
-import 'package:munich_data_quiz/widgets/title/titletext.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/view/widget/button/colored_icon_button.dart';
+import 'package:cri_pat_5/widgets/title/titles.dart';
+import 'package:cri_pat_5/widgets/title/titletext.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TitleBarWidget extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:munich_data_quiz/constants/text.dart';
-import 'package:munich_data_quiz/widgets/title/titles.dart';
+import 'package:cri_pat_5/constants/text.dart';
+import 'package:cri_pat_5/widgets/title/titles.dart';
 
 class LogoTitle extends StatelessWidget {
   LogoTitle({

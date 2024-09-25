@@ -1,7 +1,7 @@
 
 import 'package:flutter/widgets.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
 
 class TitleH1Widget extends StatelessWidget {
   TitleH1Widget({

@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/view/widget/dialog/popup_dialog_widget.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/view/widget/dialog/popup_dialog_widget.dart';
 
 class ConfirmPopup {
 

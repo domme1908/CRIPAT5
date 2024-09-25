@@ -4,17 +4,17 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:munich_data_quiz/api/models.dart';
-import 'package:munich_data_quiz/api/quiz_api.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/model/dummy/dummy_numbers.dart';
-import 'package:munich_data_quiz/view/screen/quiz_page.dart';
-import 'package:munich_data_quiz/view/style/screen/base_titled.dart';
-import 'package:munich_data_quiz/view/widget/button/rounded_button.dart';
-import 'package:munich_data_quiz/view/widget/dialog/popup_dialog_widget.dart';
-import 'package:munich_data_quiz/widgets/image_widget.dart';
-import 'package:munich_data_quiz/widgets/title/titlebar.dart';
+import 'package:cri_pat_5/api/models.dart';
+import 'package:cri_pat_5/api/quiz_api.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/model/dummy/dummy_numbers.dart';
+import 'package:cri_pat_5/view/screen/quiz_page.dart';
+import 'package:cri_pat_5/view/style/screen/base_titled.dart';
+import 'package:cri_pat_5/view/widget/button/rounded_button.dart';
+import 'package:cri_pat_5/view/widget/dialog/popup_dialog_widget.dart';
+import 'package:cri_pat_5/widgets/image_widget.dart';
+import 'package:cri_pat_5/widgets/title/titlebar.dart';
 import 'package:loading_btn/loading_btn.dart'; // Updated import
 
 class TopicPage extends StatefulWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/api/models.dart';
-import 'package:munich_data_quiz/api/quiz_api.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/view/screen/topic_details.dart';
+import 'package:cri_pat_5/api/models.dart';
+import 'package:cri_pat_5/api/quiz_api.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/view/screen/topic_details.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 

@@ -1,8 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/controller/db/app_db.dart';
-import 'package:munich_data_quiz/controller/preferences/app_preferences.dart';
+import 'package:cri_pat_5/controller/db/app_db.dart';
+import 'package:cri_pat_5/controller/preferences/app_preferences.dart';
 
 enum AppState {
   INITIALIZATION,

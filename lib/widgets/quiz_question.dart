@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/api/models.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/widgets/image_widget.dart';
+import 'package:cri_pat_5/api/models.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/widgets/image_widget.dart';
 
 class QuizQuestionWidget extends StatefulWidget {
   const QuizQuestionWidget(this.question, this.selectedAnswers, {Key? key})

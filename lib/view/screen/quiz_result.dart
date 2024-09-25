@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/api/models.dart';
-import 'package:munich_data_quiz/api/quiz_api.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/controller/screen_size.dart';
-import 'package:munich_data_quiz/view/style/screen/base_titled.dart';
-import 'package:munich_data_quiz/widgets/image_widget.dart';
-import 'package:munich_data_quiz/widgets/title/titlebar.dart';
+import 'package:cri_pat_5/api/models.dart';
+import 'package:cri_pat_5/api/quiz_api.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/controller/screen_size.dart';
+import 'package:cri_pat_5/view/style/screen/base_titled.dart';
+import 'package:cri_pat_5/widgets/image_widget.dart';
+import 'package:cri_pat_5/widgets/title/titlebar.dart';
 import 'package:provider/provider.dart';
 
 class QuizResultPage extends StatefulWidget {

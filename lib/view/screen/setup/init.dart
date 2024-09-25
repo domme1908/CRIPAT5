@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/view/style/screen/base.dart';
+import 'package:cri_pat_5/view/style/screen/base.dart';
 
 
 class InitScreen extends StatefulWidget {

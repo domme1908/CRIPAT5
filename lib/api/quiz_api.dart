@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/services.dart'; // Required to load local assets
-import 'package:munich_data_quiz/api/models.dart';
+import 'package:cri_pat_5/api/models.dart';
 
 class QuizAPI {
   // Singleton: the QuizAPI "constructor" always returns the same object

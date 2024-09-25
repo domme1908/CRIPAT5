@@ -1,6 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
+import 'package:cri_pat_5/constants/theme.dart';
 
 class InfoCard extends StatelessWidget {
   InfoCard({

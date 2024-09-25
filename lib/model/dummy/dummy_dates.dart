@@ -1,5 +1,5 @@
 
-import 'package:munich_data_quiz/model/random.dart';
+import 'package:cri_pat_5/model/random.dart';
 
 class DummyDates {
 

@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/widgets.dart';
-import 'package:munich_data_quiz/view/style/screen/base.dart';
-import 'package:munich_data_quiz/view/widget/StateDisplay.dart';
+import 'package:cri_pat_5/view/style/screen/base.dart';
+import 'package:cri_pat_5/view/widget/StateDisplay.dart';
 
 class WaitingScreen extends StatelessWidget {
   const WaitingScreen({Key? key}) : super(key: key);

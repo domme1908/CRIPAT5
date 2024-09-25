@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/view/widget/button/rounded_button.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/view/widget/button/rounded_button.dart';
 
 class PopupDialogWidget extends StatefulWidget {
   PopupDialogWidget({

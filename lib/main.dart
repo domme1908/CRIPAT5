@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/setup.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/setup.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(

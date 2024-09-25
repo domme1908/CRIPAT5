@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:munich_data_quiz/api/models.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/constants/theme.dart';
-import 'package:munich_data_quiz/view/screen/quiz_result.dart';
-import 'package:munich_data_quiz/view/style/screen/base_titled.dart';
-import 'package:munich_data_quiz/view/widget/button/rounded_button.dart';
-import 'package:munich_data_quiz/view/widget/dialog/popup_dialog_widget.dart';
-import 'package:munich_data_quiz/widgets/quiz_question.dart';
-import 'package:munich_data_quiz/widgets/title/titlebar.dart';
+import 'package:cri_pat_5/api/models.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/constants/theme.dart';
+import 'package:cri_pat_5/view/screen/quiz_result.dart';
+import 'package:cri_pat_5/view/style/screen/base_titled.dart';
+import 'package:cri_pat_5/view/widget/button/rounded_button.dart';
+import 'package:cri_pat_5/view/widget/dialog/popup_dialog_widget.dart';
+import 'package:cri_pat_5/widgets/quiz_question.dart';
+import 'package:cri_pat_5/widgets/title/titlebar.dart';
 import 'package:page_view_indicators/circle_page_indicator.dart';
 
 class QuizPage extends StatefulWidget {

@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:munich_data_quiz/constants/color.dart';
-import 'package:munich_data_quiz/controller/screen_size.dart';
+import 'package:cri_pat_5/constants/color.dart';
+import 'package:cri_pat_5/controller/screen_size.dart';
 import 'package:provider/provider.dart';
 
 class BaseScreen extends StatefulWidget {
