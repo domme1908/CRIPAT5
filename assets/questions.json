@@ -510,7 +510,6 @@
         "id": 1,
         "text": "Il segnale n.84 consente la sosta nel tratto precedente.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -528,7 +527,6 @@
         "id": 2,
         "text": "Il segnale n.84 opportunamente integrato, può vietare la sosta, nei centri abitati dalle 0 alle 24.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -546,7 +544,6 @@
         "id": 3,
         "text": "Il segnale n.84 può sempre comportare la rimozione del veicolo.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -612,7 +609,6 @@
         "id": 7,
         "text": "Il segnale n.123 indica l’intervallo di lunghezza dei veicoli per i quali è vietato transitare.",
         "img_url": "assets/img/figure/123.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -630,7 +626,6 @@
         "id": 8,
         "text": "Il segnale n.123 indica la distanza di sicurezza minima e massima tra i veicoli.",
         "img_url": "assets/img/figure/123.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -648,7 +643,6 @@
         "id": 9,
         "text": "Il segnale n.123 posto sotto il segnale DIVIETO DI SOSTA indica la fascia di ore di esenzione.",
         "img_url": "assets/img/figure/123.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -762,7 +756,6 @@
         "id": 16,
         "text": "Il segnale n.17 richiede di mantenere una maggior distanza di sicurezza dal veicolo che ci precede.",
         "img_url": "assets/img/figure/17.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -780,7 +773,6 @@
         "id": 17,
         "text": "Il segnale n.17 indica l’entità della pendenza di una salita ripida.",
         "img_url": "assets/img/figure/17.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -798,7 +790,6 @@
         "id": 18,
         "text": "Il segnale n.17 presegnala un tratto di strada da percorrere a motore spento.",
         "img_url": "assets/img/figure/17.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1182,7 +1173,6 @@
         "id": 11,
         "text": "Il segnale n.256 indica le fermate degli autobus di pubblico trasporto extraurbani.",
         "img_url": "assets/img/figure/256.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1200,7 +1190,6 @@
         "id": 12,
         "text": "Il segnale n.256 indica una stazione di servizio per autobus.",
         "img_url": "assets/img/figure/256.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1218,7 +1207,6 @@
         "id": 13,
         "text": "Il segnale n.103 indica i passaggi consentiti a destra e a sinistra di un isola di traffico.",
         "img_url": "assets/img/figure/103.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1236,7 +1224,6 @@
         "id": 14,
         "text": "Il segnale n.103 consente ai conducenti di passare sia a destra che a sinistra di un salvagente.",
         "img_url": "assets/img/figure/103.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1254,7 +1241,6 @@
         "id": 15,
         "text": "Il segnale n.103 indica la circolazione rotatoria consentita nei due sensi.",
         "img_url": "assets/img/figure/103.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1272,7 +1258,6 @@
         "id": 16,
         "text": "Ciascuno dei pannelli integrativi n. 128 indica la corsia preferenziale per i taxi.",
         "img_url": "assets/img/figure/128.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1290,7 +1275,6 @@
         "id": 17,
         "text": "Ciascuno dei pannelli integrativi n. 128 posto sotto un segnale indica la fine della prescrizione.",
         "img_url": "assets/img/figure/128.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -1308,7 +1292,6 @@
         "id": 18,
         "text": "Ciascuno dei pannelli integrativi n. 128 posto sotto il segnale di DIVIETO DI SOSTA indica il punto d’inizio.",
         "img_url": "assets/img/figure/128.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -2235,12 +2218,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2286,12 +2269,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2337,12 +2320,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2388,12 +2371,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2405,12 +2388,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2486,12 +2469,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2559,12 +2542,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2576,12 +2559,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2740,12 +2723,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2791,12 +2774,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -2808,12 +2791,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2825,12 +2808,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2859,12 +2842,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -2943,12 +2926,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3064,12 +3047,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3129,12 +3112,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3180,12 +3163,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -3262,12 +3245,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3344,12 +3327,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3395,12 +3378,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3412,12 +3395,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -3445,12 +3428,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3461,12 +3444,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -3477,12 +3460,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3730,12 +3713,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -3897,12 +3880,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3914,12 +3897,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3931,12 +3914,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3963,12 +3946,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -3995,12 +3978,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4011,12 +3994,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4150,12 +4133,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4167,12 +4150,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -4200,12 +4183,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4315,12 +4298,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4399,12 +4382,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4416,12 +4399,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -4433,12 +4416,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4449,12 +4432,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4497,12 +4480,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4686,12 +4669,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -4734,12 +4717,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -4850,12 +4833,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4867,12 +4850,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -4951,12 +4934,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -4983,12 +4966,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5171,12 +5154,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5204,12 +5187,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5287,12 +5270,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5403,12 +5386,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5469,12 +5452,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5485,12 +5468,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5557,12 +5540,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5591,12 +5574,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5673,12 +5656,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5755,12 +5738,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5772,12 +5755,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -5805,12 +5788,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5971,12 +5954,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -5987,12 +5970,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6003,12 +5986,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6035,12 +6018,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       }
@@ -6141,12 +6124,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6208,12 +6191,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6240,12 +6223,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6291,12 +6274,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -6323,12 +6306,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6339,12 +6322,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6356,12 +6339,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6373,12 +6356,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -6424,12 +6407,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6457,12 +6440,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6489,12 +6472,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6505,12 +6488,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6537,12 +6520,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       }
@@ -6660,12 +6643,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6677,12 +6660,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -6726,12 +6709,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6742,12 +6725,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6909,12 +6892,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6926,12 +6909,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -6991,12 +6974,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -7007,12 +6990,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7196,12 +7179,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -7212,12 +7195,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7228,12 +7211,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -7244,12 +7227,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7295,12 +7278,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -7377,12 +7360,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7394,12 +7377,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7411,12 +7394,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7445,12 +7428,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7461,12 +7444,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -7746,12 +7729,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7780,12 +7763,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7814,12 +7797,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7848,12 +7831,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7865,12 +7848,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7931,12 +7914,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -7995,12 +7978,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8027,12 +8010,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8232,12 +8215,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8331,12 +8314,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8347,12 +8330,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8432,12 +8415,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8449,12 +8432,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8481,12 +8464,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8529,12 +8512,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8545,12 +8528,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       }
@@ -8668,12 +8651,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8702,12 +8685,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -8718,12 +8701,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8849,12 +8832,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8866,12 +8849,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -8951,12 +8934,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -9137,12 +9120,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9170,12 +9153,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9220,12 +9203,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9320,12 +9303,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9337,12 +9320,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -9354,12 +9337,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -9371,12 +9354,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9456,12 +9439,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9593,12 +9576,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9610,12 +9593,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9692,12 +9675,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -9709,12 +9692,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -9808,12 +9791,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -9893,12 +9876,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10131,12 +10114,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10180,12 +10163,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10197,12 +10180,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10214,12 +10197,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -10246,12 +10229,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10279,12 +10262,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -10296,12 +10279,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10313,12 +10296,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -10330,12 +10313,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10364,12 +10347,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10415,12 +10398,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10767,12 +10750,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -10818,12 +10801,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -10883,12 +10866,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -10968,6 +10951,22 @@
           {
             "id": 1,
             "text": "Vero",
+            "is_correct": true
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Con i dispositivi di allarme azionati, a quale distanza si può seguire un mezzo della Polizia anch’esso in emergenza? A distanza ravvicinata, per sfruttare lo spazio creato da questo",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
             "is_correct": false
           },
           {
@@ -10978,24 +10977,8 @@
         ]
       },
       {
-        "id": 25,
-        "text": "Come deve essere trasportato un sospetto fratturato di colonna vertebrale?",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Con urgenza",
-            "is_correct": true
-          },
-          {
-            "id": 2,
-            "text": "Con precauzione, ma velocemente",
-            "is_correct": false
-          }
-        ]
-      },
-      {
         "id": 26,
-        "text": "Come deve essere trasportato un sospetto fratturato di colonna vertebrale? Con cautela, evitando sobbalzi e brusche frenate.",
+        "text": "Con i dispositivi di allarme azionati, a quale distanza si può seguire un mezzo della Polizia anch’esso in emergenza? A distanza di sicurezza per evitare un possibile tamponamento",
         "answers": [
           {
             "id": 1,
@@ -11011,23 +10994,23 @@
       },
       {
         "id": 27,
-        "text": "In un servizio urgente d’istituto, durante le ore diurne, quali dispositivi di allarme si devono azionare? Fari abbaglianti, lampeggiatori e sirena.",
+        "text": "Con i dispositivi di allarme azionati, a quale distanza si può seguire un mezzo della Polizia anch’esso in emergenza? A circa 200 metri",
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
       {
         "id": 28,
-        "text": "In un servizio urgente d’istituto, durante le ore diurne, quali dispositivi di allarme si devono azionare? Luci di posizione, sirena e clacson.",
+        "text": "Arrivando sul luogo di un incidente i cui feriti sono già stati trasportati, cosa si deve fare? Rientrare subito in sede",
         "answers": [
           {
             "id": 1,
@@ -11043,33 +11026,33 @@
       },
       {
         "id": 29,
-        "text": "In un servizio urgente d’istituto, durante le ore diurne, quali dispositivi di allarme si devono azionare? Lampeggiatori, sirena e fari anabbaglianti.",
+        "text": "Arrivando sul luogo di un incidente i cui feriti sono già stati trasportati, cosa si deve fare? Se ritenuto utile, fermarsi lo stretto necessario per prevenire ulteriori incidenti",
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
       {
         "id": 30,
-        "text": "In un servizio urgente d’istituto, durante le ore diurne, quali dispositivi di allarme si devono azionare? Solo il clacson, nei casi previsti dal Codice della Strada.",
+        "text": "Arrivando sul luogo di un incidente i cui feriti sono già stati trasportati, cosa si deve fare? Dirigere il traffico fino all’arrivo delle forze dell’ordine",
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       }
@@ -11170,12 +11153,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11187,12 +11170,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11237,12 +11220,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11269,12 +11252,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11286,12 +11269,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11303,12 +11286,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -11352,12 +11335,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -11453,12 +11436,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -11706,12 +11689,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -11788,12 +11771,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -11887,12 +11870,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12089,12 +12072,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12106,12 +12089,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12123,12 +12106,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12238,12 +12221,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12254,12 +12237,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -12287,12 +12270,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12317,7 +12300,6 @@
         "id": 15,
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 652, il veicolo F può passare per primo.",
         "img_url": "assets/img/figure/652.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12338,12 +12320,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12354,12 +12336,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12387,12 +12369,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12400,17 +12382,16 @@
         "id": 20,
         "text": "Il segnale n. 214 indica la direzione per entrare nell’ospedale.",
         "img_url": "assets/img/figure/214.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -12418,7 +12399,6 @@
         "id": 21,
         "text": "Il segnale n. 214 indica un parcheggio riservato al personale sanitario.",
         "img_url": "assets/img/figure/214.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12453,17 +12433,16 @@
         "id": 23,
         "text": "Il simbolo rappresentato nella figura n. 695 segnala l’accensione dei proiettori fendinebbia.",
         "img_url": "assets/img/figure/695.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12471,7 +12450,6 @@
         "id": 24,
         "text": "Il simbolo rappresentato nella figura n. 695 è applicato sul comando dei proiettori.",
         "img_url": "assets/img/figure/695.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12487,7 +12465,39 @@
       },
       {
         "id": 25,
-        "text": "Che tipo di strada, avendo la possibilità di scelta, è opportuno percorrere nel trasportare un malato con diagnosi “Edema Polmonare Acuto”?",
+        "text": "Che tipo di strada, avendo la possibilità di scelta, è opportuno percorrere nel trasportare un malato con diagnosi “Edema Polmonare Acuto”? Quella con il fondo stradale in condizioni migliori",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Che tipo di strada, avendo la possibilità di scelta, è opportuno percorrere nel trasportare un malato con diagnosi “Edema Polmonare Acuto”? La più panoramica",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Vero",
+            "is_correct": false
+          },
+          {
+            "id": 2,
+            "text": "Falso",
+            "is_correct": true
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Che tipo di strada, avendo la possibilità di scelta, è opportuno percorrere nel trasportare un malato con diagnosi “Edema Polmonare Acuto”? La più breve",
         "answers": [
           {
             "id": 1,
@@ -12502,7 +12512,7 @@
         ]
       },
       {
-        "id": 26,
+        "id": 28,
         "text": "Giungendo sul luogo di un incidente, qual è il compito dell’equipaggio? L’autista parcheggia il mezzo nel modo più idoneo, ed il barelliere inizia il soccorso ",
         "answers": [
           {
@@ -12518,7 +12528,7 @@
         ]
       },
       {
-        "id": 26,
+        "id": 29,
         "text": "Giungendo sul luogo di un incidente, qual è il compito dell’equipaggio? L’autista provvede a valutare la situazione, mentre il barelliere attende i suoi ordini ",
         "answers": [
           {
@@ -12534,7 +12544,7 @@
         ]
       },
       {
-        "id": 26,
+        "id": 30,
         "text": "Giungendo sul luogo di un incidente, qual è il compito dell’equipaggio? L’autista compila il foglio di viaggio, mentre il barelliere presta i primi soccorsi ",
         "answers": [
           {
@@ -12676,7 +12686,6 @@
         "id": 8,
         "text": "Il segnale n. 78 consente il transito ai veicoli il cui asse più caricato ha massa superiore a quella indicata.",
         "img_url": "assets/img/figure/78.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12694,7 +12703,6 @@
         "id": 9,
         "text": "Il segnale n. 78 con pannello può vietare il transito contemporaneo di più veicoli.",
         "img_url": "assets/img/figure/78.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12747,12 +12755,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -12777,17 +12785,16 @@
         "id": 14,
         "text": "Nell’intersezione di figura n. 664, il veicolo S ha la precedenza e non ha mai l’obbligo di moderare la velocità.",
         "img_url": "assets/img/figure/664.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -12795,7 +12802,6 @@
         "id": 15,
         "text": "Nell’intersezione di figura n. 664, i conducenti di tutti i veicoli hanno l’obbligo di usare la massima prudenza.",
         "img_url": "assets/img/figure/664.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12830,7 +12836,6 @@
         "id": 17,
         "text": "Il proiettore acceso così come lo si vede nella figura n. 690 assicura l’illuminazione della strada a grande distanza.",
         "img_url": "assets/img/figure/690.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12848,7 +12853,6 @@
         "id": 18,
         "text": "Il proiettore acceso così come lo si vede nella figura n. 690 è a luce anabbagliante, ma la lampada è rovesciata.",
         "img_url": "assets/img/figure/690.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12883,7 +12887,6 @@
         "id": 20,
         "text": "Il segnale n. 224 vieta la manovra di inversione di marcia dopo il segnale.",
         "img_url": "assets/img/figure/224.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12901,7 +12904,6 @@
         "id": 21,
         "text": "Il segnale n. 224 non consente il transito ai pedoni.",
         "img_url": "assets/img/figure/224.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12936,7 +12938,6 @@
         "id": 23,
         "text": "Il simbolo rappresentato nella figura n. 698 è collocato sulla spia, a luce pulsante, di luci di emergenza inserite.",
         "img_url": "assets/img/figure/698.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -12954,17 +12955,16 @@
         "id": 24,
         "text": "Il simbolo rappresentato nella figura n. 698 è collocato sulla spia di freno a mano inserito.",
         "img_url": "assets/img/figure/698.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13191,7 +13191,6 @@
         "id": 8,
         "text": "Il segnale n. 80 indica la fine delle prescrizioni precedentemente imposte.",
         "img_url": "assets/img/figure/80.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13209,7 +13208,6 @@
         "id": 9,
         "text": "Il segnale n. 80 riguarda soltanto i veicoli in servizio pubblico.",
         "img_url": "assets/img/figure/80.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13279,12 +13277,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13292,7 +13290,6 @@
         "id": 14,
         "text": "Nell’incrocio raffigurato in figura n. 665, il veicolo V ha diritto di precedenza sul veicolo H.",
         "img_url": "assets/img/figure/665.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13310,17 +13307,16 @@
         "id": 15,
         "text": "Nell’incrocio raffigurato in figura n. 665, il veicolo C deve dare la precedenza al veicolo H.",
         "img_url": "assets/img/figure/665.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -13393,17 +13389,16 @@
         "id": 20,
         "text": "Il segnale di figura n. 230 è di colore blu sulle strade extraurbane.",
         "img_url": "assets/img/figure/230.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -13411,7 +13406,6 @@
         "id": 21,
         "text": "Il segnale di figura n. 230 ricorda l’obbligo di usare le segnalazioni acustiche.",
         "img_url": "assets/img/figure/230.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13433,12 +13427,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13446,17 +13440,16 @@
         "id": 23,
         "text": "Il simbolo rappresentato nella figura n. 704 individua una spia di colore rosso.",
         "img_url": "assets/img/figure/704.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -13464,17 +13457,16 @@
         "id": 24,
         "text": "Il simbolo rappresentato nella figura n. 704 contrassegna l’indicatore della temperatura dell’olio che circola nel motore.",
         "img_url": "assets/img/figure/704.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13501,12 +13493,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13517,12 +13509,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13549,12 +13541,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13639,12 +13631,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13671,12 +13663,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13701,7 +13693,6 @@
         "id": 8,
         "text": "Il segnale n. 84 indica le aree dove è proibito lasciare in sosta un veicolo.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13719,7 +13710,6 @@
         "id": 9,
         "text": "Il segnale n. 84 nelle strade extraurbane consente la sosta dopo le ore venti.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13772,12 +13762,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -13789,12 +13779,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13802,7 +13792,6 @@
         "id": 14,
         "text": "Dovendo attraversare l’incrocio rappresentato in figura n. 669, il veicolo C può transitare per primo.",
         "img_url": "assets/img/figure/669.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13820,7 +13809,6 @@
         "id": 15,
         "text": "Dovendo attraversare l’incrocio rappresentato in figura n. 669, il veicolo E deve dare la precedenza al veicolo A.",
         "img_url": "assets/img/figure/669.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13903,7 +13891,6 @@
         "id": 20,
         "text": "Il segnale di figura n. 238 non si applica ai ciclomotori e motocicli.",
         "img_url": "assets/img/figure/238.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13921,7 +13908,6 @@
         "id": 21,
         "text": "Il segnale di figura n. 238 consente di proseguire diritto.",
         "img_url": "assets/img/figure/238.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -13942,12 +13928,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -13958,12 +13944,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -14033,17 +14019,17 @@
       },
       {
         "id": 28,
-        "text": "È possibile trainare un’ambulanza?",
+        "text": "È possibile trainare un’ambulanza? Si sempre",
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14065,7 +14051,7 @@
       },
       {
         "id": 30,
-        "text": "È possibile trainare un’ambulanza mai.",
+        "text": "È possibile trainare un’ambulanza? Mai.",
         "answers": [
           {
             "id": 1,
@@ -14093,12 +14079,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14110,12 +14096,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14127,12 +14113,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14143,12 +14129,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14205,17 +14191,16 @@
         "id": 8,
         "text": "Il segnale n. 85 non vale per gli autobus.",
         "img_url": "assets/img/figure/85.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14223,7 +14208,6 @@
         "id": 9,
         "text": "Il segnale n. 85 vieta la sosta sia di giorno che di notte, anche nei centri abitati.",
         "img_url": "assets/img/figure/85.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14244,12 +14228,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14306,7 +14290,6 @@
         "id": 14,
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 638: Il veicolo B può passare dopo il veicolo N.",
         "img_url": "assets/img/figure/638.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14324,7 +14307,6 @@
         "id": 15,
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 638: Il veicolo D può passare dopo il veicolo R.",
         "img_url": "assets/img/figure/638.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14359,7 +14341,6 @@
         "id": 17,
         "text": "Il proiettore acceso così come lo si vede nella figura n. 693 è un proiettore con la luce abbagliante accesa.",
         "img_url": "assets/img/figure/693.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14377,17 +14358,16 @@
         "id": 18,
         "text": "Il proiettore acceso così come lo si vede nella figura n. 693 non illumina correttamente la strada.",
         "img_url": "assets/img/figure/693.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -14412,7 +14392,6 @@
         "id": 20,
         "text": "Il segnale n. 153 indica il divieto di svoltare a destra o sinistra.",
         "img_url": "assets/img/figure/153.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14430,7 +14409,6 @@
         "id": 21,
         "text": "Il segnale n. 153 indica un senso unico alternato.",
         "img_url": "assets/img/figure/153.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14465,7 +14443,6 @@
         "id": 23,
         "text": "Il simbolo rappresentato in figura n. 718 individua una spia luminosa di colore giallo.",
         "img_url": "assets/img/figure/718.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14483,17 +14460,16 @@
         "id": 24,
         "text": "Il simbolo rappresentato in figura n. 718 identifica il comando di accensione della luce posteriore per nebbia.",
         "img_url": "assets/img/figure/718.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14504,12 +14480,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14520,12 +14496,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14536,12 +14512,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -14552,12 +14528,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14568,12 +14544,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -14584,12 +14560,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       }
@@ -14620,7 +14596,6 @@
         "id": 2,
         "text": "In presenza del segnale n. 24, opportunamente integrato, è necessario: In caso di pioggia, accelerare bruscamente.",
         "img_url": "assets/img/figure/24.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14638,7 +14613,6 @@
         "id": 3,
         "text": "In presenza del segnale n. 24, opportunamente integrato, è necessario: In caso di ghiaccio, moderare la velocità ed evitare brusche accelerate.",
         "img_url": "assets/img/figure/24.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14721,7 +14695,6 @@
         "id": 8,
         "text": "Il segnale n. 151 è un divieto di transito per determinate categorie di veicoli.",
         "img_url": "assets/img/figure/151.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14739,17 +14712,16 @@
         "id": 9,
         "text": "Il segnale n. 151 preavvisa un segnale di divieto per autocarri ed autotreni.",
         "img_url": "assets/img/figure/151.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14809,12 +14781,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14822,7 +14794,6 @@
         "id": 14,
         "text": "Nell’incrocio rappresentato in figura n. 665: I veicoli disimpegnano l’incrocio nel seguente ordine: A, E, C, V, H.",
         "img_url": "assets/img/figure/665.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14840,7 +14811,6 @@
         "id": 15,
         "text": "Nell’incrocio rappresentato in figura n. 665: Il veicolo E può passare prima del veicolo H.",
         "img_url": "assets/img/figure/665.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14910,12 +14880,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -14923,7 +14893,6 @@
         "id": 20,
         "text": "Il segnale di figura n. 245, se di colore verde, è installato lungo un’autostrada.",
         "img_url": "assets/img/figure/245.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14941,17 +14910,16 @@
         "id": 21,
         "text": "Il segnale di figura n. 245 indica che le corsie di sinistra sono destinate al traffico normale.",
         "img_url": "assets/img/figure/245.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -14976,7 +14944,6 @@
         "id": 23,
         "text": "Il simbolo rappresentato in figura n. 720 individua il comando delle luci di stazionamento.",
         "img_url": "assets/img/figure/720.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -14994,7 +14961,6 @@
         "id": 24,
         "text": "Il simbolo rappresentato in figura n. 720 contrassegna la spia del freno di stazionamento.",
         "img_url": "assets/img/figure/720.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15063,12 +15029,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15118,12 +15084,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15131,7 +15097,6 @@
         "id": 2,
         "text": "In presenza del segnale n. 7, è necessario regolare la velocità in relazione alle condizioni del carico del veicolo.",
         "img_url": "assets/img/figure/7.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15149,7 +15114,6 @@
         "id": 3,
         "text": "In presenza del segnale n. 7, è opportuno fare particolare attenzione ai veicoli provenienti dal senso opposto.",
         "img_url": "assets/img/figure/7.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15202,12 +15166,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15219,12 +15183,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15232,7 +15196,6 @@
         "id": 8,
         "text": "Il segnale n. 95, posto prima di un incrocio, non consente di proseguire diritto.",
         "img_url": "assets/img/figure/95.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15250,17 +15213,16 @@
         "id": 9,
         "text": "Il segnale n. 95 è un segnale di indicazione.",
         "img_url": "assets/img/figure/95.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15287,12 +15249,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -15333,7 +15295,6 @@
         "id": 14,
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: Il veicolo B dopo l’attraversamento dei veicoli R e D.",
         "img_url": "assets/img/figure/640.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15351,17 +15312,16 @@
         "id": 15,
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: Il veicolo B contemporaneamente al veicolo R e prima di quello D.",
         "img_url": "assets/img/figure/640.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15373,12 +15333,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15386,17 +15346,16 @@
         "id": 17,
         "text": "Il simbolo rappresentato in figura n. 718: È posto sul comando di accensione dei proiettori fendinebbia anteriori.",
         "img_url": "assets/img/figure/718.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -15404,7 +15363,6 @@
         "id": 18,
         "text": "Il simbolo rappresentato in figura n. 718: Individua una spia luminosa di colore giallo.",
         "img_url": "assets/img/figure/718.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15426,12 +15384,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15439,7 +15397,6 @@
         "id": 20,
         "text": "Il segnale n. 77: Si applica solo agli autoveicoli per il trasporto merci.",
         "img_url": "assets/img/figure/77.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15457,7 +15414,6 @@
         "id": 21,
         "text": "Il segnale n. 77: Si applica anche agli autobus.",
         "img_url": "assets/img/figure/77.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15492,7 +15448,6 @@
         "id": 23,
         "text": "Rispetto al veicolo che procede nel senso della freccia, la segnaletica orizzontale rappresentata in figura n. 567: Viene impiegata subito dopo un dosso.",
         "img_url": "assets/img/figure/567.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15510,17 +15465,16 @@
         "id": 24,
         "text": "Rispetto al veicolo che procede nel senso della freccia, la segnaletica orizzontale rappresentata in figura n. 567: Viene impiegata subito prima di un incrocio.",
         "img_url": "assets/img/figure/567.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -15531,12 +15485,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15547,12 +15501,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -15647,17 +15601,16 @@
         "id": 2,
         "text": "Il segnale n. 30: Può presegnalare un ponte interrotto.",
         "img_url": "assets/img/figure/30.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15665,17 +15618,16 @@
         "id": 3,
         "text": "Il segnale n. 30: Può presegnalare un tratto di strada interrotta per alluvione.",
         "img_url": "assets/img/figure/30.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15735,12 +15687,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15748,7 +15700,6 @@
         "id": 8,
         "text": "Il segnale n. 85: Lungo le strada dove è posto vale 24 ore su 24.",
         "img_url": "assets/img/figure/85.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15766,7 +15717,6 @@
         "id": 9,
         "text": "Il segnale n. 85: Lungo le strade urbane indica che il divieto di fermata vige dalle ore 8 alle ore 20.",
         "img_url": "assets/img/figure/85.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15787,12 +15737,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15819,12 +15769,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15849,17 +15799,16 @@
         "id": 14,
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: I veicoli transitano nel seguente ordine: B, T, S.",
         "img_url": "assets/img/figure/640.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -15867,7 +15816,6 @@
         "id": 15,
         "text": "Secondo le norme di precedenza, possono impiegare l’incrocio rappresentato in figura n. 640: I veicoli B ed S possono passare contemporaneamente.",
         "img_url": "assets/img/figure/640.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15889,12 +15837,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15902,7 +15850,6 @@
         "id": 17,
         "text": "Il segnale n. 163: È posto sul comando di accensione dei proiettori fendinebbia anteriori.",
         "img_url": "assets/img/figure/163.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15920,7 +15867,6 @@
         "id": 18,
         "text": "Il segnale n. 163: Non obbliga ad arrestarsi per il controllo doganale al confine di stato.",
         "img_url": "assets/img/figure/163.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15942,12 +15888,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -15955,7 +15901,6 @@
         "id": 20,
         "text": "Il pannello integrativo n. 141: È posto dove la sosta di un veicolo costituisce grave intralcio alla circolazione.",
         "img_url": "assets/img/figure/141.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15973,7 +15918,6 @@
         "id": 21,
         "text": "Il pannello integrativo n. 141: Prevede lo spostamento del veicolo o il blocco dello stesso con attrezzo a chiave.",
         "img_url": "assets/img/figure/141.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -15995,12 +15939,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -16008,7 +15952,6 @@
         "id": 23,
         "text": "La striscia gialla a zig zag in figura n. 546: Interessa solo gli autobus.",
         "img_url": "assets/img/figure/546.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16026,17 +15969,16 @@
         "id": 24,
         "text": "La striscia gialla a zig zag in figura n. 546: Vieta il transito ai veicoli.",
         "img_url": "assets/img/figure/546.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16047,12 +15989,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16111,12 +16053,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -16150,12 +16092,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16163,7 +16105,6 @@
         "id": 2,
         "text": "Il segnale DOPPIA CROCE DI S. ANDREA (figura n. 11): Invita a fare attenzione perché potrebbe arrivare un altro treno su un altro binario.",
         "img_url": "assets/img/figure/11.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16181,7 +16122,6 @@
         "id": 3,
         "text": "Il segnale DOPPIA CROCE DI S. ANDREA (figura n. 11): Indica che la linea ferroviaria ha solo due binari.",
         "img_url": "assets/img/figure/11.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16251,12 +16191,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16264,25 +16204,23 @@
         "id": 8,
         "text": "Il segnale n. 62: Consente il transito agli autoveicoli.",
         "img_url": "assets/img/figure/62.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
       {
         "id": 9,
-        "text": "Il segnale n. 62: Vieta il traffico ai ciclomotori.",        
+        "text": "Il segnale n. 62: Vieta il traffico ai ciclomotori.",
         "img_url": "assets/img/figure/62.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16317,17 +16255,16 @@
         "id": 11,
         "text": "I segnali luminosi della figura n. 161: Indicano le velocità consigliate anche a semaforo spento.",
         "img_url": "assets/img/figure/161.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16335,17 +16272,16 @@
         "id": 12,
         "text": "I segnali luminosi della figura n. 161: Indicano di procedere con prudenza se a luce lampeggiante gialla.",
         "img_url": "assets/img/figure/161.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16357,12 +16293,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16419,7 +16355,6 @@
         "id": 17,
         "text": "Il segnale n. 96: È un segnale di indicazione.",
         "img_url": "assets/img/figure/96.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16437,7 +16372,6 @@
         "id": 18,
         "text": "Il segnale n. 96: Può essere integrato con un pannello che indica la distanza dal punto in cui vige l’obbligo.",
         "img_url": "assets/img/figure/96.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16472,7 +16406,6 @@
         "id": 20,
         "text": "Il simbolo rappresentato in figura n. 706: Posto su una spia accesa, indica l’eccessiva temperatura dell’olio motore.",
         "img_url": "assets/img/figure/706.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16490,7 +16423,6 @@
         "id": 21,
         "text": "Il simbolo rappresentato in figura n. 706: È posto su un dispositivo che dà indicazioni sulla pressione del lubrificante nel motore.",
         "img_url": "assets/img/figure/706.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16511,12 +16443,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16543,12 +16475,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16623,12 +16555,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -16675,7 +16607,6 @@
         "id": 2,
         "text": "Il segnale n. 42: È un preavviso di dare la precedenza sia a destra che a sinistra.",
         "img_url": "assets/img/figure/42.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16693,7 +16624,6 @@
         "id": 3,
         "text": "Il segnale n. 42: Indica la distanza dal prossimo segnale di stop.",
         "img_url": "assets/img/figure/42.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16714,12 +16644,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16746,12 +16676,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16776,17 +16706,16 @@
         "id": 8,
         "text": "Il segnale di figura n. 284: Preavvisa “direzione obbligatoria” per autocarri in transito.",
         "img_url": "assets/img/figure/284.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16794,7 +16723,6 @@
         "id": 9,
         "text": "Il segnale di figura n. 284: Obbliga tutti i veicoli a proseguire diritto.",
         "img_url": "assets/img/figure/284.jpg",
- 
         "answers": [
           {
             "id": 1,
@@ -16829,7 +16757,6 @@
         "id": 11,
         "text": "Il segnale n. 203 si può trovare: Per segnalare una strada a due corsie delimitate sulla carreggiata.",
         "img_url": "assets/img/figure/203.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16847,7 +16774,6 @@
         "id": 12,
         "text": "Il segnale n. 203 si può trovare: Ad integrazione di segnali di direzione.",
         "img_url": "assets/img/figure/203.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -16869,12 +16795,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -16882,17 +16808,16 @@
         "id": 14,
         "text": "Nella situazione rappresentata in figura n. 654: Il veicolo A deve attendere il transito dei veicoli C ed R.",
         "img_url": "assets/img/figure/654.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -16900,17 +16825,16 @@
         "id": 15,
         "text": "Nella situazione rappresentata in figura n. 654: I veicoli transitano nel seguente ordine: C, R, A, H.",
         "img_url": "assets/img/figure/654.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -16985,12 +16909,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17001,12 +16925,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17181,7 +17105,6 @@
         "id": 2,
         "text": "In presenza del segnale n. 9: È possibile attraversare i binari anche se sbarrati da cavalletti a striscie bianche e rosse.",
         "img_url": "assets/img/figure/9.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17199,7 +17122,6 @@
         "id": 3,
         "text": "In presenza del segnale n. 9: È necessario rallentare in relazione alla visibilità che presenta il passaggio a livello.",
         "img_url": "assets/img/figure/9.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17221,12 +17143,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17234,7 +17156,6 @@
         "id": 5,
         "text": "Il pannello integrativo di figura n. 126: Posto sotto il segnale PARCHEGGIO indica un’area destinata alla sosta dei veicoli indicati.",
         "img_url": "assets/img/figure/126.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17252,7 +17173,6 @@
         "id": 6,
         "text": "Il pannello integrativo di figura n. 126: Può integrare un segnale di divieto.",
         "img_url": "assets/img/figure/126.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17270,17 +17190,16 @@
         "id": 7,
         "text": "Il segnale n. 78: Consente il transito di una macchina agricola di massa a pieno carico pari a 7 t.",
         "img_url": "assets/img/figure/78.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -17288,17 +17207,16 @@
         "id": 8,
         "text": "Il segnale n. 78: Vieta il transito ai soli autoveicoli per trasporto merci di massa superiore a 7 t.",
         "img_url": "assets/img/figure/78.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17306,7 +17224,6 @@
         "id": 9,
         "text": "Il segnale n. 78: Si può trovare prima di un ponte.",
         "img_url": "assets/img/figure/78.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17376,12 +17293,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17389,7 +17306,6 @@
         "id": 14,
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 647: Il veicolo B transita prima del veicolo O e dopo i veicoli L e H.",
         "img_url": "assets/img/figure/647.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17407,7 +17323,6 @@
         "id": 15,
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 647: Il veicolo O può impegnare l’incrocio per primo e si ferma al centro di esso.",
         "img_url": "assets/img/figure/647.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17442,17 +17357,16 @@
         "id": 17,
         "text": "Due strisce bianche discontinue che attraversano la carreggiata indicano (figura n. 521): Attraversamento ciclabile obliquo.",
         "img_url": "assets/img/figure/521.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -17460,17 +17374,16 @@
         "id": 18,
         "text": "Due strisce bianche discontinue che attraversano la carreggiata indicano (figura n. 521): Precedenza.",
         "img_url": "assets/img/figure/521.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -17529,12 +17442,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17609,12 +17522,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17693,9 +17606,7 @@
         "id": 2,
         "text": "Il segnale n. 22: Impone di fermarsi prima di attraversare il ponte.",
         "img_url": "assets/img/figure/22.jpg",
-
         "answers": [
-
           {
             "id": 1,
             "text": "Vero",
@@ -17712,7 +17623,6 @@
         "id": 3,
         "text": "Il segnale n. 22: Può essere seguito da un dispositivo ottico con luce o luci rosse lampeggianti.",
         "img_url": "assets/img/figure/22.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17778,7 +17688,6 @@
         "id": 7,
         "text": "Il segnale n. 60: Fa riferimento alla massa a vuoto dei veicoli.",
         "img_url": "assets/img/figure/60.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17796,35 +17705,33 @@
         "id": 8,
         "text": "Il segnale n. 60: Vieta agli autocarri di massa superiore a 3,5 t il sorpasso di motocicli.",
         "img_url": "assets/img/figure/68.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
       {
         "id": 9,
-        "text": "Il segnale n. 60: Consente ad un autobus da 18 t di sorpassare un autotreno.",        
+        "text": "Il segnale n. 60: Consente ad un autobus da 18 t di sorpassare un autotreno.",
         "img_url": "assets/img/figure/68.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -17836,12 +17743,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17849,7 +17756,6 @@
         "id": 11,
         "text": "Il segnale n. 162: Di norma è posto sul lato destro della strada.",
         "img_url": "assets/img/figure/162.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17867,7 +17773,6 @@
         "id": 12,
         "text": "Il segnale n. 162: Entra in funzione subito prima dell’inizio dell’abbassamento delle semisbarre.",
         "img_url": "assets/img/figure/162.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17902,17 +17807,16 @@
         "id": 14,
         "text": "Nell’incrocio rappresentato in figura n. 650, il conducente del veicolo E: Deve dare la precedenza al veicolo L.",
         "img_url": "assets/img/figure/650.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -17920,7 +17824,6 @@
         "id": 15,
         "text": "Nell’incrocio rappresentato in figura n. 650, il conducente del veicolo E: Passa per primo.",
         "img_url": "assets/img/figure/650.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17942,12 +17845,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -17955,7 +17858,6 @@
         "id": 17,
         "text": "Il segnale n. 93: È un segnale di divieto.",
         "img_url": "assets/img/figure/93.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17973,7 +17875,6 @@
         "id": 18,
         "text": "Il segnale n. 93: È un segnale di corsia.",
         "img_url": "assets/img/figure/93.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -17994,12 +17895,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18026,12 +17927,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18043,12 +17944,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18056,7 +17957,6 @@
         "id": 23,
         "text": "I pannelli a strisce oblique gialle e rosse raffigurati in figura n. 304: Sono retroflettenti e fluorescenti, per migliorare la visibilità notturna del veicolo.",
         "img_url": "assets/img/figure/304.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18074,17 +17974,16 @@
         "id": 24,
         "text": "I pannelli a strisce oblique gialle e rosse raffigurati in figura n. 304: Sono obbligatori per tutti gli autoveicoli per trasporto di cose che superano a pieno carico 3,5 t.",
         "img_url": "assets/img/figure/304.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18095,12 +17994,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18143,12 +18042,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18211,17 +18110,16 @@
         "id": 2,
         "text": "Il segnale n. 74: Indica una zona soggetta ad allagamento.",
         "img_url": "assets/img/figure/74.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18229,17 +18127,16 @@
         "id": 3,
         "text": "Il segnale n. 74: Segnala la probabile presenza di acqua sulla carreggiata.",
         "img_url": "assets/img/figure/74.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18250,12 +18147,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18299,12 +18196,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18312,17 +18209,16 @@
         "id": 8,
         "text": "Il segnale n. 117: Indica la fine di un passaggio riservato per quadrupedi da soma.",
         "img_url": "assets/img/figure/117.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18330,7 +18226,6 @@
         "id": 9,
         "text": "Il segnale n. 117: È un divieto di transito per cavalli.",
         "img_url": "assets/img/figure/117.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18413,17 +18308,16 @@
         "id": 14,
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 652: Il veicolo F può passare per primo.",
         "img_url": "assets/img/figure/652.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18431,17 +18325,16 @@
         "id": 15,
         "text": "Secondo le norme di precedenza nell’incrocio in figura n. 652: Il veicolo H deve attendere il transito del veicolo L.",
         "img_url": "assets/img/figure/652.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18562,7 +18455,6 @@
         "id": 23,
         "text": "Ciascuno dei pannelli integrativi n. 128: Posto sotto un segnale indica la fine della prescrizione.",
         "img_url": "assets/img/figure/128.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18580,7 +18472,6 @@
         "id": 24,
         "text": "Ciascuno dei pannelli integrativi n. 128: Sotto il segnale PERCORSO PEDONALE indica il punto da cui non è consentito il transito dei veicoli.",
         "img_url": "assets/img/figure/128.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18704,12 +18595,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18717,7 +18608,6 @@
         "id": 2,
         "text": "Il segnale n. 53: I veicoli provenienti dal senso opposto devono dare la precedenza; occorre comunque prudenza.",
         "img_url": "assets/img/figure/53.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18734,18 +18624,17 @@
       {
         "id": 3,
         "text": "Il segnale n. 53: Dobbiamo tenere bene la destra, per consentire il passaggio anche ai veicoli che vengono di fronte.",
-                "img_url": "assets/img/figure/53.jpg",
-
+        "img_url": "assets/img/figure/53.jpg",
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18772,12 +18661,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18805,12 +18694,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18818,17 +18707,16 @@
         "id": 8,
         "text": "Il segnale n. 84: Consente la sosta nel tratto precedente.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18836,7 +18724,6 @@
         "id": 9,
         "text": "Il segnale n. 84: Nelle strade extraurbane, consente la sosta dopo le ore 20.",
         "img_url": "assets/img/figure/84.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -18922,12 +18809,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -18938,12 +18825,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18968,17 +18855,16 @@
         "id": 17,
         "text": "Dei tre segnali rappresentati nella figura n. 160: I tipi B e C sono affiancati ad un semaforo veicolare.",
         "img_url": "assets/img/figure/160.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -18986,7 +18872,6 @@
         "id": 18,
         "text": "Dei tre segnali rappresentati nella figura n. 160: Il tipo C indica che nelle svolte a destra i veicoli debbono dare la precedenza ai velocipedi.",
         "img_url": "assets/img/figure/160.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19008,12 +18893,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19021,7 +18906,6 @@
         "id": 20,
         "text": "Il segnale n. 150: Preavvisa il divieto di svoltare a destra per i veicoli rappresentati in figura.",
         "img_url": "assets/img/figure/150.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19039,17 +18923,16 @@
         "id": 21,
         "text": "Il segnale n. 150: Indica la direzione consigliata per gli autocarri in transito.",
         "img_url": "assets/img/figure/150.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19061,12 +18944,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19074,7 +18957,6 @@
         "id": 23,
         "text": "Il segnale n. 282: Indica una deviazione con circolazione a senso unico verso Novara.",
         "img_url": "assets/img/figure/282.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19092,7 +18974,6 @@
         "id": 24,
         "text": "Il segnale n. 282: È integrato con la lunghezza della deviazione.",
         "img_url": "assets/img/figure/282.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19216,12 +19097,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19229,7 +19110,6 @@
         "id": 2,
         "text": "Il segnale n. 43: Si trova solo nelle strade urbane.",
         "img_url": "assets/img/figure/43.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19247,17 +19127,16 @@
         "id": 3,
         "text": "Il segnale n. 43: Avverte che dobbiamo fermarci 20 mt. dopo il segnale e dare precedenza.",
         "img_url": "assets/img/figure/43.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -19268,12 +19147,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -19317,12 +19196,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19330,7 +19209,6 @@
         "id": 8,
         "text": "Il segnale n. 109: Vieta l’attraversamento pedonale.",
         "img_url": "assets/img/figure/109.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19348,17 +19226,16 @@
         "id": 9,
         "text": "Il segnale n. 109: Indica la fine del percorso pedonale.",
         "img_url": "assets/img/figure/109.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -19370,12 +19247,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19383,17 +19260,16 @@
         "id": 11,
         "text": "Il segnale n. 236: Su strade extraurbane deve essere preceduto dal triangolo di ATTRAVERSAMENTO CICLABILE pericolo.",
         "img_url": "assets/img/figure/236.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -19401,7 +19277,6 @@
         "id": 12,
         "text": "Il segnale n. 236: È abbinato alle strisce di attraversamento ciclabile.",
         "img_url": "assets/img/figure/236.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19436,17 +19311,16 @@
         "id": 14,
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 657: Il veicolo C deve dare la precedenza al veicolo A.",
         "img_url": "assets/img/figure/657.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -19454,17 +19328,16 @@
         "id": 15,
         "text": "Secondo le norme di precedenza nell’incrocio rappresentato in figura n. 657: Il veicolo C non deve dare la precedenza ad alcun veicolo.",
         "img_url": "assets/img/figure/657.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19476,12 +19349,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19489,9 +19362,7 @@
         "id": 17,
         "text": "Il segnale n. 66: Non si applica ai Taxi.",
         "img_url": "assets/img/figure/66.jpg",
-
         "answers": [
-
           {
             "id": 1,
             "text": "Vero",
@@ -19508,7 +19379,6 @@
         "id": 18,
         "text": "Il segnale n. 66: Permette il transito ai ciclomotori a due ruote.",
         "img_url": "assets/img/figure/66.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19529,12 +19399,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19741,7 +19611,6 @@
         "id": 2,
         "text": "Il segnale n. 48: Presegnala l’incrocio con una strada che non ha diritto di precedenza.",
         "img_url": "assets/img/figure/48.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19759,7 +19628,6 @@
         "id": 3,
         "text": "Il segnale n. 48: Presegnala un’immissione stradale con corsia di accelerazione.",
         "img_url": "assets/img/figure/48.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19842,17 +19710,16 @@
         "id": 8,
         "text": "In presenza del segnale rappresentato in figura n. 56, si possono sorpassare: I veicoli a motore che non sono in grado di superare la velocità di 40 Km/h.",
         "img_url": "assets/img/figure/56.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19860,7 +19727,6 @@
         "id": 9,
         "text": "In presenza del segnale rappresentato in figura n. 56, si possono sorpassare: I veicoli a trazione animale.",
         "img_url": "assets/img/figure/56.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19930,12 +19796,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -19943,7 +19809,6 @@
         "id": 14,
         "text": "Nell’incrocio rappresentato nella figura n. 661: I veicoli disimpegnano l’incrocio nel seguente ordine: E, L, C.",
         "img_url": "assets/img/figure/661.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19961,7 +19826,6 @@
         "id": 15,
         "text": "Nell’incrocio rappresentato nella figura n. 661: I veicoli C ed E possono passare contemporaneamente.",
         "img_url": "assets/img/figure/661.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -19998,12 +19862,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -20031,12 +19895,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -20044,17 +19908,16 @@
         "id": 20,
         "text": "Il segnale n. 97: Preavvisa l’unica direzione consentita.",
         "img_url": "assets/img/figure/661.jpg",
-
         "answers": [
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": false
+            "is_correct": true
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": true
+            "is_correct": false
           }
         ]
       },
@@ -20062,7 +19925,6 @@
         "id": 21,
         "text": "Il segnale n. 97: Presegnala il senso unico di circolazione nella svolta a sinistra.",
         "img_url": "assets/img/figure/661.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -20097,7 +19959,6 @@
         "id": 23,
         "text": "Il pannello integrativo n. 145 abbinato al segnale DIVIETO DI SOSTA: Limita nel tempo la validità del segnale DIVIETO DI SOSTA.",
         "img_url": "assets/img/figure/145.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -20115,7 +19976,6 @@
         "id": 24,
         "text": "Il pannello integrativo n. 145 abbinato al segnale DIVIETO DI SOSTA: Indica la presenza di un deposito con probabile uscita di mezzi per la pulizia stradale.",
         "img_url": "assets/img/figure/145.jpg",
-
         "answers": [
           {
             "id": 1,
@@ -20184,12 +20044,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
@@ -20200,12 +20060,12 @@
           {
             "id": 1,
             "text": "Vero",
-            "is_correct": true
+            "is_correct": false
           },
           {
             "id": 2,
             "text": "Falso",
-            "is_correct": false
+            "is_correct": true
           }
         ]
       },
